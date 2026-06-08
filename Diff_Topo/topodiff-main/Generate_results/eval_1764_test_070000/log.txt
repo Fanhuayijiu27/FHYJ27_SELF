@@ -1,0 +1,27 @@
+Logging to Generate_results/eval_1764_test_070000
+creating model and diffusion...
+Loading checkpoint: checkpoints/diff_logdir_train1564/ema_0.9999_070000.pt
+loading data conditions...
+sampling...
+created 10 / 200 samples
+created 20 / 200 samples
+created 30 / 200 samples
+created 40 / 200 samples
+created 50 / 200 samples
+created 60 / 200 samples
+created 70 / 200 samples
+created 80 / 200 samples
+created 90 / 200 samples
+created 100 / 200 samples
+created 110 / 200 samples
+created 120 / 200 samples
+created 130 / 200 samples
+created 140 / 200 samples
+created 150 / 200 samples
+created 160 / 200 samples
+created 170 / 200 samples
+created 180 / 200 samples
+created 190 / 200 samples
+created 200 / 200 samples
+saving to Generate_results/eval_1764_test_070000\generated_flow_channels.npz
+sampling complete

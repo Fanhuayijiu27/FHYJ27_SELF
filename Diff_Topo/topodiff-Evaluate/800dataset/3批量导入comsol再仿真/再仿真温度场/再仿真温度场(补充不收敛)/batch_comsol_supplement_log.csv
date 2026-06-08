@@ -1,0 +1,50 @@
+﻿case_id,status,num_boundary_files,export_txt,saved_mph,time_seconds,message
+003,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_003.mph,33.49,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+011,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_011.mph,38.82,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+012,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_012.txt,,38.98,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+013,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_013.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_013.mph,46.25,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+016,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_016.mph,22.64,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+017,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_017.txt,,36.40,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+018,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_018.mph,30.36,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+028,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_028.mph,22.66,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+030,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_030.mph,18.31,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+032,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_032.txt,,50.31,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"

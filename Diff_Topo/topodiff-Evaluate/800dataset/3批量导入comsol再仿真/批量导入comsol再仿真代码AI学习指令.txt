@@ -1,0 +1,46 @@
+mph源文件路径："D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\模型结构导入comsolBench.mph"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+以下为comsol的操作指令的代码，按照先后顺序排列，并且后续都会被用到：
+
+1、修改参数
+java_model.param().set("vocc1", "-8");//设置参数vocc1为-8
+java_model.param().set("vocc2", "-8");//设置参数vocc2为-8
+java_model.param().set("widhr1", "-8");//设置参数widhr1为-8
+java_model.param().set("widhr2", "-8");//设置参数widhr2为-8
+
+2、按照分块生成对应的多边形
+java_model.component("comp1").geom("geom1").feature("pol1").set("filename", "D:\\Diff_Topo\\开源\\topodiff-Evaluate\\2分块输出边界点\\comsol_topology_004\\boundary_curve_4.txt");//设置多边形pol1所读取的坐标文件路径
+java_model.component("comp1").geom("geom1").feature().duplicate("pol2", "pol1");//复制多边形pol1生成多边形pol2
+3、构建几何并划分网格
+java_model.component("comp1").geom("geom1").runPre("fin");//在几何中构建所有对象
+java_model.component("comp1").mesh("mesh1").run();//划分网格操作
+
+4、检查并取消多余的域
+检查当前所选中的域的代码在  check_spf_domains.py  里面，检查完之后在进行下列设置的操作：
+java_model.component("comp1").material("mat2").selection().set(1, 3, 4, 6);//设置材料mat2 域为1, 3, 4, 6四个域
+java_model.component("comp1").physics("spf").selection().set(1, 3, 4, 6);//设置层流spf 域为1, 3, 4, 6
+java_model.component("comp1").material("mat2").selection().set(1, 3, 6);//设置材料mat2 域为1, 3, 6
+java_model.component("comp1").physics("spf").selection().set(1, 3, 6);//设置层流spf 域为1, 3, 6
+
+方法如下：经过py代码对  材料mat2  和  层流spf  两个模块所选中的域检查，假如都选中的是1,3,X三个域（必须包含1和3才行），则为正确情况，不用取消多余的域；假如有一个模块选中的超过了三个域，比如说spf域为1, 3, 4, 6，则保留1，3和最大值6，剩余的就是多余的域，则进行java_model.component("comp1").physics("spf").selection().set(1, 3, 6);操作即为取消多余的域。
+
+5、开始仿真
+java_model.sol("sol1").runAll();//用来计算sol1即研究1
+6、导出温度场数据
+java_model.result().export("data1").set("filename", "D:\\Diff_Topo\\开源\\topodiff-Evaluate\\2分块输出边界点\\comsol_topology_004\\模型结构导入comsol仿真温度场_004.txt"); // 设置导出仿真温度场的TXT文件路径
+java_model.result().export("data1").run();  // 正式导出
+7、把mph文件另存为其他路径，但是源文件不变，因为每次操作都要对干净的源文件进行操作
+
+以下为保存mph文件的指令，但是我不确定对不对：
+save_path = fr"D:\\单出入口批量仿真\\二维-单出入口-2\\fengleng_modified.mph"
+unlock_file(save_path)
+model.save(save_path)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+操作步骤：
+
+1、在"D:\Diff_Topo\开源\topodiff-Evaluate\2分块输出边界点"文件夹下面，有comsol_topology_000~comsol_topology_099的子文件夹，存放了边界分割后的各个分块，你要遍历每个文件夹；其中每个文件夹下有boundary_curve_1.txt~boundary_curve_X.txt不定数量的分块文件，X的数量也就是comsol内多边形的总数量；
+2、根据"D:\Diff_Topo\开源\topodiff-Evaluate\1三列数据二值化\名字对照表.txt"里面的一共100行*6列的数，每一行对应comsol_topology_000的末尾序号，例如根据comsol_topology_000的末尾的000，在名字对照表第1列查找对应的000，然后读取名字对照表第2列数为widhr1,第3列数为vocc1,第4列数为widhr2,第5列数为vocc2，然后comsol内修改这4个参数。
+3、导出的温度场数据路径就放在"D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场"里面，命名就按   模型结构导入comsol仿真温度场_000.txt~模型结构导入comsol仿真温度场_099.txt   来命名
+4、保存mph文件路径为："D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\mph"

@@ -1,0 +1,593 @@
+﻿case_id,status,num_boundary_files,export_txt,saved_mph,time_seconds,message
+000,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_000.txt,,37.92,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+001,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_001.txt,,24.92,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+000,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_000.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_000.mph,26.70,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+001,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_001.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_001.mph,10.39,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+002,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_002.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_002.mph,10.44,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+003,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_003.mph,10.44,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 13], spf=[1, 3, 4, 13] -> final=[1, 3, 13]; read_mode=api"
+004,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_004.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_004.mph,10.72,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+005,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_005.txt,,22.33,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+006,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_006.txt,,22.50,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+007,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_007.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_007.mph,6.56,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+008,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_008.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_008.mph,7.60,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+009,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_009.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_009.mph,6.74,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+010,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_010.txt,,19.06,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+011,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_011.mph,9.70,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+012,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_012.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_012.mph,9.24,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+013,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_013.txt,,21.93,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+014,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_014.txt,,22.66,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+015,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_015.txt,,19.95,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+016,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_016.txt,,25.35,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+017,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_017.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_017.mph,7.97,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+018,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_018.mph,7.69,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+019,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_019.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_019.mph,7.38,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+020,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_020.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_020.mph,8.17,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+021,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_021.txt,,26.33,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+022,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_022.txt,,26.50,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+023,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_023.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_023.mph,8.56,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+024,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_024.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_024.mph,9.85,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+025,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_025.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_025.mph,8.53,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+026,OK,1,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_026.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_026.mph,7.29,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 5, 6], spf=[1, 3, 5, 6] -> final=[1, 3, 6]; read_mode=api"
+027,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_027.txt,,23.77,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+028,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_028.mph,8.47,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+029,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_029.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_029.mph,11.22,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+030,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_030.txt,,23.58,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+031,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_031.txt,,18.20,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+032,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_032.txt,,21.75,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+033,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_033.txt,,41.82,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+034,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_034.txt,,33.93,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+035,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_035.txt,,32.72,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+036,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_036.txt,,27.00,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+037,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_037.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_037.mph,10.54,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+038,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_038.txt,,27.12,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+039,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_039.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_039.mph,9.02,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+040,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_040.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_040.mph,11.23,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+041,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_041.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_041.mph,8.28,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+042,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_042.txt,,28.64,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+043,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_043.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_043.mph,9.58,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+044,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_044.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_044.mph,8.00,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+045,OK,12,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_045.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_045.mph,11.14,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+046,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_046.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_046.mph,7.92,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+047,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_047.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_047.mph,9.26,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+048,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_048.txt,,22.80,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+049,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_049.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_049.mph,9.75,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+050,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_050.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_050.mph,12.02,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+051,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_051.txt,,26.41,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+052,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_052.txt,,24.60,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+053,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_053.txt,,22.24,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+054,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_054.txt,,27.24,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+055,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_055.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_055.mph,9.45,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+056,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_056.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_056.mph,9.59,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+057,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_057.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_057.mph,10.45,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+058,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_058.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_058.mph,12.55,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 14], spf=[1, 3, 4, 14] -> final=[1, 3, 14]; read_mode=api"
+059,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_059.txt,,24.03,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+060,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_060.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_060.mph,10.71,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+061,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_061.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_061.mph,11.94,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+062,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_062.txt,,20.96,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+063,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_063.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_063.mph,7.81,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+064,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_064.txt,,28.96,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+065,FAILED,0,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_065.txt,,24.19,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+066,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_066.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_066.mph,8.06,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+067,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_067.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_067.mph,9.11,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+068,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_068.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_068.mph,9.49,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+069,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_069.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_069.mph,9.82,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+070,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_070.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_070.mph,10.28,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+071,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_071.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_071.mph,12.32,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+072,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_072.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_072.mph,12.40,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+073,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_073.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_073.mph,8.52,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+074,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_074.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_074.mph,8.18,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+075,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_075.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_075.mph,9.53,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+076,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_076.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_076.mph,10.37,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+077,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_077.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_077.mph,10.75,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+078,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_078.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_078.mph,11.00,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+079,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_079.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_079.mph,11.27,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 6, 7], spf=[1, 3, 6, 7] -> final=[1, 3, 7]; read_mode=api"
+080,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_080.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_080.mph,10.87,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+081,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_081.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_081.mph,9.88,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+082,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_082.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_082.mph,8.39,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+083,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_083.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_083.mph,11.37,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+084,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_084.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_084.mph,9.60,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+085,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_085.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_085.mph,10.04,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+086,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_086.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_086.mph,9.68,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+087,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_087.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_087.mph,8.48,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+088,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_088.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_088.mph,10.53,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+089,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_089.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_089.mph,9.15,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+090,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_090.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_090.mph,8.84,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+091,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_091.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_091.mph,12.46,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+092,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_092.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_092.mph,7.99,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+093,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_093.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_093.mph,8.75,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+094,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_094.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_094.mph,10.34,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+095,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_095.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_095.mph,10.59,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+096,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_096.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_096.mph,11.35,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+097,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_097.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_097.mph,7.93,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+098,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_098.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_098.mph,9.65,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+099,OK,12,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_099.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_099.mph,11.07,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+100,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_100.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_100.mph,23.90,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+101,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_101.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_101.mph,10.85,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+102,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_102.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_102.mph,9.82,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+103,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_103.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_103.mph,9.29,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+104,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_104.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_104.mph,9.20,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+105,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_105.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_105.mph,8.94,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+106,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_106.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_106.mph,9.82,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+107,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_107.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_107.mph,9.41,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+108,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_108.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_108.mph,10.23,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+109,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_109.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_109.mph,11.96,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+110,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_110.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_110.mph,8.78,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+111,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_111.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_111.mph,9.19,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+112,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_112.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_112.mph,9.35,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+113,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_113.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_113.mph,8.88,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+114,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_114.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_114.mph,7.36,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+115,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_115.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_115.mph,9.83,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+116,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_116.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_116.mph,9.00,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+117,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_117.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_117.mph,9.36,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+118,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_118.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_118.mph,11.30,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+119,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_119.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_119.mph,10.74,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+120,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_120.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_120.mph,10.15,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+121,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_121.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_121.mph,10.88,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+122,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_122.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_122.mph,8.12,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+123,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_123.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_123.mph,9.52,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+124,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_124.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_124.mph,8.44,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+125,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_125.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_125.mph,8.50,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+126,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_126.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_126.mph,10.18,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+127,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_127.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_127.mph,9.16,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 6], spf=[1, 3, 4, 6] -> final=[1, 3, 6]; read_mode=api"
+128,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_128.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_128.mph,9.03,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 6, 7], spf=[1, 3, 6, 7] -> final=[1, 3, 7]; read_mode=api"
+129,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_129.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_129.mph,10.78,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+130,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_130.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_130.mph,10.05,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 5, 10], spf=[1, 3, 5, 10] -> final=[1, 3, 10]; read_mode=api"
+131,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_131.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_131.mph,7.42,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+132,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_132.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_132.mph,9.33,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 9], spf=[1, 3, 4, 9] -> final=[1, 3, 9]; read_mode=api"
+133,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_133.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_133.mph,9.00,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+134,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_134.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_134.mph,8.65,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+135,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_135.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_135.mph,9.19,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+136,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_136.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_136.mph,8.57,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+137,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_137.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_137.mph,9.01,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+138,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_138.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_138.mph,9.28,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+139,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_139.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_139.mph,8.92,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+140,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_140.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_140.mph,8.37,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 7], spf=[1, 3, 4, 7] -> final=[1, 3, 7]; read_mode=api"
+141,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_141.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_141.mph,13.04,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+142,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_142.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_142.mph,10.61,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+143,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_143.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_143.mph,10.56,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+144,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_144.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_144.mph,10.42,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 10], spf=[1, 3, 4, 10] -> final=[1, 3, 10]; read_mode=api"
+145,OK,1,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_145.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_145.mph,7.80,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 6], spf=[1, 3, 4, 6] -> final=[1, 3, 6]; read_mode=api"
+146,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_146.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_146.mph,8.84,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 7], spf=[1, 3, 4, 7] -> final=[1, 3, 7]; read_mode=api"
+147,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_147.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_147.mph,8.38,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 7], spf=[1, 3, 4, 7] -> final=[1, 3, 7]; read_mode=api"
+148,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_148.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_148.mph,7.95,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+149,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_149.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_149.mph,9.52,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+150,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_150.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_150.mph,12.74,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 10], spf=[1, 3, 4, 10] -> final=[1, 3, 10]; read_mode=api"
+151,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_151.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_151.mph,9.81,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 7, 8], spf=[1, 3, 4, 7, 8] -> final=[1, 3, 8]; read_mode=api"
+152,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_152.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_152.mph,7.54,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 7], spf=[1, 3, 4, 7] -> final=[1, 3, 7]; read_mode=api"
+153,OK,1,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_153.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_153.mph,7.82,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 6], spf=[1, 3, 4, 6] -> final=[1, 3, 6]; read_mode=api"
+154,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_154.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_154.mph,8.41,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+155,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_155.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_155.mph,10.87,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+156,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_156.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_156.mph,9.76,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+157,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_157.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_157.mph,10.62,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+158,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_158.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_158.mph,9.13,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+159,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_159.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_159.mph,8.42,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+160,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_160.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_160.mph,9.86,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+161,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_161.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_161.mph,8.75,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+162,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_162.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_162.mph,9.39,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+163,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_163.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_163.mph,8.07,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+164,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_164.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_164.mph,7.15,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+165,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_165.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_165.mph,9.41,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+166,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_166.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_166.mph,8.53,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+167,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_167.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_167.mph,8.23,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 9], spf=[1, 3, 4, 9] -> final=[1, 3, 9]; read_mode=api"
+168,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_168.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_168.mph,9.82,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+169,OK,14,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_169.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_169.mph,10.33,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 19], spf=[1, 3, 4, 19] -> final=[1, 3, 19]; read_mode=api"
+170,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_170.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_170.mph,9.41,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+171,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_171.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_171.mph,8.44,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+172,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_172.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_172.mph,9.21,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+173,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_173.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_173.mph,8.35,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+174,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_174.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_174.mph,9.69,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 11], spf=[1, 3, 4, 11] -> final=[1, 3, 11]; read_mode=api"
+175,OK,13,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_175.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_175.mph,9.94,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 18], spf=[1, 3, 4, 18] -> final=[1, 3, 18]; read_mode=api"
+176,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_176.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_176.mph,9.93,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 8], spf=[1, 3, 4, 8] -> final=[1, 3, 8]; read_mode=api"
+177,OK,11,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_177.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_177.mph,10.01,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+178,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_178.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_178.mph,10.23,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 11], spf=[1, 3, 4, 11] -> final=[1, 3, 11]; read_mode=api"
+179,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_179.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_179.mph,10.64,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 11], spf=[1, 3, 4, 11] -> final=[1, 3, 11]; read_mode=api"
+180,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_180.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_180.mph,13.89,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 13], spf=[1, 3, 4, 13] -> final=[1, 3, 13]; read_mode=api"
+181,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_181.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_181.mph,9.93,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+182,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_182.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_182.mph,9.40,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+183,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_183.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_183.mph,9.47,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 9], spf=[1, 3, 4, 9] -> final=[1, 3, 9]; read_mode=api"
+184,OK,7,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_184.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_184.mph,12.32,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 4, 12], spf=[1, 3, 4, 12] -> final=[1, 3, 12]; read_mode=api"
+185,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_185.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_185.mph,8.32,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+186,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_186.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_186.mph,11.01,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+187,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_187.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_187.mph,9.16,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+188,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_188.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_188.mph,9.43,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+189,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_189.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_189.mph,9.93,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+190,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_190.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_190.mph,9.44,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+191,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_191.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_191.mph,9.58,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+192,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_192.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_192.mph,10.62,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+193,OK,10,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_193.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_193.mph,10.19,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+194,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_194.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_194.mph,9.23,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+195,OK,9,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_195.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_195.mph,11.16,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+196,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_196.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_196.mph,10.90,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+197,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_197.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_197.mph,9.49,"完成；domain_action=FIXED；需要修正：mat2=[1, 3, 6, 7], spf=[1, 3, 6, 7] -> final=[1, 3, 7]; read_mode=api"
+198,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_198.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_198.mph,10.39,完成；domain_action=OK；当前 mat2/spf 域选择正确，无需修正; read_mode=api
+199,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_199.txt,D:\Diff_Topo\开源\topodiff-Evaluate\1564dataset\3批量导入comsol再仿真\再仿真温度场\mph\模型结构导入comsol再仿真_199.mph,16.10,"完成；domain_action=FIXED；需要修正：mat2=[1, 2, 3, 9], spf=[1, 2, 3, 9] -> final=[1, 3, 9]; read_mode=api"

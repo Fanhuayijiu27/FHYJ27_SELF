@@ -1,0 +1,297 @@
+﻿case_id,status,num_boundary_files,original_txt,supplement_txt,supplement_mph,time_seconds,message
+003,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_003.txt,,30.15,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+003,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_003.mph,22.56,补跑完成
+009,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_009.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_009.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_009.mph,15.97,补跑完成
+011,FAILED,5,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_011.txt,,28.95,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+012,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_012.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_012.txt,,24.64,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+013,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_013.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_013.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_013.mph,16.59,补跑完成
+016,FAILED,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_016.txt,,21.57,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+017,FAILED,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_017.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_017.txt,,21.95,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+018,FAILED,4,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_018.txt,,27.44,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+028,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_028.mph,11.46,补跑完成
+030,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_030.txt,,24.18,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+032,FAILED,8,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_032.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_032.txt,,28.83,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+078,FAILED,1,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_078.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_078.txt,,25.79,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+084,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_084.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_084.txt,,31.29,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+011,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_011.mph,45.01,补跑完成
+012,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_012.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_012.txt,,37.36,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+016,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_016.mph,21.06,补跑完成
+017,FAILED,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_017.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_017.txt,,31.82,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+018,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_018.mph,25.99,补跑完成
+030,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_030.mph,16.90,补跑完成
+032,FAILED,8,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_032.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_032.txt,,45.15,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+078,FAILED,1,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_078.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_078.txt,,38.00,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+084,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_084.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_084.txt,,41.73,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+003,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_003.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_003.mph,27.69,补跑完成
+009,OK,8,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_009.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_009.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_009.mph,30.24,补跑完成
+011,OK,5,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_011.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_011.mph,45.02,补跑完成
+012,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_012.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_012.txt,,43.85,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+013,OK,6,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_013.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_013.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_013.mph,42.71,补跑完成
+016,OK,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_016.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_016.mph,20.08,补跑完成
+017,FAILED,2,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_017.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_017.txt,,38.88,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+018,OK,4,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_018.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_018.mph,32.96,补跑完成
+028,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_028.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_028.mph,19.74,补跑完成
+030,OK,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_030.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\mph\模型结构导入comsol再仿真_030.mph,15.78,补跑完成
+032,FAILED,8,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_032.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_032.txt,,46.11,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+078,FAILED,1,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_078.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_078.txt,,42.40,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
+084,FAILED,3,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\模型结构导入comsol仿真温度场_084.txt,D:\Diff_Topo\开源\topodiff-Evaluate\3批量导入comsol再仿真\再仿真温度场\再仿真温度场(补充不收敛)\txt\模型结构导入comsol仿真温度场_084.txt,,47.71,"Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a problem
+Messages:
+	以下特征遇到问题：
+	- 特征: 稳态求解器 1 (sol1/s1)
+
+	找不到解。
+
+	达到最大分离式迭代次数。
+
+	返回的解不收敛。
+
+	没有返回所有参数步长。
+"
