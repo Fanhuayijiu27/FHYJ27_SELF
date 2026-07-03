@@ -1,0 +1,68 @@
+﻿生成启动时间为 2024/8/5 15:03:52。
+项目“Z:\FBM_Win32_NX11_NUAA_finalversion\FBM_Win32_NX11_NUAA_finalversion\FBM\cutting_database\cutting_database.vcxproj”在节点 2 上(Rebuild 个目标)。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Siemens\NX 11.0\ugopenpp" /I"C:\Program Files\Siemens\NX 11.0\ugopen" /IZ:\FBM_Win32_NX11_NUAA_finalversion\FBM_Win32_NX11_NUAA_finalversion\FBM\\UserMachiningPublicModule /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /d1scalableinclude- cutting_database.cpp
+  cutting_database.cpp
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(70): warning C4251: “cutting_database::constFileCharString”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(72): warning C4251: “cutting_database::CuttingDataLib”: class“std::vector<Cuttingdata *,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=Cuttingdata *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(74): warning C4251: “cutting_database::Showlist”: class“std::vector<Cuttingdata *,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=Cuttingdata *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(76): warning C4251: “cutting_database::NotShowlist”: class“std::vector<Cuttingdata *,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=Cuttingdata *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(78): warning C4251: “cutting_database::CuttingdataDisplayStringTitle”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion\fbm_win32_nx11_nuaa_finalversion\fbm\cutting_database\cutting_database.hpp(79): warning C4251: “cutting_database::CuttingdataDisplayStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“cutting_database”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+cutting_database.cpp(66): warning C4101: “ex”: 未引用的局部变量
+cutting_database.cpp(655): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(659): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(663): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(667): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(671): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(675): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(679): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(683): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(687): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(691): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(820): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(824): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(828): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(832): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(836): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(840): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(844): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(848): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(852): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(856): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+cutting_database.cpp(1206): warning C4101: “ex2”: 未引用的局部变量
+cutting_database.cpp(1373): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Application\/cutting_database.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopenpp" /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopen" /LIBPATH:Z:\FBM_Win32_NX11_NUAA_finalversion\FBM_Win32_NX11_NUAA_finalversion\FBM\\UserMachiningPublicModule libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_mfg.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libnxopenuicpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\Application\cutting_database.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Application\/cutting_database.lib" /MACHINE:X64 /DLL x64\Debug\cutting_database.obj
+  LINK : 没有找到 ..\..\Application\/cutting_database.dll 或上一个增量链接没有生成它；正在执行完全链接
+     正在创建库 ..\..\Application\/cutting_database.lib 和对象 ..\..\Application\/cutting_database.exp
+  cutting_database.vcxproj -> Z:\FBM_Win32_NX11_NUAA_finalversion\FBM_Win32_NX11_NUAA_finalversion\FBM\cutting_database\..\..\Application\cutting_database.dll
+已完成生成项目“Z:\FBM_Win32_NX11_NUAA_finalversion\FBM_Win32_NX11_NUAA_finalversion\FBM\cutting_database\cutting_database.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.82

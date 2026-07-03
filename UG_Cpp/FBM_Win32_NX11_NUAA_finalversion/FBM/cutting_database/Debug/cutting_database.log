@@ -1,0 +1,60 @@
+﻿生成启动时间为 2023/10/20 21:02:17。
+项目“C:\PRO_code\FBM_NX11_NUAA_Win32_D1020\FBM\cutting_database\cutting_database.vcxproj”在节点 2 上(Rebuild 个目标)。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Siemens\NX 11.0\ugopenpp" /I"C:\Program Files\Siemens\NX 11.0\ugopen" /IC:\PRO_code\FBM_NX11_NUAA_Win32_D1020\FBM\\UserMachiningPublicModule /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cutting_database.cpp
+  cutting_database.cpp
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(92): warning C4101: “msg”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(136): warning C4101: “msg”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(205): warning C4101: “msg”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(500): warning C4018: “<=”: 有符号/无符号不匹配
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(530): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1018): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1081): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1037): warning C4101: “new_point_parameter2”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(773): warning C4101: “intersectCurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(850): warning C4101: “intersectCurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1694): warning C4101: “ref_pnt”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1749): warning C4101: “CurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1899): warning C4101: “EdgeManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(1950): warning C4101: “msg”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2017): warning C4101: “msg”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2322): warning C4101: “CurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2386): warning C4101: “CurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2360): warning C4101: “CurveManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2478): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2483): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2487): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2509): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : 参见“localtime”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2515): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2527): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2531): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2540): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2545): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2546): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2731): warning C4018: “<=”: 有符号/无符号不匹配
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(2796): warning C4101: “EdgeManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(3541): warning C4018: “<=”: 有符号/无符号不匹配
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\usermachiningpublicmodule\publicfunctions.cpp(3717): warning C4101: “EdgeManager”: 未引用的局部变量
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\cutting_database\cutting_database.cpp(57): warning C4003: “CreateDialogA”宏的实参不足
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\cutting_database\cutting_database.cpp(57): error C2039: “CreateDialogParamA”: 不是“NXOpen::UI”的成员
+          c:\program files\siemens\nx 11.0\ugopen\nxopen\ui.hxx(91) : 参见“NXOpen::UI”的声明
+c:\pro_code\fbm_nx11_nuaa_win32_d1020\fbm\cutting_database\cutting_database.cpp(57): error C2059: 语法错误:“,”
+已完成生成项目“C:\PRO_code\FBM_NX11_NUAA_Win32_D1020\FBM\cutting_database\cutting_database.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.60

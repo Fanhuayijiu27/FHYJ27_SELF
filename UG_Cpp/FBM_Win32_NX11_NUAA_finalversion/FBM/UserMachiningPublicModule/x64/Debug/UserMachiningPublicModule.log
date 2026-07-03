@@ -1,0 +1,46 @@
+﻿生成启动时间为 2024/6/20 15:22:53。
+     1>项目“Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\UserMachiningPublicModule\UserMachiningPublicModule.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Siemens\NX 11.0\ugopenpp" /I"C:\Program Files\Siemens\NX 11.0\ugopen" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /d1scalableinclude- PublicFunctions.cpp
+         PublicFunctions.cpp
+     1>PublicFunctions.cpp(60): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(92): warning C4101: “msg”: 未引用的局部变量
+     1>PublicFunctions.cpp(136): warning C4101: “msg”: 未引用的局部变量
+     1>PublicFunctions.cpp(205): warning C4101: “msg”: 未引用的局部变量
+     1>PublicFunctions.cpp(362): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(402): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(403): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(530): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(1020): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(1083): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(1039): warning C4101: “new_point_parameter2”: 未引用的局部变量
+     1>PublicFunctions.cpp(775): warning C4101: “intersectCurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(852): warning C4101: “intersectCurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(1696): warning C4101: “ref_pnt”: 未引用的局部变量
+     1>PublicFunctions.cpp(1769): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(1751): warning C4101: “CurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(1901): warning C4101: “EdgeManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(1952): warning C4101: “msg”: 未引用的局部变量
+     1>PublicFunctions.cpp(2019): warning C4101: “msg”: 未引用的局部变量
+     1>PublicFunctions.cpp(2240): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2324): warning C4101: “CurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(2379): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2388): warning C4101: “CurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(2362): warning C4101: “CurveManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(2450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2725): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>PublicFunctions.cpp(2798): warning C4101: “EdgeManager”: 未引用的局部变量
+     1>PublicFunctions.cpp(3719): warning C4101: “EdgeManager”: 未引用的局部变量
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\usermachiningpublicmodule\publicfunctions.cpp(3536): warning C4715: “Get_RightAndWrong_Edge_FromCylinder”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Application\/UserMachiningPublicModule.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopenpp" /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopen" libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_mfg.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libnxopenuicpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\Application\UserMachiningPublicModule.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Application\/UserMachiningPublicModule.lib" /MACHINE:X64 /DLL x64\Debug\PublicFunctions.obj
+         LINK : 没有找到 ..\..\Application\/UserMachiningPublicModule.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 ..\..\Application\/UserMachiningPublicModule.lib 和对象 ..\..\Application\/UserMachiningPublicModule.exp
+         UserMachiningPublicModule.vcxproj -> Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\UserMachiningPublicModule\..\..\Application\UserMachiningPublicModule.dll
+     1>已完成生成项目“Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\UserMachiningPublicModule\UserMachiningPublicModule.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.20

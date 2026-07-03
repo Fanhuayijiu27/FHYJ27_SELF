@@ -1,0 +1,192 @@
+﻿生成启动时间为 2024/6/20 15:22:53。
+     1>项目“Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\BossTopMilling\BossTopMilling.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IZ:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\\UserMachiningPublicModule /I"C:\Program Files\Siemens\NX 11.0\ugopenpp" /I"C:\Program Files\Siemens\NX 11.0\ugopen" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /d1scalableinclude- BossTopMilling.cpp DLBossTopMillingCmd.cpp NBossTopMillingCmd.cpp
+         NBossTopMillingCmd.cpp
+     1>NBossTopMillingCmd.cpp(213): warning C4101: “msg”: 未引用的局部变量
+     1>NBossTopMillingCmd.cpp(845): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(908): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(909): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(924): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(929): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(930): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(1149): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1125) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1115) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1221): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1183) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1115) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1282): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1258) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1115) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1352): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1315) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1115) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1422): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1398) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1388) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1494): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1456) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1388) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1555): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1532) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1388) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1627): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 NBossTopMillingCmd.cpp(1589) : 忽略“i”的定义
+                 NBossTopMillingCmd.cpp(1388) : 使用“i”的定义
+     1>NBossTopMillingCmd.cpp(1661): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>NBossTopMillingCmd.cpp(1744): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+     1>NBossTopMillingCmd.cpp(1748): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+     1>NBossTopMillingCmd.cpp(1751): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+         DLBossTopMillingCmd.cpp
+     1>DLBossTopMillingCmd.cpp(211): warning C4101: “msg”: 未引用的局部变量
+     1>DLBossTopMillingCmd.cpp(509): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(516): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(853): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(912): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(916): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(917): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(932): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(937): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(938): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1149): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1126) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1116) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1220): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1183) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1116) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1281): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1258) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1116) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1351): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1314) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1116) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1386): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1420): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1397) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1387) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1432): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1447): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1491): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1454) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1387) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1552): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1529) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1387) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1564): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1579): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1623): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 DLBossTopMillingCmd.cpp(1586) : 忽略“i”的定义
+                 DLBossTopMillingCmd.cpp(1387) : 使用“i”的定义
+     1>DLBossTopMillingCmd.cpp(1653): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1656): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLBossTopMillingCmd.cpp(1753): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+     1>DLBossTopMillingCmd.cpp(1757): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+     1>DLBossTopMillingCmd.cpp(1760): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+                 C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+         BossTopMilling.cpp
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(91): warning C4251: “BossTopMilling::AllFaces”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::Face *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(92): warning C4251: “BossTopMilling::ListOfBoss”: class“std::vector<Boss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=Boss *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(93): warning C4251: “BossTopMilling::ListOfDLBoss”: class“std::vector<DoubleLayerBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=DoubleLayerBoss *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(94): warning C4251: “BossTopMilling::ListOfNBoss”: class“std::vector<NormalBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NormalBoss *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(95): warning C4251: “BossTopMilling::ListOfNSBoss”: class“std::vector<NoSideBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NoSideBoss *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(101): warning C4251: “BossTopMilling::ProgramMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::CAM::CAMObject *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(102): warning C4251: “BossTopMilling::ProgramStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::NXString
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(103): warning C4251: “BossTopMilling::ToolMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::CAM::CAMObject *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(104): warning C4251: “BossTopMilling::ToolStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::NXString
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(105): warning C4251: “BossTopMilling::MCSMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::CAM::CAMObject *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(106): warning C4251: “BossTopMilling::MCSStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::NXString
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(107): warning C4251: “BossTopMilling::MethodMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::CAM::CAMObject *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(108): warning C4251: “BossTopMilling::MethodStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::NXString
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(110): warning C4251: “BossTopMilling::SelectedBossTopFaceList”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::Face *
+                 ]
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\BossTopMilling.hpp(111): warning C4251: “BossTopMilling::BossTopFaceList”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossTopMilling”的客户端使用
+                 with
+                 [
+                     _Ty=NXOpen::Face *
+                 ]
+     1>BossTopMilling.cpp(69): warning C4101: “ex”: 未引用的局部变量
+     1>BossTopMilling.cpp(598): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(906): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(1025): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(1039): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(1053): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(1069): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BossTopMilling.cpp(1759): warning C4101: “ex2”: 未引用的局部变量
+     1>BossTopMilling.cpp(1790): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>z:\ug\fbm_win32_nx11_nuaa_finalversion1\fbm\bosstopmilling\bosstopmilling.cpp(1764): warning C4700: 使用了未初始化的局部变量“errorFace”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Application\/BossTopMilling.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopenpp" /LIBPATH:Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\\UserMachiningPublicModule /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopen" libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_mfg.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libnxopenuicpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\Application\BossTopMilling.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Application\/BossTopMilling.lib" /MACHINE:X64 /DLL x64\Debug\BossTopMilling.obj
+         x64\Debug\DLBossTopMillingCmd.obj
+         x64\Debug\NBossTopMillingCmd.obj
+         LINK : 没有找到 ..\..\Application\/BossTopMilling.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 ..\..\Application\/BossTopMilling.lib 和对象 ..\..\Application\/BossTopMilling.exp
+         BossTopMilling.vcxproj -> Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\BossTopMilling\..\..\Application\BossTopMilling.dll
+     1>已完成生成项目“Z:\UG\FBM_Win32_NX11_NUAA_finalversion1\FBM\BossTopMilling\BossTopMilling.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.65

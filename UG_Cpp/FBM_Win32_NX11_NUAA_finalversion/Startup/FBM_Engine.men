@@ -1,0 +1,78 @@
+VERSION 139 
+EDIT UG_GATEWAY_MAIN_MENUBAR
+
+BEFORE UG_HELP
+  CASCADE_BUTTON FBM_Engine
+  LABEL 快速程编系统
+END_OF_BEFORE
+
+MENU FBM_Engine
+
+
+BUTTON SystemConfiguration
+LABEL 系统配置
+BITMAP ..\img\I_Configuration.bmp
+ACTIONS SystemConfiguration.dll
+
+BUTTON FeatureSpy
+LABEL 特征识别
+BITMAP ..\img\I_KuangFeatureSpy.bmp
+ACTIONS FeatureSpy.dll
+
+BUTTON CasingRoughPlunging
+LABEL 机匣插铣粗加工
+BITMAP ..\img\I_CasingRoughPlunging.bmp
+ACTIONS CasingRoughPlunging.dll
+
+BUTTON BossTopMilling
+LABEL 机匣凸台顶面铣削
+BITMAP ..\img\I_BossTopMilling.bmp
+ACTIONS BossTopMilling.dll
+
+BUTTON BossSideMilling
+LABEL 机匣凸台轮廓铣削
+BITMAP ..\img\Boss.bmp
+ACTIONS BossSideMilling.dll
+
+BUTTON PlanGrooveMilling
+LABEL 机匣平面浅槽加工
+BITMAP ..\img\I_SubsidenceCavityBottomMilling.bmp
+ACTIONS PlanGrooveMilling.dll
+
+BUTTON TongGrooveSideMilling
+LABEL 机匣通槽轮廓加工
+BITMAP ..\img\I_CasingRibTopMilling.bmp
+ACTIONS TongGrooveSideMilling.dll
+
+BUTTON CasingHoleDrilling
+LABEL 机匣孔钻削
+BITMAP ..\img\I_CasingHoleDrilling.bmp
+ACTIONS HoleDrilling.dll
+
+BUTTON GroSideMilling
+LABEL 机匣槽铣削加工
+BITMAP ..\img\I_CavityBottomMilling.bmp
+ACTIONS GroSideMilling.dll
+
+BUTTON RibMilling
+LABEL 机匣筋铣削加工
+BITMAP ..\img\I_CasingRibTopMilling.bmp
+ACTIONS RibMilling.dll
+
+BUTTON CasingBatchModifyParameter
+LABEL 参数批修改
+BITMAP ..\img\I_ARModify.bmp
+ACTIONS CasingBatchModifyParameter.dll
+
+BUTTON cutting_database
+LABEL 切削数据库
+BITMAP ..\img\I_CheckIn.bmp
+ACTIONS cutting_database.dll
+
+BUTTON Postprocess
+LABEL 后置处理
+BITMAP ..\img\I_KuangFeatureSpy.bmp
+ACTIONS Postprocess.dll
+
+
+END_OF_MENU

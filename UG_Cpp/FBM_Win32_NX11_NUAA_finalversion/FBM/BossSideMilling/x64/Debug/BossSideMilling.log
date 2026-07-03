@@ -1,0 +1,135 @@
+﻿生成启动时间为 2024/8/6 10:52:07。
+项目“Z:\FBM_Win32_NX11_NUAA_finalversion-xiangmu\FBM_Win32_NX11_NUAA_finalversion\FBM\BossSideMilling\BossSideMilling.vcxproj”在节点 2 上(Rebuild 个目标)。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"Z:\FBM_Win32_NX11_NUAA_finalversion-xiangmu\FBM_Win32_NX11_NUAA_finalversion\FBM\\UserMachiningPublicModule" /I"C:\Program Files\Siemens\NX 11.0\ugopenpp" /I"C:\Program Files\Siemens\NX 11.0\ugopen" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /d1scalableinclude- BossSideMilling.cpp DLBossSideMillingCmd.cpp NBossSideMillingCmd.cpp
+  NBossSideMillingCmd.cpp
+NBossSideMillingCmd.cpp(211): warning C4101: “msg”: 未引用的局部变量
+NBossSideMillingCmd.cpp(624): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+NBossSideMillingCmd.cpp(704): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+NBossSideMillingCmd.cpp(709): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+NBossSideMillingCmd.cpp(710): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+NBossSideMillingCmd.cpp(1664): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+NBossSideMillingCmd.cpp(1668): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+NBossSideMillingCmd.cpp(1671): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+  DLBossSideMillingCmd.cpp
+DLBossSideMillingCmd.cpp(197): warning C4101: “msg”: 未引用的局部变量
+DLBossSideMillingCmd.cpp(262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(267): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(605): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(685): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(690): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(691): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+DLBossSideMillingCmd.cpp(1549): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+DLBossSideMillingCmd.cpp(1553): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+DLBossSideMillingCmd.cpp(1556): warning C4996: 'NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder': Deprecated in NX9.0.0.  For engage, use CAM::NcmScEngRetBuilder::ExtendBeforeArc.  For retract, use CAM::NcmScEngRetBuilder::ExtendAfterArc.
+          C:\Program Files\Siemens\NX 11.0\ugopen\NXOpen/CAM_NcmScEngRetBuilder.hxx(233) : 参见“NXOpen::CAM::NcmScEngRetBuilder::LinearExtensionBuilder”的声明
+  BossSideMilling.cpp
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(93): warning C4251: “BossSideMilling::AllFaces”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::Face *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(94): warning C4251: “BossSideMilling::ListOfBoss”: class“std::vector<Boss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=Boss *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(95): warning C4251: “BossSideMilling::ListOfDLBoss”: class“std::vector<DoubleLayerBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=DoubleLayerBoss *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(96): warning C4251: “BossSideMilling::ListOfNBoss”: class“std::vector<NormalBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NormalBoss *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(97): warning C4251: “BossSideMilling::ListOfNSBoss”: class“std::vector<NoSideBoss *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NoSideBoss *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(103): warning C4251: “BossSideMilling::ProgramMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::CAM::CAMObject *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(104): warning C4251: “BossSideMilling::ProgramStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(105): warning C4251: “BossSideMilling::ToolMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::CAM::CAMObject *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(106): warning C4251: “BossSideMilling::ToolStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(107): warning C4251: “BossSideMilling::MCSMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::CAM::CAMObject *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(108): warning C4251: “BossSideMilling::MCSStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(109): warning C4251: “BossSideMilling::MethodMembers”: class“std::vector<NXOpen::CAM::CAMObject *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::CAM::CAMObject *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(110): warning C4251: “BossSideMilling::MethodStringList”: class“std::vector<NXOpen::NXString,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::NXString
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(112): warning C4251: “BossSideMilling::SelectedBossTopFaceList”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::Face *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(113): warning C4251: “BossSideMilling::BossTopFaceList”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::Face *
+          ]
+z:\fbm_win32_nx11_nuaa_finalversion-xiangmu\fbm_win32_nx11_nuaa_finalversion\fbm\bosssidemilling\BossSideMilling.hpp(114): warning C4251: “BossSideMilling::SelectedZhiDingFaceList”: class“std::vector<NXOpen::Face *,std::allocator<_Ty>>”需要有 dll 接口由 class“BossSideMilling”的客户端使用
+          with
+          [
+              _Ty=NXOpen::Face *
+          ]
+BossSideMilling.cpp(69): warning C4101: “ex”: 未引用的局部变量
+BossSideMilling.cpp(608): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(652): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(973): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+BossSideMilling.cpp(1156): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(1170): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(1186): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(1202): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+BossSideMilling.cpp(1889): warning C4101: “ex2”: 未引用的局部变量
+BossSideMilling.cpp(1918): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Application\/BossSideMilling.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopenpp" /LIBPATH:"Z:\FBM_Win32_NX11_NUAA_finalversion-xiangmu\FBM_Win32_NX11_NUAA_finalversion\FBM\\UserMachiningPublicModule" /LIBPATH:"C:\Program Files\Siemens\NX 11.0\ugopen" libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_mfg.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libnxopenuicpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\Application\BossSideMilling.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Application\/BossSideMilling.lib" /MACHINE:X64 /DLL x64\Debug\BossSideMilling.obj
+  x64\Debug\DLBossSideMillingCmd.obj
+  x64\Debug\NBossSideMillingCmd.obj
+  LINK : 没有找到 ..\..\Application\/BossSideMilling.dll 或上一个增量链接没有生成它；正在执行完全链接
+     正在创建库 ..\..\Application\/BossSideMilling.lib 和对象 ..\..\Application\/BossSideMilling.exp
+  BossSideMilling.vcxproj -> Z:\FBM_Win32_NX11_NUAA_finalversion-xiangmu\FBM_Win32_NX11_NUAA_finalversion\FBM\BossSideMilling\..\..\Application\BossSideMilling.dll
+已完成生成项目“Z:\FBM_Win32_NX11_NUAA_finalversion-xiangmu\FBM_Win32_NX11_NUAA_finalversion\FBM\BossSideMilling\BossSideMilling.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.46
