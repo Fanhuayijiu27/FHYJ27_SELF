@@ -80,25 +80,25 @@ public:
     //int AddCallback (NXOpen::BlockStyler::ListBox* list_box);
     //int DeleteCallback(NXOpen::BlockStyler::ListBox* list_box);
 
-    //---------------------------------------------------------è‡ªå®šä¹‰å‡½æ•°--------------------------------------------------------
-    int  GetDefaultColor();//å¾…ä¿®æ”¹
+    //---------------------------------------------------------×Ô¶¨Òåº¯Êı--------------------------------------------------------
+    int  GetDefaultColor();//´ıĞŞ¸Ä
     void GetInfomation();
 
-    //æ ‘åˆ—è¡¨ç›¸å…³å‡½æ•°
+    //Ê÷ÁĞ±íÏà¹Øº¯Êı
     void FeatureSpyResultDisplay();
-    void GetSelectedIndexAndFeatureName(int &Index, NXString &FeaName);//æ ‘åˆ—è¡¨ç›¸å…³å‡½æ•°1
-    void ResponseToFeatureList(int iRowIndex, NXString FeatureName);//æ ‘åˆ—è¡¨ç›¸å…³å‡½æ•°2
-    //å¾…ä¿®æ”¹
+    void GetSelectedIndexAndFeatureName(int &Index, NXString &FeaName);//Ê÷ÁĞ±íÏà¹Øº¯Êı1
+    void ResponseToFeatureList(int iRowIndex, NXString FeatureName);//Ê÷ÁĞ±íÏà¹Øº¯Êı2
+    //´ıĞŞ¸Ä
     void SetAllFeatureColor(int i);
 
     void SetAllBossColor(int Color);
-    //---------å•ç‹¬ç‚¹äº®å‡¸å°ä¸€ç±»ç‰¹å¾
+    //---------µ¥¶ÀµãÁÁÍ¹Ì¨Ò»ÀàÌØÕ÷
     void SetAllNormalBossColor(int Color);
     void SetAllNoSideBossColor(int Color);
     void SetAllDoubleLayerBossColor(int Color);
-    //---------å•ç‹¬ç‚¹äº®å‡¸å°ä¸€ç±»ç‰¹å¾
+    //---------µ¥¶ÀµãÁÁÍ¹Ì¨Ò»ÀàÌØÕ÷
 
-    //è®¾ç½®æ§½é¢œè‰²
+    //ÉèÖÃ²ÛÑÕÉ«
     void SetAllGrooveColor(int Color);
     void SetCircularGroove0Color(int Color);
     void SetCircularGroove1Color(int Color);
@@ -106,17 +106,17 @@ public:
     void SetPlanerBlindGrooveColor(int Color);
     void SetPassGrooveColor(int Color);
 
-    //è®¾ç½®ç­‹é¢œè‰²
+    //ÉèÖÃ½îÑÕÉ«
     void SetAllDirectionRibColor(int Color);
     void SetAllRibColor(int Color);
     void SetAllHookFaceRibColor(int Color);
 
-    //è®¾ç½®è½®å»“é¢œè‰²
+    //ÉèÖÃÂÖÀªÑÕÉ«
     void SetAllOutLineColor(int Color);
     void SetInOutLineColor(int Color);
     void SetOutOutLineColor(int Color);
 
-    //è®¾ç½®å­”é¢œè‰²
+    //ÉèÖÃ¿×ÑÕÉ«
     void Setother1HoleColor(int Color);
     void Setother2HoleColor(int Color);
     void Setother3HoleColor(int Color);
@@ -144,73 +144,73 @@ public:
 
     void CreateXmlFile();
 
-    //---------------------------------------------------------æˆå‘˜å˜é‡--------------------------------------------------------
+    //---------------------------------------------------------³ÉÔ±±äÁ¿--------------------------------------------------------
     NXOpen::Part* workPart;
     Body * pSelectedBody;//selected body
     std::vector<NXOpen::Face*> pFaceList;//get all face in a selected body
     std::vector<NXOpen::Face*> pFaceAll_For_color;
     Face * pSelectedFace;//Selected joint face(Note:this face is the lowest face on a direction in a body)
-    int DefaultColor;//æ‰€é€‰é¢ç¼ºçœé¢œè‰²
+    int DefaultColor;//ËùÑ¡ÃæÈ±Ê¡ÑÕÉ«
     NXOpen::Vector3d _Approach_Normal;
     std::vector<Face*> AllFaces;
     Face* BottomPlaneFace;
     Face* TopPlaneFace;
     std::vector<Face*> ParallelPlaneFace;
-    NXString NXStringName;  //éƒ¨ä»¶åå­—
-    NXString SelectionPathNXString; //è·¯å¾„åå­—
-    NXOpen::Face* Begin_Face;//åˆ†å‹é¢
+    NXString NXStringName;  //²¿¼şÃû×Ö
+    NXString SelectionPathNXString; //Â·¾¶Ãû×Ö
+    NXOpen::Face* Begin_Face;//·ÖĞÍÃæ
     NXString PartNameNXString;
 
     xml* _xml;
     IXMLDOMDocumentPtr pDocument;
 
-    std::vector<NXOpen::Face*>AllFacesVector;//ä½“ä¸Šæ‰€æœ‰çš„é¢
+    std::vector<NXOpen::Face*>AllFacesVector;//ÌåÉÏËùÓĞµÄÃæ
     std::vector<Body*>SelectBodyVector;
     std::vector<Face*>SelectFaceVector;
     Body* PartBody;
 
-    //æ ‘åˆ—è¡¨ç›¸å…³æˆå‘˜
+    //Ê÷ÁĞ±íÏà¹Ø³ÉÔ±
     std::vector<NXString> FeatureSpyResultDisplayStringTitle;
     std::vector<NXString> FeatureSpyResultDisplayStringList;
     std::vector<NXString> FeatureSearchResultDisplayStringTitle;
 
-    std::vector<NXString> GrooveClassflyList;//æ§½åˆ—è¡¨
-    std::vector<NXString> BossClassflyList;//å‡¸å°åˆ—è¡¨
-    std::vector<NXString> HoleClassflyList;//å­”åˆ—è¡¨
+    std::vector<NXString> GrooveClassflyList;//²ÛÁĞ±í
+    std::vector<NXString> BossClassflyList;//Í¹Ì¨ÁĞ±í
+    std::vector<NXString> HoleClassflyList;//¿×ÁĞ±í
     std::vector<NXString> OutlineClassList;
     std::vector<NXString> RibClassList;
 
     std::vector<bool> FeatureStateList;
 
-    //å‡¸å°ç§å­é¢
+    //Í¹Ì¨ÖÖ×ÓÃæ
     std::vector<NXOpen::Face*>SealFace_NormalBoss;
     std::vector<NXOpen::Face*>SealFace_NoSideBoss;
     std::vector<NXOpen::Face*>SealFace_DoubleLayerBoss;
 
-    //å‡¸å°ç‰¹å¾
+    //Í¹Ì¨ÌØÕ÷
     std::vector<DoubleLayerBoss*>Feature_DoubleLayerBoss;
     std::vector<NoSideBoss*>Feature_NoSideBoss;
     std::vector<NormalBoss*>Feature_NormalBoss;
 
     double _Approcah_Point[3];
 
-    //å­”ç§å­é¢â€”â€”è½´å‘å­”
-    std::vector<NXOpen::Face*>SealFace_DirectionNormalHole;//æ™®é€šé€šå­”
-    std::vector<NXOpen::Face*>SealFace_DirectionRightHole;//å€’æ–œè§’é€šå­”
-    std::vector<NXOpen::Face*>SealFace_DirectionBlindHole;//ç›²å­”
+    //¿×ÖÖ×ÓÃæ¡ª¡ªÖáÏò¿×
+    std::vector<NXOpen::Face*>SealFace_DirectionNormalHole;//ÆÕÍ¨Í¨¿×
+    std::vector<NXOpen::Face*>SealFace_DirectionRightHole;//µ¹Ğ±½ÇÍ¨¿×
+    std::vector<NXOpen::Face*>SealFace_DirectionBlindHole;//Ã¤¿×
     std::vector<DirectionNormalHole*>Feature_DirectionNormalHole;
     std::vector<DirectionRightHole*>Feature_DirectionRightHole;
     std::vector<DirectionBlindHole*>Feature_DirectionBlindHole;
 
-    //ç­‹å’Œå£é¢å­”ç§å­é¢å’Œç‰¹å¾
-    std::vector<NXOpen::Face*>SealFace_WallNormalHole;//å£é¢é€šå­”
-    std::vector<NXOpen::Face*>SealFace_WallCircleCombineHole;//å£é¢å€’æ–œè§’å¤åˆé€šå­”
-    std::vector<NXOpen::Face*>SealFace_RibCombineHole;//ç­‹é¢å¤åˆå­”
+    //½îºÍ±ÚÃæ¿×ÖÖ×ÓÃæºÍÌØÕ÷
+    std::vector<NXOpen::Face*>SealFace_WallNormalHole;//±ÚÃæÍ¨¿×
+    std::vector<NXOpen::Face*>SealFace_WallCircleCombineHole;//±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×
+    std::vector<NXOpen::Face*>SealFace_RibCombineHole;//½îÃæ¸´ºÏ¿×
     std::vector<WallNormalHole*>Feature_WallNormalHole;
     std::vector<WallCircleCombineHole*>Feature_WallCircleCombineHole;
     std::vector<RibCombineHole*>Feature_RibCombineHole;
 
-    //å‡¸å°å­”ç§å­é¢
+    //Í¹Ì¨¿×ÖÖ×ÓÃæ
     std::vector<NXOpen::Face*>SealFace_BossNormalHole;
     std::vector<NXOpen::Face*>SealFace_BossOneRightHole;
     std::vector<NXOpen::Face*>SealFace_BossOneCircleHole;
@@ -244,25 +244,25 @@ public:
     std::vector<BossNormalBlindHole*>Feature_BossNormalBlindHole;
     std::vector<BossRightBlindHole*>Feature_BossRightBlindHole;
 
-    //ç¯å½¢æ§½ç§å­é¢å’Œç‰¹å¾ 0=å†…ä¾§ 1=å¤–ä¾§
+    //»·ĞÎ²ÛÖÖ×ÓÃæºÍÌØÕ÷ 0=ÄÚ²à 1=Íâ²à
     std::vector<NXOpen::Face*>SealFace_CircularGroove0;
     std::vector<CircularGroove*>Feature_CircularGroove0;
     std::vector<NXOpen::Face*>SealFace_CircularGroove1;
     std::vector<CircularGroove*>Feature_CircularGroove1;
-    //ä¸‹é™·æ§½ï¼ˆæ›²é¢æ§½ï¼‰ç§å­é¢å’Œç‰¹å¾
+    //ÏÂÏİ²Û£¨ÇúÃæ²Û£©ÖÖ×ÓÃæºÍÌØÕ÷
     std::vector<NXOpen::Face*>SealFace_SubsidenceGroove;
     std::vector<SubsidenceGroove*>Feature_SubsidenceGroove;
-    //ä¸‹é™·æ§½ç­‹
+    //ÏÂÏİ²Û½î
     std::vector<NXOpen::Face*>SealFace_HookFaceRib;
     std::vector<HookFaceRib*>Feature_HookFaceRib;
-    //å¹³é¢æµ…æ§½ç§å­é¢å’Œç‰¹å¾
+    //Æ½ÃæÇ³²ÛÖÖ×ÓÃæºÍÌØÕ÷
     std::vector<NXOpen::Face*>SealFace_PlanerBlindGroove;
     std::vector<PlanerBlindGroove*>Feature_PlanerBlindGroove;
-    //é€šæ§½ç§å­é¢å’Œç‰¹å¾
+    //Í¨²ÛÖÖ×ÓÃæºÍÌØÕ÷
     std::vector<NXOpen::Face*>SealFace_PassGroove;
     std::vector<PassGroove*>Feature_PassGroove;
 
-    //ç­‹ç‰¹å¾
+    //½îÌØÕ÷
     std::vector<NXOpen::Face*>SealFace_NoLimitRib;
     std::vector<NXOpen::Face*>SealFace_BossLimitRib;
     std::vector<NXOpen::Face*>SealFace_SideLimitRib;
@@ -272,7 +272,7 @@ public:
     std::vector<SideLimitRib*>Feature_SideLimitRib;
     std::vector<DirectionRib*>Feature_DirectionRib;
 
-    //è½®å»“ç‰¹å¾
+    //ÂÖÀªÌØÕ÷
     std::vector<Face*>SeelFaces_OutlineVector;
     std::vector<Outline*>Feature_OutlineVector;
     std::vector<Face*>SeelFaces_OutlineVector1;
@@ -285,7 +285,7 @@ private:
     NXOpen::BlockStyler::BlockDialog* theDialog;
     NXOpen::BlockStyler::Group* group0;// Block type: Group
     NXOpen::BlockStyler::BodyCollector* bodySelect0;// Block type: Body Collector
-    NXOpen::BlockStyler::FaceCollector* face_select0;// Block type: Face Collector (æ‰‹åŠ¨æ·»åŠ â€”â€”åˆ†å‹é¢é€‰æ‹©)
+    NXOpen::BlockStyler::FaceCollector* face_select0;// Block type: Face Collector (ÊÖ¶¯Ìí¼Ó¡ª¡ª·ÖĞÍÃæÑ¡Ôñ)
     NXOpen::BlockStyler::Group* group;// Block type: Group
     NXOpen::BlockStyler::Enumeration* enum0;// Block type: Enumeration
     NXOpen::BlockStyler::Group* group1;// Block type: Group

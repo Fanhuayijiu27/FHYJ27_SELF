@@ -1,22 +1,563 @@
-﻿生成启动时间为 2026/7/14 21:12:23。
+﻿生成启动时间为 2026/7/15 12:56:21。
 项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260714\FeatureSpy260714\FeatureSpy260714.vcxproj”在节点 2 上(Rebuild 个目标)。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\FBM_Win32_NX11_NUAA_finalversion\FBM\UserMachiningPublicModule /I"C:\Program Files\Siemens\NX12\ugopenpp" /I"C:\Program Files\Siemens\NX12\ugopen" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /wd4275 /errorReport:prompt FeatureSpy260714.cpp SpyFunctions.cpp xml.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\UserMachiningPublicModule /I"C:\Program Files\Siemens\NX12\ugopenpp" /I"C:\Program Files\Siemens\NX12\ugopen" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /wd4275 /errorReport:prompt FeatureSpy260714.cpp SpyFunctions.cpp xml.cpp
   xml.cpp
-xml.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\xml.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\xml.h(13): fatal error C1083: 无法打开包括文件: “FeaturePublicClass.h”: No such file or directory
+xml.cpp(557): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(585): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(623): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(733): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(761): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(799): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(837): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(875): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(919): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(947): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(985): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1094): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1160): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1198): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1236): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1279): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1319): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1357): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1395): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1433): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1470): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1508): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1538): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1578): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1616): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1646): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1724): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1762): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1932): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(1970): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2046): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2079): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2107): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2145): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2221): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2254): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2282): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2320): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2429): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2457): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2494): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2532): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2605): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2633): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2708): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2748): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2790): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2818): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2856): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2886): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2914): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(2952): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3028): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3089): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3241): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3270): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3298): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3373): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3449): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3478): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3506): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3581): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3657): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3714): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3751): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3789): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3827): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3865): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3934): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3962): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(3999): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4037): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4075): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4113): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4152): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4182): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4210): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4323): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4400): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4430): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4571): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4609): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4648): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4678): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4706): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4743): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4819): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4896): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4926): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4954): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(4991): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5029): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5067): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5144): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5174): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5202): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5239): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5277): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5315): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5392): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5422): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5487): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5525): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5563): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5773): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5811): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5849): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5888): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5918): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5946): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(5983): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6021): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6060): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6138): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6168): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6196): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6271): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6310): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6388): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6446): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6483): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6521): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6560): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6599): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6892): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6922): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6950): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(6988): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(7027): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+xml.cpp(7148): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   SpyFunctions.cpp
-SpyFunctions.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\SpyFunctions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\uf_all.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\SpyFunctions.h(31): fatal error C1083: 无法打开包括文件: “PublicFunctions.h”: No such file or directory
+SpyFunctions.cpp(228): warning C4101: “ex”: 未引用的局部变量
+SpyFunctions.cpp(463): warning C4101: “ex”: 未引用的局部变量
+SpyFunctions.cpp(1104): warning C4101: “TopFace”: 未引用的局部变量
+SpyFunctions.cpp(1104): warning C4101: “BottomFace”: 未引用的局部变量
+SpyFunctions.cpp(2141): warning C4101: “distance2”: 未引用的局部变量
+SpyFunctions.cpp(2141): warning C4101: “distance1”: 未引用的局部变量
+SpyFunctions.cpp(2175): warning C4101: “distance2”: 未引用的局部变量
+SpyFunctions.cpp(2175): warning C4101: “distance1”: 未引用的局部变量
+SpyFunctions.cpp(3265): warning C4101: “ObjectManager”: 未引用的局部变量
+SpyFunctions.cpp(3311): warning C4101: “ObjectManager”: 未引用的局部变量
+SpyFunctions.cpp(3543): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(3696): warning C4101: “ObjectManager”: 未引用的局部变量
+SpyFunctions.cpp(3883): warning C4101: “ObjectManager”: 未引用的局部变量
+SpyFunctions.cpp(4248): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(4316): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+SpyFunctions.cpp(4341): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+SpyFunctions.cpp(4350): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(4417): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(4510): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(4582): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+SpyFunctions.cpp(4684): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   FeatureSpy260714.cpp
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\uf_all.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\ug12\desktop\hunxtool\_source\featurespy260714\featurespy260714\FeatureSpy260714.hpp(43): fatal error C1083: 无法打开包括文件: “PublicFunctions.h”: No such file or directory
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(60): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(92): warning C4101: “msg”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(136): warning C4101: “msg”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(205): warning C4101: “msg”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(362): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(402): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(403): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(530): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1020): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1083): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1039): warning C4101: “new_point_parameter2”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(775): warning C4101: “intersectCurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(852): warning C4101: “intersectCurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1696): warning C4101: “ref_pnt”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1769): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1751): warning C4101: “CurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1901): warning C4101: “EdgeManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(1952): warning C4101: “msg”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2019): warning C4101: “msg”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2240): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2324): warning C4101: “CurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2379): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2388): warning C4101: “CurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2362): warning C4101: “CurveManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2725): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(2798): warning C4101: “EdgeManager”: 未引用的局部变量
+C:\Users\ug12\Desktop\HuNXTool\_Source\UserMachiningPublicModule\PublicFunctions.cpp(3719): warning C4101: “EdgeManager”: 未引用的局部变量
+FeatureSpy260714.cpp(65): warning C4101: “ex”: 未引用的局部变量
+FeatureSpy260714.cpp(314): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(336): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(354): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(1546): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(1605): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(1976): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2039): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2457): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2517): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2577): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2637): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(2697): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3509): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3583): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3653): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3749): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3770): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3906): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3926): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3946): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3966): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(3986): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4006): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4147): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4167): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4187): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4453): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4515): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(4579): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5013): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5071): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5131): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5189): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5247): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5305): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5367): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5425): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5483): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5541): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5599): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5657): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5715): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5773): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5831): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5889): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(5947): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(6009): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(1689): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1689): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1696): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1696): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1703): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1703): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1710): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1710): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1816): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1816): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1823): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1823): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1830): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(1830): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2131): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2131): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2138): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2138): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2145): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2145): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2249): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2249): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2256): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2256): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2263): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2263): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2270): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2270): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2781): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2781): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2788): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2788): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2802): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2802): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2914): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2914): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2921): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2921): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(2935): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(2935): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3049): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3049): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3056): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3056): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3184): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3184): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3191): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3191): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3205): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3205): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3316): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3316): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3323): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3323): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3330): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3330): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3339): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3339): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3741): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3741): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3761): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3761): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3898): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3898): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3917): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3917): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3937): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3937): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3957): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3957): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3977): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3977): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(3997): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(3997): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4139): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4139): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4158): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4158): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4178): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4178): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4653): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4653): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4660): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4660): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4674): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4674): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4779): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4779): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4786): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4786): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4800): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4800): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4905): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4905): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(4912): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(4912): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6090): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6090): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6097): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6097): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6111): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6111): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6211): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6211): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6218): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6218): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6227): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6227): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6241): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6241): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6345): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6345): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6353): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6353): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6367): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6367): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6471): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6471): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6478): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6478): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6492): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6492): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6596): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6596): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6603): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6603): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6612): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6612): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6619): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6619): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6626): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6626): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6633): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6633): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6745): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6745): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6752): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6752): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6759): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6759): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6766): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6766): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6773): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6773): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6780): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6780): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6892): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6892): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6899): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6899): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(6913): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(6913): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7025): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7025): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7032): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7032): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7039): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7039): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7046): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7046): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7158): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7158): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7165): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7165): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7179): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7179): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7193): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7193): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7305): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7305): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7312): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7312): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7319): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7319): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7326): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7326): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7340): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7340): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7452): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7452): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7459): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7459): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7466): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7466): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7473): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7473): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7487): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7487): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7599): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7599): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7606): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7606): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7613): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7613): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7620): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7620): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7634): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7634): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7746): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7746): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7753): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7753): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7760): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7760): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7767): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7767): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7774): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7774): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7781): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7781): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7893): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7893): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7900): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7900): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7907): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7907): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7914): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7914): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(7928): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(7928): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8040): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8040): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8047): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8047): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8054): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8054): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8061): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8061): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8075): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8075): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8187): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8187): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8194): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8194): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8201): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8201): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8208): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8208): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8215): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8215): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8224): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8224): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8336): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8336): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8343): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8343): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8352): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8352): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8465): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8465): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8472): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8472): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8493): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8493): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(8502): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  FeatureSpy260714.cpp(8502): note: consider using '%zd' in the format string
+FeatureSpy260714.cpp(1675): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(2766): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(2899): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(3034): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(3169): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(3304): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(3720): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(3877): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(4118): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(4641): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(4767): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(4893): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6078): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6198): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6333): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6459): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6584): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6733): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(6880): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7013): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7146): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7293): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7440): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7587): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7734): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(7881): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(8028): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(8175): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(8324): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(8453): warning C4101: “message”: 未引用的局部变量
+FeatureSpy260714.cpp(12233): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+FeatureSpy260714.cpp(12239): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   正在生成代码...
-已完成生成项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260714\FeatureSpy260714\FeatureSpy260714.vcxproj”(Rebuild 个目标)的操作 - 失败。
+c:\users\ug12\desktop\hunxtool\_source\usermachiningpublicmodule\publicfunctions.cpp(3536): warning C4715: “Get_RightAndWrong_Edge_FromCylinder”: 不是所有的控件路径都返回值
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Application\\FeatureSpy260714.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\ug12\Desktop\HuNXTool\Application\ /LIBPATH:"C:\Program Files\Siemens\NX12\ugopenpp" /LIBPATH:"C:\Program Files\Siemens\NX12\ugopen" libameopencpp.lib libanimationdesigneropencpp.lib liblinedesigneropencpp.lib libmfgmlpopencpp.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_diagramminglibraryauthor.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libnxopenjava_markup.lib libnxopenuicpp.lib libopenintpp.lib libopenpp.lib libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libvmathpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"..\..\..\Application\FeatureSpy260714.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Application\\FeatureSpy260714.lib" /MACHINE:X64 /DLL x64\Debug\FeatureSpy260714.obj
+  x64\Debug\SpyFunctions.obj
+  x64\Debug\xml.obj
+    正在创建库 ..\..\..\Application\\FeatureSpy260714.lib 和对象 ..\..\..\Application\\FeatureSpy260714.exp
+  FeatureSpy260714.vcxproj -> C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260714\FeatureSpy260714\..\..\..\Application\FeatureSpy260714.dll
+已完成生成项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260714\FeatureSpy260714\FeatureSpy260714.vcxproj”(Rebuild 个目标)的操作。
 
-生成失败。
+已成功生成。
 
-已用时间 00:00:02.69
+已用时间 00:00:10.32

@@ -1,4 +1,4 @@
-ï»¿//==============================================================================
+//==============================================================================
 //  WARNING!!  This file is overwritten by the Block UI Styler while generating
 //  the automation code. Any modifications to this file will be lost after
 //  generating the code again.
@@ -110,8 +110,8 @@ extern "C" DllExport void  ufusr(char *param, int *retcod, int param_len)
         theFeatureSpy = new FeatureSpy();
         // The following method shows the dialog immediately
         theFeatureSpy->Show();
-		/*uc1601("æ¯æ¬¡æ‰“å¼€é›¶ä»¶,è¯·é‡æ–°è¿›è¡Œç‰¹å¾è¯†åˆ«å¹¶ä¿å­˜è¯†åˆ«ç»“æœ,å†è¿›è¡Œå·¥è‰ºå†³ç­–", 1);
-		uc1601("è¯·é¢„å…ˆè®¾ç½®Zcè½´æ–¹å‘å’ŒYcè§’æ–¹å‘", 1);*/
+		/*uc1601("Ã¿´Î´ò¿ªÁã¼ş,ÇëÖØĞÂ½øĞĞÌØÕ÷Ê¶±ğ²¢±£´æÊ¶±ğ½á¹û,ÔÙ½øĞĞ¹¤ÒÕ¾ö²ß", 1);
+		uc1601("ÇëÔ¤ÏÈÉèÖÃZcÖá·½ÏòºÍYc½Ç·½Ïò", 1);*/
 		
     }
     catch(exception& ex)
@@ -173,8 +173,8 @@ int FeatureSpy::Show()
     try
     {
         theDialog->Show();
-		/*uc1601("æ¯æ¬¡æ‰“å¼€é›¶ä»¶,è¯·é‡æ–°è¿›è¡Œç‰¹å¾è¯†åˆ«å¹¶ä¿å­˜è¯†åˆ«ç»“æœ,å†è¿›è¡Œå·¥è‰ºå†³ç­–", 1);
-		uc1601("è¯·é¢„å…ˆè®¾ç½®Zcè½´æ–¹å‘å’ŒYcè§’æ–¹å‘", 1);*/
+		/*uc1601("Ã¿´Î´ò¿ªÁã¼ş,ÇëÖØĞÂ½øĞĞÌØÕ÷Ê¶±ğ²¢±£´æÊ¶±ğ½á¹û,ÔÙ½øĞĞ¹¤ÒÕ¾ö²ß", 1);
+		uc1601("ÇëÔ¤ÏÈÉèÖÃZcÖá·½ÏòºÍYc½Ç·½Ïò", 1);*/
 		
     }
     catch(exception& ex)
@@ -237,8 +237,8 @@ void FeatureSpy::dialogShown_cb()
     try
     {
         //---- Enter your callback code here -----
-		uc1601("æ¯æ¬¡æ‰“å¼€é›¶ä»¶,è¯·é‡æ–°è¿›è¡Œç‰¹å¾è¯†åˆ«å¹¶ä¿å­˜è¯†åˆ«ç»“æœ,å†è¿›è¡Œå·¥è‰ºå†³ç­–", 1);
-		uc1601("è¯·é¢„å…ˆè®¾ç½®Zcè½´æ–¹å‘å’ŒYcè§’æ–¹å‘", 1);
+		uc1601("Ã¿´Î´ò¿ªÁã¼ş,ÇëÖØĞÂ½øĞĞÌØÕ÷Ê¶±ğ²¢±£´æÊ¶±ğ½á¹û,ÔÙ½øĞĞ¹¤ÒÕ¾ö²ß", 1);
+		uc1601("ÇëÔ¤ÏÈÉèÖÃZcÖá·½ÏòºÍYc½Ç·½Ïò", 1);
 		face_select0->SetFaceRules(1);
 		face_select01->SetFaceRules(1);
 
@@ -259,8 +259,8 @@ int FeatureSpy::apply_cb()
     try
     {
         //---- Enter your callback code here -----
-		/*uc1601("æ¯æ¬¡æ‰“å¼€é›¶ä»¶,è¯·é‡æ–°è¿›è¡Œç‰¹å¾è¯†åˆ«å¹¶ä¿å­˜è¯†åˆ«ç»“æœ,å†è¿›è¡Œå·¥è‰ºå†³ç­–", 1);
-		uc1601("è¯·é¢„å…ˆè®¾ç½®Zcè½´æ–¹å‘å’ŒYcè§’æ–¹å‘", 1);*/
+		/*uc1601("Ã¿´Î´ò¿ªÁã¼ş,ÇëÖØĞÂ½øĞĞÌØÕ÷Ê¶±ğ²¢±£´æÊ¶±ğ½á¹û,ÔÙ½øĞĞ¹¤ÒÕ¾ö²ß", 1);
+		uc1601("ÇëÔ¤ÏÈÉèÖÃZcÖá·½ÏòºÍYc½Ç·½Ïò", 1);*/
     }
     catch(exception& ex)
     {
@@ -283,14 +283,14 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
         {
         //---------Enter your code here-----------
 			
-			/*uc1601("è°ƒè¯•æˆåŠŸï¼", 1);*/
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			/*uc1601("µ÷ÊÔ³É¹¦£¡", 1);*/
+			//---------µ÷ÊÔÄ£°å-----------
 			/*char message[13];
 			UF_UI_open_listing_window();
 			sprintf(message, "%d\n", 980502);
-			UF_UI_write_listing_window("è°ƒè¯•æ¨¡æ¿:\n");
+			UF_UI_write_listing_window("µ÷ÊÔÄ£°å:\n");
 			UF_UI_write_listing_window(message);*/
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 			workPart = NXOpen::Session::GetSession()->Parts()->Work();
 			NXString name = workPart->Leaf();
 			NXString path = workPart->FullPath();
@@ -316,7 +316,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 			int num_BodyList = pTaggedObject_BodyList.size();
 
 			/*sprintf( message,"%d\n",num_BodyList);
-			UF_UI_write_listing_window("é€‰æ‹©ä½“çš„ä¸ªæ•°ä¸º:");
+			UF_UI_write_listing_window("Ñ¡ÔñÌåµÄ¸öÊıÎª:");
 			UF_UI_write_listing_window(message);*/
 
 			if (num_BodyList > 0)
@@ -343,7 +343,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				pFaceAll_For_color.push_back(pFace_EachOne);
 			}
 
-			face_select0->Focus();//é€‰å®Œé›¶ä»¶å‡ ä½•ä½“,è‡ªåŠ¨è·³åˆ°åˆ†å‹é¢é€‰æ‹©æ§ä»¶
+			face_select0->Focus();//Ñ¡ÍêÁã¼ş¼¸ºÎÌå,×Ô¶¯Ìøµ½·ÖĞÍÃæÑ¡Ôñ¿Ø¼ş
         }
         else if(block == face_select0)
         {
@@ -357,17 +357,17 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 			if (num_FaceList == 1)
 			{
-				pSelectedFace = dynamic_cast<Face*>(pTaggedObject_FaceList[0]);//ç¬¬ä¸€ä¸ªåˆ†å‹é¢
+				pSelectedFace = dynamic_cast<Face*>(pTaggedObject_FaceList[0]);//µÚÒ»¸ö·ÖĞÍÃæ
 			}
 			else
 			{
-				uc1601("è¯·é€‰æ‹©ä¸Šä¸‹åˆ†å‹é¢", 1);
+				uc1601("ÇëÑ¡ÔñÉÏÏÂ·ÖĞÍÃæ", 1);
 			}
 
 			DefaultColor = GetDefaultColor();
 			if (num_FaceList == 1)
 			{
-				get_MainNormal_fr_plane(pSelectedFace, _Approach_Normal);//å¾—åˆ°å¹³é¢æ³•çŸ¢
+				get_MainNormal_fr_plane(pSelectedFace, _Approach_Normal);//µÃµ½Æ½Ãæ·¨Ê¸
 				Begin_Face = dynamic_cast<NXOpen::Face*>(pTaggedObject_FaceList[0]);
 				AllFaces = pFaceList;
 				/*try
@@ -376,7 +376,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				}
 				catch(exception& ex00)
 				{
-				uc1601(" Error!:\n å»é™¤å†…ç¯é¢å¤±è´¥!è¯·æ£€æŸ¥æ‰€é€‰æ‹©åˆ†å‹é¢ä¸å†…ç¯é¢ç»“æ„ã€‚",1);
+				uc1601(" Error!:\n È¥³ıÄÚ»·ÃæÊ§°Ü!Çë¼ì²éËùÑ¡Ôñ·ÖĞÍÃæÓëÄÚ»·Ãæ½á¹¹¡£",1);
 				return 0;
 				}*/
 				bodySelect0->Focus();
@@ -407,9 +407,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 			strcpy_s(crstring1, 133, nxStrEnum1.GetLocaleText());
 			strEnum1 = crstring1;
 
-			if (strEnum1 == "å…¨éƒ¨ç‰¹å¾")
+			if (strEnum1 == "È«²¿ÌØÕ÷")
 			{
-				/*uc1601("å…¨éƒ¨", 1);*/
+				/*uc1601("È«²¿", 1);*/
 				SealFace_NormalBoss.clear();
 				SealFace_NoSideBoss.clear();
 				SealFace_DoubleLayerBoss.clear();
@@ -423,7 +423,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				SealFace_CircularGroove0.clear();
 				Feature_CircularGroove0.clear();
 				CircularGrooveRecognition(AllFaces, Begin_Face, workPart, SealFace_CircularGroove0, SealFace_CircularGroove1, Begin_Face);
-				/*int IsOrdering = DifineDialogBox("æ˜¯å¦è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering = DifineDialogBox("ÊÇ·ñ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering == 5)
 				{
 				OrderCircularGroove(SealFace_CircularGroove0, Begin_Face);
@@ -434,18 +434,18 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				OrderCircularGroove(SealFace_CircularGroove1, Begin_Face);
 
 				CreateCircularGrooveFeature(Begin_Face, SealFace_CircularGroove0, SealFace_CircularGroove1, Feature_CircularGroove0, Feature_CircularGroove1);
-				//æ›²é¢/ä¸‹é™·æ§½
+				//ÇúÃæ/ÏÂÏİ²Û
 				SealFace_SubsidenceGroove.clear();
 				Feature_SubsidenceGroove.clear();
 				SubsidenceGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace, SealFace_SubsidenceGroove, SealFace_HookFaceRib);
 				CreateSubsidenceGrooveFeature(SealFace_SubsidenceGroove, Feature_SubsidenceGroove, Begin_Face);
 
-				//å¹³é¢æµ…æ§½
+				//Æ½ÃæÇ³²Û
 				SealFace_PlanerBlindGroove.clear();
 				Feature_PlanerBlindGroove.clear();
 				PlanerBlindGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace,
 					ParallelPlaneFace, SealFace_PlanerBlindGroove);
-				/*int IsOrdering2 = DifineDialogBox("æ˜¯å¦è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering2 = DifineDialogBox("ÊÇ·ñ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering2 == 5)
 				{
 				OrderingFace(SealFace_PlanerBlindGroove, _Approach_Normal);
@@ -453,11 +453,11 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 				OrderingFace(SealFace_PlanerBlindGroove, _Approach_Normal);
 				CreatePlanerBlindGrooveFeature(SealFace_PlanerBlindGroove, Feature_PlanerBlindGroove);
-				//é€šæ§½
+				//Í¨²Û
 				SealFace_PassGroove.clear();
 				Feature_PassGroove.clear();
 				PassGrooveRecognition(AllFaces, SealFace_PassGroove);
-				/*int IsOrdering3 = DifineDialogBox("æ˜¯å¦é€šæ§½è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering3 = DifineDialogBox("ÊÇ·ñÍ¨²Û½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering3 == 5)
 				{
 				OrderingFace(SealFace_PassGroove, _Approach_Normal);
@@ -465,9 +465,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				OrderingFace(SealFace_PassGroove, _Approach_Normal);
 				CreatePassGrooveFeature(SealFace_PassGroove, Feature_PassGroove);
 
-				Feature_DirectionNormalHole.clear();//æ™®é€šé€šå­”
-				Feature_DirectionRightHole.clear();//å€’æ–œè§’é€šå­”
-				Feature_DirectionBlindHole.clear();//ç›²å­”
+				Feature_DirectionNormalHole.clear();//ÆÕÍ¨Í¨¿×
+				Feature_DirectionRightHole.clear();//µ¹Ğ±½ÇÍ¨¿×
+				Feature_DirectionBlindHole.clear();//Ã¤¿×
 
 
 				Feature_WallNormalHole.clear();
@@ -488,9 +488,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				Feature_BossMidCricleCombineHole.clear();
 				Feature_BossNormalBlindHole.clear();
 				Feature_BossRightBlindHole.clear();
-				SealFace_DirectionNormalHole.clear();//æ™®é€šé€šå­”
-				SealFace_DirectionRightHole.clear();//å€’æ–œè§’é€šå­”
-				SealFace_DirectionBlindHole.clear();//ç›²å­”
+				SealFace_DirectionNormalHole.clear();//ÆÕÍ¨Í¨¿×
+				SealFace_DirectionRightHole.clear();//µ¹Ğ±½ÇÍ¨¿×
+				SealFace_DirectionBlindHole.clear();//Ã¤¿×
 
 
 				SealFace_WallNormalHole.clear();
@@ -520,16 +520,16 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				Feature_otherHole3.clear();
 
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector1;
-				//è¯†åˆ«è½´å‘å­”ç‰¹å¾å¹¶ä¸”å°†ç§å­é¢ä¼ ç»™ä¸‹ä¸€ç±»å­”ç‰¹å¾æœç´¢
+				//Ê¶±ğÖáÏò¿×ÌØÕ÷²¢ÇÒ½«ÖÖ×ÓÃæ´«¸øÏÂÒ»Àà¿×ÌØÕ÷ËÑË÷
 				DirectionMillRecognition(AllFaces, Begin_Face, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace,
 					LeftSealHole_FaceVector1, SealFace_DirectionNormalHole, SealFace_DirectionRightHole, SealFace_DirectionBlindHole);
-				//æ„å»ºè½´å‘å­”ç‰¹å¾
+				//¹¹½¨ÖáÏò¿×ÌØÕ÷
 				CreateDirectionMillFeature(BottomPlaneFace, TopPlaneFace,
 					ParallelPlaneFace, SealFace_DirectionNormalHole, SealFace_DirectionRightHole, SealFace_DirectionBlindHole,
 					Feature_DirectionNormalHole, Feature_DirectionRightHole, Feature_DirectionBlindHole);
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector2;
 
-				/*int IsOrdering = DifineDialogBox("æ˜¯å¦å­”çš„è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering = DifineDialogBox("ÊÇ·ñ¿×µÄ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering == 5)
 				{
 				OrderBodyHole(LeftSealHole_FaceVector1, Begin_Face);
@@ -537,33 +537,33 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 				OrderBodyHole(LeftSealHole_FaceVector1, Begin_Face);
 
-				//è¯†åˆ«å£é¢å’Œç­‹é¢çš„å­”
+				//Ê¶±ğ±ÚÃæºÍ½îÃæµÄ¿×
 				WallAndRibMillRecognition(LeftSealHole_FaceVector1, LeftSealHole_FaceVector2
 					, SealFace_WallNormalHole, SealFace_WallCircleCombineHole, SealFace_RibCombineHole);
-				//æ„å»ºå£é¢å’Œç­‹é¢çš„å­”ç‰¹å¾
+				//¹¹½¨±ÚÃæºÍ½îÃæµÄ¿×ÌØÕ÷
 				CreateWallAndRibMillFeature(SealFace_WallNormalHole, SealFace_WallCircleCombineHole, SealFace_RibCombineHole,
 					Feature_WallNormalHole, Feature_WallCircleCombineHole, Feature_RibCombineHole);
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector3;
-				//è¯†åˆ«å‡¸å°éå¤åˆçš„å­”
+				//Ê¶±ğÍ¹Ì¨·Ç¸´ºÏµÄ¿×
 				BossHoleRecognition1(LeftSealHole_FaceVector2, LeftSealHole_FaceVector3,
-					SealFace_BossNormalHole,//å‡¸å°é€šå­”
-					SealFace_BossOneRightHole,//å‡¸å°å•ä¾§æ–œè§’é€šå­”
-					SealFace_BossOneCircleHole,//å‡¸å°å•ä¾§åœ†è§’é€šå­”
-					SealFace_BossDoubleRightHole,//å‡¸å°åŒä¾§æ–œè§’é€šå­”
-					SealFace_BossDoubleCircleHole,//å‡¸å°åŒä¾§åœ†è§’é€šå­”
-					SealFace_BossOneRightOneCircleHole,//å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”
-					SealFace_BossNormalBlindHole,//å‡¸å°æ— å€’è§’ç›²å­”
-					SealFace_BossRightBlindHole);//å‡¸å°å€’æ–œè§’ç›²å­”
+					SealFace_BossNormalHole,//Í¹Ì¨Í¨¿×
+					SealFace_BossOneRightHole,//Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×
+					SealFace_BossOneCircleHole,//Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×
+					SealFace_BossDoubleRightHole,//Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×
+					SealFace_BossDoubleCircleHole,//Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×
+					SealFace_BossOneRightOneCircleHole,//Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×
+					SealFace_BossNormalBlindHole,//Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×
+					SealFace_BossRightBlindHole);//Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×
 
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector4;
 
-				//å‡¸å°å¤åˆå­”è¯†åˆ«
+				//Í¹Ì¨¸´ºÏ¿×Ê¶±ğ
 				BossCombineHoleRecognition(LeftSealHole_FaceVector3, LeftSealHole_FaceVector4,
 					SealFace_BossManyLayerHole,
 					SealFace_BossOutsideWideCombineHole,
 					SealFace_BossInsideWideCombineHole,
 					SealFace_BossMidCricleCombineHole);
-				//æ„å»ºå‡¸å°å­”ç‰¹å¾
+				//¹¹½¨Í¹Ì¨¿×ÌØÕ÷
 				CreateBossHoleFeature(SealFace_BossNormalHole, SealFace_BossOneRightHole, SealFace_BossOneCircleHole,
 					SealFace_BossDoubleRightHole, SealFace_BossDoubleCircleHole, SealFace_BossOneRightOneCircleHole,
 					SealFace_BossNormalBlindHole, SealFace_BossRightBlindHole, SealFace_BossManyLayerHole,
@@ -573,8 +573,8 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 					Feature_BossManyLayerHole, Feature_BossOutsideWideCombineHole, Feature_BossInsideWideCombineHole,
 					Feature_BossMidCricleCombineHole, Feature_BossNormalBlindHole, Feature_BossRightBlindHole);
 
-				//----------------//å…¶å®ƒå­”è¯†åˆ«----------------------------------------------------------------------------------------------------------------
-				OtherHoleRecognition1(LeftSealHole_FaceVector4, SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3); //å…¶å®ƒå­”)
+				//----------------//ÆäËü¿×Ê¶±ğ----------------------------------------------------------------------------------------------------------------
+				OtherHoleRecognition1(LeftSealHole_FaceVector4, SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3); //ÆäËü¿×)
 				CreatOtherHoleFeature(SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3, Feature_otherHole1, Feature_otherHole2, Feature_otherHole3);
 
 				Feature_DirectionRib.clear();
@@ -589,15 +589,15 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				SealFace_HookFaceRib.clear();
 				Feature_HookFaceRib.clear();
 
-				//20230419æ–°æ·»åŠ ï¼Œè¯¥ç­‹ç‰¹å¾åœ¨åˆ›å»ºç‰¹å¾æ—¶ä¸ä¸‹é™·æ§½ä¸€èµ·åˆ›å»ºï¼Œä¸ä¸‹é™·æ§½ä¸€èµ·è¯†åˆ«ï¼Œæ„å»ºæ§½çº¦æŸç­‹
+				//20230419ĞÂÌí¼Ó£¬¸Ã½îÌØÕ÷ÔÚ´´½¨ÌØÕ÷Ê±ÓëÏÂÏİ²ÛÒ»Æğ´´½¨£¬ÓëÏÂÏİ²ÛÒ»ÆğÊ¶±ğ£¬¹¹½¨²ÛÔ¼Êø½î
 				SubsidenceGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace, SealFace_SubsidenceGroove, SealFace_HookFaceRib);
 				CreateHookFaceRibFeature(SealFace_HookFaceRib, Feature_HookFaceRib, Feature_DirectionRib, _Approach_Normal);
 
 
 			}
-			else if (strEnum1 == "å‡¸å°ç±»ç‰¹å¾")
+			else if (strEnum1 == "Í¹Ì¨ÀàÌØÕ÷")
 			{
-				/*uc1601("å‡¸å°", 1);*/
+				/*uc1601("Í¹Ì¨", 1);*/
 				SealFace_NormalBoss.clear();
 				SealFace_NoSideBoss.clear();
 				SealFace_DoubleLayerBoss.clear();
@@ -611,14 +611,14 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				
 
 			}
-			else if (strEnum1 == "æ§½ç±»ç‰¹å¾")
+			else if (strEnum1 == "²ÛÀàÌØÕ÷")
 			{
-				/*uc1601("æ§½", 1);*/
-				//å¼§å½¢æ§½
+				/*uc1601("²Û", 1);*/
+				//»¡ĞÎ²Û
 				SealFace_CircularGroove0.clear();
 				Feature_CircularGroove0.clear();
 				CircularGrooveRecognition(AllFaces, Begin_Face, workPart, SealFace_CircularGroove0, SealFace_CircularGroove1, Begin_Face);
-				/*int IsOrdering = DifineDialogBox("æ˜¯å¦è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering = DifineDialogBox("ÊÇ·ñ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering == 5)
 				{
 				OrderCircularGroove(SealFace_CircularGroove0, Begin_Face);
@@ -629,18 +629,18 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				OrderCircularGroove(SealFace_CircularGroove1, Begin_Face);
 
 				CreateCircularGrooveFeature(Begin_Face, SealFace_CircularGroove0, SealFace_CircularGroove1, Feature_CircularGroove0, Feature_CircularGroove1);
-				//æ›²é¢/ä¸‹é™·æ§½
+				//ÇúÃæ/ÏÂÏİ²Û
 				SealFace_SubsidenceGroove.clear();
 				Feature_SubsidenceGroove.clear();
 				SubsidenceGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace, SealFace_SubsidenceGroove, SealFace_HookFaceRib);
 				CreateSubsidenceGrooveFeature(SealFace_SubsidenceGroove, Feature_SubsidenceGroove, Begin_Face);
 
-				//å¹³é¢æµ…æ§½
+				//Æ½ÃæÇ³²Û
 				SealFace_PlanerBlindGroove.clear();
 				Feature_PlanerBlindGroove.clear();
 				PlanerBlindGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace,
 					ParallelPlaneFace, SealFace_PlanerBlindGroove);
-				/*int IsOrdering2 = DifineDialogBox("æ˜¯å¦è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering2 = DifineDialogBox("ÊÇ·ñ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering2 == 5)
 				{
 				OrderingFace(SealFace_PlanerBlindGroove, _Approach_Normal);
@@ -648,11 +648,11 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 				OrderingFace(SealFace_PlanerBlindGroove, _Approach_Normal);
 				CreatePlanerBlindGrooveFeature(SealFace_PlanerBlindGroove, Feature_PlanerBlindGroove);
-				//é€šæ§½
+				//Í¨²Û
 				SealFace_PassGroove.clear();
 				Feature_PassGroove.clear();
 				PassGrooveRecognition(AllFaces, SealFace_PassGroove);
-				/*int IsOrdering3 = DifineDialogBox("æ˜¯å¦é€šæ§½è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering3 = DifineDialogBox("ÊÇ·ñÍ¨²Û½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering3 == 5)
 				{
 				OrderingFace(SealFace_PassGroove, _Approach_Normal);
@@ -660,13 +660,13 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				OrderingFace(SealFace_PassGroove, _Approach_Normal);
 				CreatePassGrooveFeature(SealFace_PassGroove, Feature_PassGroove);
 			}
-			else if (strEnum1 == "å­”ç±»ç‰¹å¾")
+			else if (strEnum1 == "¿×ÀàÌØÕ÷")
 			{
-				/*uc1601("å­”", 1);*/
-				//è¿™é‡Œéœ€è¦åŠ ä¸€ä¸ªé™åˆ¶å‡½æ•°ï¼Œé˜²æ­¢é‡å¤è¯†åˆ«
-				Feature_DirectionNormalHole.clear();//æ™®é€šé€šå­”
-				Feature_DirectionRightHole.clear();//å€’æ–œè§’é€šå­”
-				Feature_DirectionBlindHole.clear();//ç›²å­”
+				/*uc1601("¿×", 1);*/
+				//ÕâÀïĞèÒª¼ÓÒ»¸öÏŞÖÆº¯Êı£¬·ÀÖ¹ÖØ¸´Ê¶±ğ
+				Feature_DirectionNormalHole.clear();//ÆÕÍ¨Í¨¿×
+				Feature_DirectionRightHole.clear();//µ¹Ğ±½ÇÍ¨¿×
+				Feature_DirectionBlindHole.clear();//Ã¤¿×
 
 
 				Feature_WallNormalHole.clear();
@@ -687,9 +687,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				Feature_BossMidCricleCombineHole.clear();
 				Feature_BossNormalBlindHole.clear();
 				Feature_BossRightBlindHole.clear();
-				SealFace_DirectionNormalHole.clear();//æ™®é€šé€šå­”
-				SealFace_DirectionRightHole.clear();//å€’æ–œè§’é€šå­”
-				SealFace_DirectionBlindHole.clear();//ç›²å­”
+				SealFace_DirectionNormalHole.clear();//ÆÕÍ¨Í¨¿×
+				SealFace_DirectionRightHole.clear();//µ¹Ğ±½ÇÍ¨¿×
+				SealFace_DirectionBlindHole.clear();//Ã¤¿×
 
 
 				SealFace_WallNormalHole.clear();
@@ -719,16 +719,16 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				Feature_otherHole3.clear();
 
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector1;
-				//è¯†åˆ«è½´å‘å­”ç‰¹å¾å¹¶ä¸”å°†ç§å­é¢ä¼ ç»™ä¸‹ä¸€ç±»å­”ç‰¹å¾æœç´¢
+				//Ê¶±ğÖáÏò¿×ÌØÕ÷²¢ÇÒ½«ÖÖ×ÓÃæ´«¸øÏÂÒ»Àà¿×ÌØÕ÷ËÑË÷
 				DirectionMillRecognition(AllFaces, Begin_Face, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace,
 					LeftSealHole_FaceVector1, SealFace_DirectionNormalHole, SealFace_DirectionRightHole, SealFace_DirectionBlindHole);
-				//æ„å»ºè½´å‘å­”ç‰¹å¾
+				//¹¹½¨ÖáÏò¿×ÌØÕ÷
 				CreateDirectionMillFeature(BottomPlaneFace, TopPlaneFace,
 					ParallelPlaneFace, SealFace_DirectionNormalHole, SealFace_DirectionRightHole, SealFace_DirectionBlindHole,
 					Feature_DirectionNormalHole, Feature_DirectionRightHole, Feature_DirectionBlindHole);
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector2;
 
-				/*int IsOrdering = DifineDialogBox("æ˜¯å¦å­”çš„è¿›è¡Œç§å­é¢æ’åº");
+				/*int IsOrdering = DifineDialogBox("ÊÇ·ñ¿×µÄ½øĞĞÖÖ×ÓÃæÅÅĞò");
 				if (IsOrdering == 5)
 				{
 				OrderBodyHole(LeftSealHole_FaceVector1, Begin_Face);
@@ -736,33 +736,33 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 				OrderBodyHole(LeftSealHole_FaceVector1, Begin_Face);
 
-				//è¯†åˆ«å£é¢å’Œç­‹é¢çš„å­”
+				//Ê¶±ğ±ÚÃæºÍ½îÃæµÄ¿×
 				WallAndRibMillRecognition(LeftSealHole_FaceVector1, LeftSealHole_FaceVector2
 					, SealFace_WallNormalHole, SealFace_WallCircleCombineHole, SealFace_RibCombineHole);
-				//æ„å»ºå£é¢å’Œç­‹é¢çš„å­”ç‰¹å¾
+				//¹¹½¨±ÚÃæºÍ½îÃæµÄ¿×ÌØÕ÷
 				CreateWallAndRibMillFeature(SealFace_WallNormalHole, SealFace_WallCircleCombineHole, SealFace_RibCombineHole,
 					Feature_WallNormalHole, Feature_WallCircleCombineHole, Feature_RibCombineHole);
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector3;
-				//è¯†åˆ«å‡¸å°éå¤åˆçš„å­”
+				//Ê¶±ğÍ¹Ì¨·Ç¸´ºÏµÄ¿×
 				BossHoleRecognition1(LeftSealHole_FaceVector2, LeftSealHole_FaceVector3,
-					SealFace_BossNormalHole,//å‡¸å°é€šå­”
-					SealFace_BossOneRightHole,//å‡¸å°å•ä¾§æ–œè§’é€šå­”
-					SealFace_BossOneCircleHole,//å‡¸å°å•ä¾§åœ†è§’é€šå­”
-					SealFace_BossDoubleRightHole,//å‡¸å°åŒä¾§æ–œè§’é€šå­”
-					SealFace_BossDoubleCircleHole,//å‡¸å°åŒä¾§åœ†è§’é€šå­”
-					SealFace_BossOneRightOneCircleHole,//å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”
-					SealFace_BossNormalBlindHole,//å‡¸å°æ— å€’è§’ç›²å­”
-					SealFace_BossRightBlindHole);//å‡¸å°å€’æ–œè§’ç›²å­”
+					SealFace_BossNormalHole,//Í¹Ì¨Í¨¿×
+					SealFace_BossOneRightHole,//Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×
+					SealFace_BossOneCircleHole,//Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×
+					SealFace_BossDoubleRightHole,//Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×
+					SealFace_BossDoubleCircleHole,//Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×
+					SealFace_BossOneRightOneCircleHole,//Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×
+					SealFace_BossNormalBlindHole,//Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×
+					SealFace_BossRightBlindHole);//Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×
 
 				std::vector<NXOpen::Face *>LeftSealHole_FaceVector4;
 
-				//å‡¸å°å¤åˆå­”è¯†åˆ«
+				//Í¹Ì¨¸´ºÏ¿×Ê¶±ğ
 				BossCombineHoleRecognition(LeftSealHole_FaceVector3, LeftSealHole_FaceVector4,
 					SealFace_BossManyLayerHole,
 					SealFace_BossOutsideWideCombineHole,
 					SealFace_BossInsideWideCombineHole,
 					SealFace_BossMidCricleCombineHole);
-				//æ„å»ºå‡¸å°å­”ç‰¹å¾
+				//¹¹½¨Í¹Ì¨¿×ÌØÕ÷
 				CreateBossHoleFeature(SealFace_BossNormalHole, SealFace_BossOneRightHole, SealFace_BossOneCircleHole,
 					SealFace_BossDoubleRightHole, SealFace_BossDoubleCircleHole, SealFace_BossOneRightOneCircleHole,
 					SealFace_BossNormalBlindHole, SealFace_BossRightBlindHole, SealFace_BossManyLayerHole,
@@ -772,15 +772,15 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 					Feature_BossManyLayerHole, Feature_BossOutsideWideCombineHole, Feature_BossInsideWideCombineHole,
 					Feature_BossMidCricleCombineHole, Feature_BossNormalBlindHole, Feature_BossRightBlindHole);
 
-				//----------------//å…¶å®ƒå­”è¯†åˆ«----------------------------------------------------------------------------------------------------------------
-				OtherHoleRecognition1(LeftSealHole_FaceVector4, SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3); //å…¶å®ƒå­”)
+				//----------------//ÆäËü¿×Ê¶±ğ----------------------------------------------------------------------------------------------------------------
+				OtherHoleRecognition1(LeftSealHole_FaceVector4, SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3); //ÆäËü¿×)
 				CreatOtherHoleFeature(SealFace_otherHole1, SealFace_otherHole2, SealFace_otherHole3, Feature_otherHole1, Feature_otherHole2, Feature_otherHole3);
 
 
 			}
-			else if (strEnum1 == "ç­‹ç±»ç‰¹å¾")
+			else if (strEnum1 == "½îÀàÌØÕ÷")
 			{
-				/*uc1601("ç­‹", 1);*/
+				/*uc1601("½î", 1);*/
 				Feature_DirectionRib.clear();
 				SealFace_DirectionRib.clear();
 
@@ -793,73 +793,73 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				SealFace_HookFaceRib.clear();
 				Feature_HookFaceRib.clear();
 
-				//20230419æ–°æ·»åŠ ï¼Œè¯¥ç­‹ç‰¹å¾åœ¨åˆ›å»ºç‰¹å¾æ—¶ä¸ä¸‹é™·æ§½ä¸€èµ·åˆ›å»ºï¼Œä¸ä¸‹é™·æ§½ä¸€èµ·è¯†åˆ«ï¼Œæ„å»ºæ§½çº¦æŸç­‹
+				//20230419ĞÂÌí¼Ó£¬¸Ã½îÌØÕ÷ÔÚ´´½¨ÌØÕ÷Ê±ÓëÏÂÏİ²ÛÒ»Æğ´´½¨£¬ÓëÏÂÏİ²ÛÒ»ÆğÊ¶±ğ£¬¹¹½¨²ÛÔ¼Êø½î
 				SubsidenceGrooveRecognition(AllFaces, BottomPlaneFace, TopPlaneFace, ParallelPlaneFace, SealFace_SubsidenceGroove, SealFace_HookFaceRib);
 				CreateHookFaceRibFeature(SealFace_HookFaceRib, Feature_HookFaceRib, Feature_DirectionRib, _Approach_Normal);
 
-				//æ— çº¦æŸç­‹
+				//ÎŞÔ¼Êø½î
 				/*NoLimitRibRecogntion(AllFaces,SealFace_NoLimitRib);
-				uc1601("å¼€å§‹è¯†åˆ«æ— çº¦æŸç­‹",1);
+				uc1601("¿ªÊ¼Ê¶±ğÎŞÔ¼Êø½î",1);
 
 				CreateNoLimitRibFeature(SealFace_NoLimitRib,Feature_NoLimitRib);
 				if (Feature_NoLimitRib.size()>0)
 				{
-				uc1601("è¯†åˆ«åˆ°äº†æ— çº¦æŸç­‹",1);
+				uc1601("Ê¶±ğµ½ÁËÎŞÔ¼Êø½î",1);
 				}*/
 
 
-				////ä¾§é¢çº¦æŸç­‹
+				////²àÃæÔ¼Êø½î
 				//SideLimitRibRecogition(AllFaces,SealFace_SideLimitRib);
 				//CreateSideLimitRibFeature(SealFace_SideLimitRib,Feature_SideLimitRib);
 				//if (Feature_SideLimitRib.size()>0)
 				//{
-				//	uc1601("è¯†åˆ«åˆ°äº†ä¾§é¢çº¦æŸç­‹",1);
+				//	uc1601("Ê¶±ğµ½ÁË²àÃæÔ¼Êø½î",1);
 				//}
 
-				////ä¸»è½´å›è½¬ç­‹
-				//uc1601("å¼€å§‹è¯†åˆ«ä¸»è½´å›è½¬ç­‹",1);
+				////Ö÷Öá»Ø×ª½î
+				//uc1601("¿ªÊ¼Ê¶±ğÖ÷Öá»Ø×ª½î",1);
 				DirectionRibRecognition(AllFaces, SealFace_DirectionRib);
-				//uc1601("å¼€å§‹åˆ›å»ºä¸»è½´å›è½¬ç­‹",1);
+				//uc1601("¿ªÊ¼´´½¨Ö÷Öá»Ø×ª½î",1);
 				CreateDirectionRibFeature(SealFace_DirectionRib, Feature_DirectionRib);
 				/*if (Feature_DirectionRib.size()>0)
 				{
-				uc1601("è¯†åˆ«åˆ°äº†å›è½¬è½´ç­‹",1);
+				uc1601("Ê¶±ğµ½ÁË»Ø×ªÖá½î",1);
 				}
 				else
 				{
-				uc1601("æ²¡æœ‰è¯†åˆ«åˆ°å›è½¬è½´ç­‹",1);
+				uc1601("Ã»ÓĞÊ¶±ğµ½»Ø×ªÖá½î",1);
 
 				}*/
 
-				////æ›²é¢ç­‹
+				////ÇúÃæ½î
 
-				/*uc1601("å¼€å§‹è¯†åˆ«æ— çº¦æŸç­‹",1);
+				/*uc1601("¿ªÊ¼Ê¶±ğÎŞÔ¼Êø½î",1);
 				BossLimitRibRecogition(AllFaces,SealFace_HookFaceRib);
-				uc1601("å¼€å§‹åˆ›å»ºæ— çº¦æŸç­‹ç‰¹å¾",1);
+				uc1601("¿ªÊ¼´´½¨ÎŞÔ¼Êø½îÌØÕ÷",1);
 				CreateHookFaceRibFeature(SealFace_HookFaceRib,Feature_HookFaceRib,_Approach_Normal);
 				if (Feature_HookFaceRib.size()>0)
 				{
-				uc1601("è¯†åˆ«åˆ°äº†æ›²é¢ç­‹",1);
+				uc1601("Ê¶±ğµ½ÁËÇúÃæ½î",1);
 				}
 				else
 				{
-				uc1601("æ²¡æœ‰è¯†åˆ«åˆ°æ›²é¢ç­‹",1);
+				uc1601("Ã»ÓĞÊ¶±ğµ½ÇúÃæ½î",1);
 
 				}*/
 			}
-			else if (strEnum1 == "è½®å»“ç±»ç‰¹å¾")
+			else if (strEnum1 == "ÂÖÀªÀàÌØÕ÷")
 			{
-				/*uc1601("è½®å»“", 1);*/
+				/*uc1601("ÂÖÀª", 1);*/
 				SeelFaces_OutlineVector.clear();
 				Feature_OutlineVector.clear();
 				OutlineRrecognition(AllFaces, Begin_Face, BottomPlaneFace, TopPlaneFace, SeelFaces_OutlineVector, SeelFaces_OutlineVector1);
 				CreateOutlineFeature(Begin_Face, SeelFaces_OutlineVector, SeelFaces_OutlineVector1, Feature_OutlineVector, Feature_OutlineVector1);
 			}
 
-			//è¾“å‡ºè¯†åˆ«ç»“æœåˆ°æ ‘åˆ—è¡¨
+			//Êä³öÊ¶±ğ½á¹ûµ½Ê÷ÁĞ±í
 			FeatureSpyResultDisplay();
 
-			//å‡†å¤‡è‡ªåŠ¨è¾“å‡ºä¸€æ¬¡XML
+			//×¼±¸×Ô¶¯Êä³öÒ»´ÎXML
 			_xml = new xml();
 			_xml->initial(Feature_CircularGroove0, Feature_CircularGroove1, Feature_SubsidenceGroove,
 				Feature_PlanerBlindGroove, Feature_PassGroove,
@@ -875,57 +875,57 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 			//fxy20240407_add
 
-			if (strEnum1 == "å‡¸å°ç±»ç‰¹å¾")
+			if (strEnum1 == "Í¹Ì¨ÀàÌØÕ÷")
 			{
-				//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+				//¿ªÊ¼×Ô¶¯Êä³öXML
 				NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + "boss.xml";
 				_xml->CreateXml_for_CAM(pDocument);
 				_xml->SaveXML(pDocument, namefile);
 
 			}
 
-			else if (strEnum1 == "æ§½ç±»ç‰¹å¾")
+			else if (strEnum1 == "²ÛÀàÌØÕ÷")
 			{
-				//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+				//¿ªÊ¼×Ô¶¯Êä³öXML
 				NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + "groove.xml";
 				_xml->CreateXml_for_CAM(pDocument);
 				_xml->SaveXML(pDocument, namefile);
 
 			}
 
-			else if (strEnum1 == "å­”ç±»ç‰¹å¾")
+			else if (strEnum1 == "¿×ÀàÌØÕ÷")
 			{
-				//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+				//¿ªÊ¼×Ô¶¯Êä³öXML
 				NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + "hole.xml";
 				_xml->CreateXml_for_CAM(pDocument);
 				_xml->SaveXML(pDocument, namefile);
 
 			}
 
-			else if (strEnum1 == "ç­‹ç±»ç‰¹å¾")
+			else if (strEnum1 == "½îÀàÌØÕ÷")
 			{
-				//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+				//¿ªÊ¼×Ô¶¯Êä³öXML
 				NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + "rib.xml";
 				_xml->CreateXml_for_CAM(pDocument);
 				_xml->SaveXML(pDocument, namefile);
 
 			}
 
-			else if (strEnum1 == "è½®å»“ç±»ç‰¹å¾")
+			else if (strEnum1 == "ÂÖÀªÀàÌØÕ÷")
 			{
-				//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+				//¿ªÊ¼×Ô¶¯Êä³öXML
 				NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + "rough.xml";
 				_xml->CreateXml_for_CAM(pDocument);
 				_xml->SaveXML(pDocument, namefile);
 			}
 
-			//å¼€å§‹è‡ªåŠ¨è¾“å‡ºXML
+			//¿ªÊ¼×Ô¶¯Êä³öXML
 			/*NXString namefile = SelectionPathNXString + "\\" + PartNameNXString + ".xml";
 			_xml->CreateXml_for_CAM(pDocument);
 			_xml->SaveXML(pDocument, namefile);*/
 			/*char message[13];
 			sprintf( message, "%d\n",EachBossSpyResult->TopFaceVector.size());
-			UF_UI_write_listing_window("å‡¸å°é¡¶é¢ä¸ªæ•°:");
+			UF_UI_write_listing_window("Í¹Ì¨¶¥Ãæ¸öÊı:");
 			UF_UI_write_listing_window(message);*/
         }
         else if(block == list_box0)
@@ -960,9 +960,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 
 			SetAllFeatureColor(DefaultColor);
-			if (strEnum1 == "å‡¸å°ç±»ç‰¹å¾")
+			if (strEnum1 == "Í¹Ì¨ÀàÌØÕ÷")
 			{
-				/*uc1601("ä¿®æ”¹å®Œæˆ", 1);*/
+				/*uc1601("ĞŞ¸ÄÍê³É", 1);*/
 
 
 				if (Feature_NormalBoss.size() > 0 && selectNumber <= Feature_NormalBoss.size())
@@ -997,9 +997,9 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 
 
-			else if (strEnum1 == "æ§½ç±»ç‰¹å¾")
+			else if (strEnum1 == "²ÛÀàÌØÕ÷")
 			{
-				/*uc1601("æ§½ç±»ä¿®æ”¹å®Œæˆ", 1);*/
+				/*uc1601("²ÛÀàĞŞ¸ÄÍê³É", 1);*/
 
 				/*char message[13];
 				sprintf(message, "%d\n", Feature_CircularGroove0[selectNumber - 1]->ifselected);
@@ -1057,14 +1057,14 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 
 			}
-			//else if (strEnum1 == "å­”ç±»ç‰¹å¾")
+			//else if (strEnum1 == "¿×ÀàÌØÕ÷")
 			//{
-			//	/*uc1601("è¯¥ç‰¹å¾ä¸æ”¯æŒä¿®æ”¹", 1);*/
+			//	/*uc1601("¸ÃÌØÕ÷²»Ö§³ÖĞŞ¸Ä", 1);*/
 
 			//}
-			else if (strEnum1 == "ç­‹ç±»ç‰¹å¾")
+			else if (strEnum1 == "½îÀàÌØÕ÷")
 			{
-				/*uc1601("ä¿®æ”¹å®Œæˆ", 1);*/
+				/*uc1601("ĞŞ¸ÄÍê³É", 1);*/
 				if (Feature_DirectionRib.size() > 0 && selectNumber <= Feature_DirectionRib.size())
 				{
 					if (Feature_DirectionRib[selectNumber - 1]->ifselected == 1)
@@ -1100,7 +1100,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 			{
 				for (std::vector<Face*>::size_type j = 0; j != pTaggedObject_FaceList.size(); j++)
 				{
-					pSelectedFace3 = dynamic_cast<Face*>(pTaggedObject_FaceList[j]);//é€‰ä¸­è¯¥å¹³é¢
+					pSelectedFace3 = dynamic_cast<Face*>(pTaggedObject_FaceList[j]);//Ñ¡ÖĞ¸ÃÆ½Ãæ
 
 					//Face* EachOutlineTopFace = EachDirectionRibSpyResult->TopFaceVector[j];
 					//UF_OBJ_set_color(EachOutlineTopFace->Tag(), Color);//
@@ -1126,11 +1126,11 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 			strcpy_s(crstring1, 133, nxStrEnum1.GetLocaleText());
 			strEnum1 = crstring1;
 
-			if (strEnum1 == "å‡¸å°ç±»ç‰¹å¾")
+			if (strEnum1 == "Í¹Ì¨ÀàÌØÕ÷")
 			{
-				NXString NoSideBossNXStringdot = "æ— ä¾§é¢å‡¸å°.";
-				NXString NormalBossNXStringdot = "å«ä¾§é¢å‡¸å°.";
-				NXString DoubleLayerBossNXStringdot = "å¤šå±‚å‡¸å°.";
+				NXString NoSideBossNXStringdot = "ÎŞ²àÃæÍ¹Ì¨.";
+				NXString NormalBossNXStringdot = "º¬²àÃæÍ¹Ì¨.";
+				NXString DoubleLayerBossNXStringdot = "¶à²ãÍ¹Ì¨.";
 
 				//char message[13];
 				//UF_UI_open_listing_window();
@@ -1144,7 +1144,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_NormalBoss[i]->TopFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1182,13 +1182,13 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 
 
 			}
-			else if (strEnum1 == "æ§½ç±»ç‰¹å¾")
+			else if (strEnum1 == "²ÛÀàÌØÕ÷")
 			{
-				NXString CircularGroove0NXStringdot = "å†…ä¾§ç¯å½¢æ§½.";
-				NXString CircularGroove1NXStringdot = "å¤–ä¾§ç¯å½¢æ§½.";
-				NXString SubsidenceGrooveNXStringdot = "ä¸‹é™·æ§½.";
-				NXString PlanerBlindGrooveNXStringdot = "å¹³é¢æµ…æ§½.";
-				NXString PassGrooveNXStringdot = "é€šæ§½.";
+				NXString CircularGroove0NXStringdot = "ÄÚ²à»·ĞÎ²Û.";
+				NXString CircularGroove1NXStringdot = "Íâ²à»·ĞÎ²Û.";
+				NXString SubsidenceGrooveNXStringdot = "ÏÂÏİ²Û.";
+				NXString PlanerBlindGrooveNXStringdot = "Æ½ÃæÇ³²Û.";
+				NXString PassGrooveNXStringdot = "Í¨²Û.";
 
 				for (std::vector<CircularGroove*>::size_type i = 0; i != Feature_CircularGroove0.size(); i++)
 				{
@@ -1197,7 +1197,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_CircularGroove0[i]->TopFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1215,7 +1215,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_CircularGroove1[i]->TopFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1233,7 +1233,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_SubsidenceGroove[i]->TopFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1251,7 +1251,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_PlanerBlindGroove[i]->BottomFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1269,7 +1269,7 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 						Face* EachBossBottomFace = Feature_PassGroove[i]->TopFaceVector[j];
 						if (EachBossBottomFace->Tag() == pSelectedFace3->Tag())
 						{
-							/*uc1601("è¿›å…¥å«ä¾§é¢å‡¸å°", 1);
+							/*uc1601("½øÈëº¬²àÃæÍ¹Ì¨", 1);
 							sprintf(message, "%d\n", EachBossBottomFace->Tag());
 							UF_UI_write_listing_window(message);*/
 							/*std::vector<Face*>::iterator iter = Feature_NoSideBoss[i]->TopFaceVector.begin();
@@ -1281,16 +1281,16 @@ int FeatureSpy::update_cb(NXOpen::BlockStyler::UIBlock* block)
 				}
 
 			}
-			//else if (strEnum1 == "å­”ç±»ç‰¹å¾")
+			//else if (strEnum1 == "¿×ÀàÌØÕ÷")
 			//{
-			//	/*uc1601("è¯·æ‰‹åŠ¨ä¿®æ”¹å­”ç±»ç‰¹å¾", 1);*/
+			//	/*uc1601("ÇëÊÖ¶¯ĞŞ¸Ä¿×ÀàÌØÕ÷", 1);*/
 
 			//}
-			else if (strEnum1 == "ç­‹ç±»ç‰¹å¾")
+			else if (strEnum1 == "½îÀàÌØÕ÷")
 			{
 
-				NXString DirectionRibNXStringdot = "ä¸»è½´è§„åˆ™å›è½¬ç­‹.";
-				NXString HookFaceRibNXStringdot = "æ›²é¢æ§½ç­‹.";
+				NXString DirectionRibNXStringdot = "Ö÷Öá¹æÔò»Ø×ª½î.";
+				NXString HookFaceRibNXStringdot = "ÇúÃæ²Û½î.";
 
 				for (std::vector<DirectionRib*>::size_type i = 0; i != Feature_DirectionRib.size(); i++)
 				{
@@ -1377,13 +1377,13 @@ PropertyList* FeatureSpy::GetBlockProperties(const char *blockID)
 
 
 
-//ä»¥ä¸Šä¸ºblockUIå‡½æ•°-------------------------------------------------------------------------------------
+//ÒÔÉÏÎªblockUIº¯Êı-------------------------------------------------------------------------------------
 
 
 
 
 
-//ä»¥ä¸‹ä¸ºè‡ªå®šä¹‰å‡½æ•°----------------------------------------------------------------------------------------
+//ÒÔÏÂÎª×Ô¶¨Òåº¯Êı----------------------------------------------------------------------------------------
 void FeatureSpy::FeatureSearchResultDisplay(NXString Selecttype, std::vector<NormalBoss*>::size_type index)
 {
 	PropertyList* list_box01Properties = list_box01->GetProperties();
@@ -1428,52 +1428,52 @@ void FeatureSpy::FeatureSpyResultDisplay()
 
 	/*char message[13];
 	sprintf( message, "%d\n",BossSpyResult.size());
-	UF_UI_write_listing_window("BossSpyResultä¸­å‘é‡æ•°:");
+	UF_UI_write_listing_window("BossSpyResultÖĞÏòÁ¿Êı:");
 	UF_UI_write_listing_window(message);*/
 
-	NXString FeatureSpyResultTitleString = "+ ç‰¹å¾è¯†åˆ«ç»“æœ";
+	NXString FeatureSpyResultTitleString = "+ ÌØÕ÷Ê¶±ğ½á¹û";
 	FeatureSpyResultDisplayStringTitle.push_back(FeatureSpyResultTitleString);
 
-	NXString FeatureSpyResultListString = "- ç‰¹å¾è¯†åˆ«ç»“æœ";
+	NXString FeatureSpyResultListString = "- ÌØÕ÷Ê¶±ğ½á¹û";
 	FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultListString);
 
 	/*if (AnnulusCavitySpyResult.size() > 0)
 	{
-	NXString FeatureSpyResultDisplayString =  "+ ç¯å½¢æ§½" ;
+	NXString FeatureSpyResultDisplayString =  "+ »·ĞÎ²Û" ;
 	FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}
 
 	if (SubsidenceCavitySpyResult.size() > 0)
 	{
-	NXString FeatureSpyResultDisplayString =  "+ ä¸‹é™·æ§½" ;
+	NXString FeatureSpyResultDisplayString =  "+ ÏÂÏİ²Û" ;
 	FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}
 
 	if (ArcCavitySpyResult.size() > 0)
 	{
-	NXString FeatureSpyResultDisplayString =  "+ å¼§å½¢æ§½" ;
+	NXString FeatureSpyResultDisplayString =  "+ »¡ĞÎ²Û" ;
 	FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}*/
 	/*Feature_NormalBoss,Feature_NoSideBoss,Feature_DoubleLayerBoss*/
 	if (Feature_NormalBoss.size()>0 || Feature_NoSideBoss.size()>0 || Feature_DoubleLayerBoss.size()>0)
 	{
-		NXString FeatureSpyResultDisplayString = "+ å‡¸å°: ";//å‡¸å°åæœ‰ç©ºæ ¼
+		NXString FeatureSpyResultDisplayString = "+ Í¹Ì¨: ";//Í¹Ì¨ºóÓĞ¿Õ¸ñ
 
 		FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}
 
 	/*if (RibSpyResult.size() > 0)
 	{
-	NXString FeatureSpyResultDisplayString =  "+ ç­‹" ;
+	NXString FeatureSpyResultDisplayString =  "+ ½î" ;
 	FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}*/
 
-	//std::vector<DirectionNromalHole*>Feature_DirectionNromalHole;//æ™®é€šé€šå­”
-	//std::vector<DirectionRightHole*>Feature_DirectionRightHole;//å€’æ–œè§’é€šå­”
-	//std::vector<DirectionBlindHole *>Feature_DirectionBlindHole;//ç›²å­”
-	//std::vector<WallNormalHole*>Feature_WallNormalHole;//å£é¢é€šå­”
-	//std::vector<WallCircleCombineHole*>Feature_WallCircleCombineHole;//å£é¢å€’æ–œè§’å¤åˆé€šå­”
-	//std::vector<RibCombineHole *>Feature_RibCombineHole;//ç­‹é¢å¤åˆå­”
+	//std::vector<DirectionNromalHole*>Feature_DirectionNromalHole;//ÆÕÍ¨Í¨¿×
+	//std::vector<DirectionRightHole*>Feature_DirectionRightHole;//µ¹Ğ±½ÇÍ¨¿×
+	//std::vector<DirectionBlindHole *>Feature_DirectionBlindHole;//Ã¤¿×
+	//std::vector<WallNormalHole*>Feature_WallNormalHole;//±ÚÃæÍ¨¿×
+	//std::vector<WallCircleCombineHole*>Feature_WallCircleCombineHole;//±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×
+	//std::vector<RibCombineHole *>Feature_RibCombineHole;//½îÃæ¸´ºÏ¿×
 	//std::vector<BossNormalHole*>Feature_BossNormalHole;
 	//std::vector<BossOneRightHole*>Feature_BossOneRightHole;
 	//std::vector<BossOneCircleHole*>Feature_BossOneCircleHole;
@@ -1507,7 +1507,7 @@ void FeatureSpy::FeatureSpyResultDisplay()
 		Feature_BossNormalBlindHole.size() > 0 || Feature_BossRightBlindHole.size() > 0 || Feature_otherHole1.size()>0
 		|| Feature_otherHole2.size()>0 || Feature_otherHole3.size()>0)
 	{
-		NXString FeatureSpyResultDisplayString = "+ å­”: ";
+		NXString FeatureSpyResultDisplayString = "+ ¿×: ";
 
 		FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}
@@ -1515,27 +1515,27 @@ void FeatureSpy::FeatureSpyResultDisplay()
 	if (Feature_CircularGroove0.size()>0 || Feature_CircularGroove1.size()>0 || Feature_SubsidenceGroove.size()>0 ||
 		Feature_PassGroove.size()>0 || Feature_PlanerBlindGroove.size()>0)
 	{
-		NXString FeatureSpyResultDisplayString = "+ æ§½: ";//æ§½åæœ‰ç©ºæ ¼
+		NXString FeatureSpyResultDisplayString = "+ ²Û: ";//²ÛºóÓĞ¿Õ¸ñ
 
 		FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
 	}
 
-	//----------------------ç­‹ç‰¹å¾-----------20230208-mql
+	//----------------------½îÌØÕ÷-----------20230208-mql
 	if (Feature_NoLimitRib.size()>0 || Feature_BossLimitRib.size()>0 || Feature_SideLimitRib.size()>0 || Feature_DirectionRib.size()>0 || Feature_HookFaceRib.size()>0)
 	{
-		NXString FeatureSpyResultDisplayString = "+ ç­‹: ";//ç­‹åé¢æœ‰ç©ºæ ¼
+		NXString FeatureSpyResultDisplayString = "+ ½î: ";//½îºóÃæÓĞ¿Õ¸ñ
 
 		FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
-		//uc1601("è¿™ä¸ªé›¶ä»¶æœ‰è½®å»“ç‰¹å¾çš„å“Ÿ",1);
+		//uc1601("Õâ¸öÁã¼şÓĞÂÖÀªÌØÕ÷µÄÓ´",1);
 	}
 
-	//----------------------è½®å»“ç‰¹å¾----------20230203-mql
+	//----------------------ÂÖÀªÌØÕ÷----------20230203-mql
 
 	if (Feature_OutlineVector.size()>0 || Feature_OutlineVector1.size()>0)
 	{
-		NXString FeatureSpyResultDisplayString = "+ è½®å»“: ";//è½®å»“åé¢æœ‰ç©ºæ ¼
+		NXString FeatureSpyResultDisplayString = "+ ÂÖÀª: ";//ÂÖÀªºóÃæÓĞ¿Õ¸ñ
 		FeatureSpyResultDisplayStringList.push_back(FeatureSpyResultDisplayString);
-		//uc1601("è¿™ä¸ªé›¶ä»¶æœ‰è½®å»“ç‰¹å¾çš„å“Ÿ",1);
+		//uc1601("Õâ¸öÁã¼şÓĞÂÖÀªÌØÕ÷µÄÓ´",1);
 	}
 
 
@@ -1545,7 +1545,7 @@ void FeatureSpy::FeatureSpyResultDisplay()
 	delete ExpressionListProperties;
 }
 
-void FeatureSpy::GetSelectedIndexAndFeatureName(int &Index, NXString &FeaName)//å¾—åˆ°é€‰ä¸­çš„ç´¢å¼•å’Œè¯¥ç´¢å¼•ä¸‹çš„å­—ç¬¦ä¸²
+void FeatureSpy::GetSelectedIndexAndFeatureName(int &Index, NXString &FeaName)//µÃµ½Ñ¡ÖĞµÄË÷ÒıºÍ¸ÃË÷ÒıÏÂµÄ×Ö·û´®
 {
 	Index = -1;
 
@@ -1565,246 +1565,246 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 	/*char message[13];
 	sprintf( message, "%d\n",listStrings);
-	UF_UI_write_listing_window("è¯»å–åˆ°:");
+	UF_UI_write_listing_window("¶ÁÈ¡µ½:");
 	UF_UI_write_listing_window(message);*/
 
 	std::string FeatureNameString(FeatureName.GetUTF8Text());
-	NXString TitleNXString = "ç‰¹å¾è¯†åˆ«ç»“æœ";
+	NXString TitleNXString = "ÌØÕ÷Ê¶±ğ½á¹û";
 	std::string TitleString(TitleNXString.GetUTF8Text());
 
-	NXString AnnulusCavityNXString = "ç¯å½¢æ§½";
+	NXString AnnulusCavityNXString = "»·ĞÎ²Û";
 	std::string AnnulusCavityString(AnnulusCavityNXString.GetUTF8Text());
 
-	NXString SubsidenceCavityNXString = "ä¸‹é™·æ§½";
+	NXString SubsidenceCavityNXString = "ÏÂÏİ²Û";
 	std::string SubsidenceCavityString(SubsidenceCavityNXString.GetUTF8Text());
 
-	NXString ArcCavityNXString = "å¼§å½¢æ§½";
+	NXString ArcCavityNXString = "»¡ĞÎ²Û";
 	std::string ArcCavityString(ArcCavityNXString.GetUTF8Text());
 
-	NXString BossNXString = "å‡¸å°: ";//å‡¸å°åæœ‰ç©ºæ ¼
+	NXString BossNXString = "Í¹Ì¨: ";//Í¹Ì¨ºóÓĞ¿Õ¸ñ
 	std::string BossString(BossNXString.GetUTF8Text());
-	//---------------å‡¸å°çš„ä¸‰ä¸ªå­ç‰¹å¾-----------------------------
+	//---------------Í¹Ì¨µÄÈı¸ö×ÓÌØÕ÷-----------------------------
 
-	NXString NoSideBossNXString = "æ— ä¾§é¢å‡¸å°ç±»";//å­åˆ†ç±»
+	NXString NoSideBossNXString = "ÎŞ²àÃæÍ¹Ì¨Àà";//×Ó·ÖÀà
 	std::string NoSideBossString(NoSideBossNXString.GetUTF8Text());
 
-	NXString NormalBossNXString = "å«ä¾§é¢å‡¸å°ç±»";
+	NXString NormalBossNXString = "º¬²àÃæÍ¹Ì¨Àà";
 	std::string NormalBossString(NormalBossNXString.GetUTF8Text());
 
-	NXString DoubleLayerBossNXString = "å¤šå±‚å‡¸å°ç±»";
+	NXString DoubleLayerBossNXString = "¶à²ãÍ¹Ì¨Àà";
 	std::string DoubleLayerBossString(DoubleLayerBossNXString.GetUTF8Text());
 
-	NXString NoSideBossNXStringdot = "æ— ä¾§é¢å‡¸å°.";//å­åˆ†ç±»
+	NXString NoSideBossNXStringdot = "ÎŞ²àÃæÍ¹Ì¨.";//×Ó·ÖÀà
 	std::string NoSideBossStringdot(NoSideBossNXStringdot.GetUTF8Text());
 
-	NXString NormalBossNXStringdot = "å«ä¾§é¢å‡¸å°.";
+	NXString NormalBossNXStringdot = "º¬²àÃæÍ¹Ì¨.";
 	std::string NormalBossStringdot(NormalBossNXStringdot.GetUTF8Text());
 
-	NXString DoubleLayerBossNXStringdot = "å¤šå±‚å‡¸å°.";
+	NXString DoubleLayerBossNXStringdot = "¶à²ãÍ¹Ì¨.";
 	std::string DoubleLayerBossStringdot(DoubleLayerBossNXStringdot.GetUTF8Text());
-	//----------------å­”çš„æ‰€æœ‰å­ç‰¹å¾-----------------------------
+	//----------------¿×µÄËùÓĞ×ÓÌØÕ÷-----------------------------
 
-	NXString HoleNXString = "å­”: ";//å­”åæœ‰ç©ºæ ¼
+	NXString HoleNXString = "¿×: ";//¿×ºóÓĞ¿Õ¸ñ
 	std::string HoleString(HoleNXString.GetUTF8Text());
 
-	NXString other1HoleNXString = "å…¶å®ƒå­”ç±»ä¸€";//å­åˆ†ç±»
+	NXString other1HoleNXString = "ÆäËü¿×ÀàÒ»";//×Ó·ÖÀà
 	std::string other1HoleString(other1HoleNXString.GetUTF8Text());
 
-	NXString other2HoleNXString = "å…¶å®ƒå­”ç±»äºŒ";//å­åˆ†ç±»
+	NXString other2HoleNXString = "ÆäËü¿×Àà¶ş";//×Ó·ÖÀà
 	std::string other2HoleString(other2HoleNXString.GetUTF8Text());
 
-	NXString other3HoleNXString = "å…¶å®ƒå­”ç±»ä¸‰";//å­åˆ†ç±»
+	NXString other3HoleNXString = "ÆäËü¿×ÀàÈı";//×Ó·ÖÀà
 	std::string other3HoleString(other3HoleNXString.GetUTF8Text());
 
-	NXString DirectionNormalHoleNXString = "è½´å‘æ™®é€šå­”ç±»";//å­åˆ†ç±»
+	NXString DirectionNormalHoleNXString = "ÖáÏòÆÕÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string DirectionNormalHoleString(DirectionNormalHoleNXString.GetUTF8Text());
 
-	NXString DirectionRightHoleNXString = "è½´å‘å•ä¾§æ–œè§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString DirectionRightHoleNXString = "ÖáÏòµ¥²àĞ±½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string DirectionRightHoleString(DirectionRightHoleNXString.GetUTF8Text());
 
-	NXString DirectionBlindHoleNXString = "è½´å‘æ— å€’è§’ç›²å­”ç±»";//å­åˆ†ç±»
+	NXString DirectionBlindHoleNXString = "ÖáÏòÎŞµ¹½ÇÃ¤¿×Àà";//×Ó·ÖÀà
 	std::string DirectionBlindHoleString(DirectionBlindHoleNXString.GetUTF8Text());
 
-	NXString WallNormalHoleNXString = "å£é¢é€šå­”ç±»";//å­åˆ†ç±»
+	NXString WallNormalHoleNXString = "±ÚÃæÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string WallNormalHoleString(WallNormalHoleNXString.GetUTF8Text());
 
-	NXString WallCircleCombineHoleNXString = "å£é¢å€’æ–œè§’å¤åˆé€šå­”ç±»";//å­åˆ†ç±»
+	NXString WallCircleCombineHoleNXString = "±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string WallCircleCombineHoleString(WallCircleCombineHoleNXString.GetUTF8Text());
 
-	NXString RibCombineHoleNXString = "ç­‹é¢å¤åˆå­”ç±»";//å­åˆ†ç±»
+	NXString RibCombineHoleNXString = "½îÃæ¸´ºÏ¿×Àà";//×Ó·ÖÀà
 	std::string RibCombineHoleString(RibCombineHoleNXString.GetUTF8Text());
 
-	NXString BossNormalHoleNXString = "å‡¸å°é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossNormalHoleNXString = "Í¹Ì¨Í¨¿×Àà";//×Ó·ÖÀà
 	std::string BossNormalHoleString(BossNormalHoleNXString.GetUTF8Text());
 
-	NXString BossOneRightHoleNXString = "å‡¸å°å•ä¾§æ–œè§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossOneRightHoleNXString = "Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossOneRightHoleString(BossOneRightHoleNXString.GetUTF8Text());
 
-	NXString BossOneCircleHoleNXString = "å‡¸å°å•ä¾§åœ†è§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossOneCircleHoleNXString = "Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossOneCircleHoleString(BossOneCircleHoleNXString.GetUTF8Text());
 
-	NXString BossDoubleRightHoleNXString = "å‡¸å°åŒä¾§æ–œè§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossDoubleRightHoleNXString = "Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossDoubleRightHoleString(BossDoubleRightHoleNXString.GetUTF8Text());
 
-	NXString BossDoubleCircleHoleNXString = "å‡¸å°åŒä¾§åœ†è§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossDoubleCircleHoleNXString = "Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossDoubleCircleHoleString(BossDoubleCircleHoleNXString.GetUTF8Text());
 
-	NXString BossOneRightOneCircleHoleNXString = "å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossOneRightOneCircleHoleNXString = "Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossOneRightOneCircleHoleString(BossOneRightOneCircleHoleNXString.GetUTF8Text());
 
-	NXString BossManyLayerHoleNXString = "å‡¸å°å¤šå±‚é€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossManyLayerHoleNXString = "Í¹Ì¨¶à²ãÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossManyLayerHoleString(BossManyLayerHoleNXString.GetUTF8Text());
 
-	NXString BossOutsideWideCombineHoleNXString = "å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossOutsideWideCombineHoleNXString = "Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossOutsideWideCombineHoleString(BossOutsideWideCombineHoleNXString.GetUTF8Text());
 
-	NXString BossInsideWideCombineHoleNXString = "å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossInsideWideCombineHoleNXString = "Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossInsideWideCombineHoleString(BossInsideWideCombineHoleNXString.GetUTF8Text());
 
-	NXString BossMidCricleCombineHoleNXString = "å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”ç±»";//å­åˆ†ç±»
+	NXString BossMidCricleCombineHoleNXString = "Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×Àà";//×Ó·ÖÀà
 	std::string BossMidCricleCombineHoleString(BossMidCricleCombineHoleNXString.GetUTF8Text());
 
-	NXString BossNormalBlindHoleNXString = "å‡¸å°æ— å€’è§’ç›²å­”ç±»";//å­åˆ†ç±»
+	NXString BossNormalBlindHoleNXString = "Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×Àà";//×Ó·ÖÀà
 	std::string BossNormalBlindHoleString(BossNormalBlindHoleNXString.GetUTF8Text());
 
-	NXString BossRightBlindHoleNXString = "å‡¸å°å€’æ–œè§’ç›²å­”ç±»";//å­åˆ†ç±»
+	NXString BossRightBlindHoleNXString = "Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×Àà";//×Ó·ÖÀà
 	std::string BossRightBlindHoleString(BossRightBlindHoleNXString.GetUTF8Text());
 	//---------------------dot---------------------------
-	NXString DirectionNormalHoleNXStringdot = "è½´å‘æ™®é€šå­”.";//å­åˆ†ç±»
+	NXString DirectionNormalHoleNXStringdot = "ÖáÏòÆÕÍ¨¿×.";//×Ó·ÖÀà
 	std::string DirectionNormalHoleStringdot(DirectionNormalHoleNXStringdot.GetUTF8Text());
 
-	NXString DirectionRightHoleNXStringdot = "è½´å‘å•ä¾§æ–œè§’é€šå­”.";//å­åˆ†ç±»
+	NXString DirectionRightHoleNXStringdot = "ÖáÏòµ¥²àĞ±½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string DirectionRightHoleStringdot(DirectionRightHoleNXStringdot.GetUTF8Text());
 
-	NXString DirectionBlindHoleNXStringdot = "è½´å‘æ— å€’è§’ç›²å­”.";//å­åˆ†ç±»
+	NXString DirectionBlindHoleNXStringdot = "ÖáÏòÎŞµ¹½ÇÃ¤¿×.";//×Ó·ÖÀà
 	std::string DirectionBlindHoleStringdot(DirectionBlindHoleNXStringdot.GetUTF8Text());
 
-	NXString WallNormalHoleNXStringdot = "å£é¢é€šå­”.";//å­åˆ†ç±»
+	NXString WallNormalHoleNXStringdot = "±ÚÃæÍ¨¿×.";//×Ó·ÖÀà
 	std::string WallNormalHoleStringdot(WallNormalHoleNXStringdot.GetUTF8Text());
 
-	NXString WallCircleCombineHoleNXStringdot = "å£é¢å€’æ–œè§’å¤åˆé€šå­”.";//å­åˆ†ç±»
+	NXString WallCircleCombineHoleNXStringdot = "±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×.";//×Ó·ÖÀà
 	std::string WallCircleCombineHoleStringdot(WallCircleCombineHoleNXStringdot.GetUTF8Text());
 
-	NXString RibCombineHoleNXStringdot = "ç­‹é¢å¤åˆå­”.";//å­åˆ†ç±»
+	NXString RibCombineHoleNXStringdot = "½îÃæ¸´ºÏ¿×.";//×Ó·ÖÀà
 	std::string RibCombineHoleStringdot(RibCombineHoleNXStringdot.GetUTF8Text());
 
-	NXString BossNormalHoleNXStringdot = "å‡¸å°é€šå­”.";//å­åˆ†ç±»
+	NXString BossNormalHoleNXStringdot = "Í¹Ì¨Í¨¿×.";//×Ó·ÖÀà
 	std::string BossNormalHoleStringdot(BossNormalHoleNXStringdot.GetUTF8Text());
 
-	NXString BossOneRightHoleNXStringdot = "å‡¸å°å•ä¾§æ–œè§’é€šå­”.";//å­åˆ†ç±»
+	NXString BossOneRightHoleNXStringdot = "Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossOneRightHoleStringdot(BossOneRightHoleNXStringdot.GetUTF8Text());
 
-	NXString BossOneCircleHoleNXStringdot = "å‡¸å°å•ä¾§åœ†è§’é€šå­”.";//å­åˆ†ç±»
+	NXString BossOneCircleHoleNXStringdot = "Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossOneCircleHoleStringdot(BossOneCircleHoleNXStringdot.GetUTF8Text());
 
-	NXString BossDoubleRightHoleNXStringdot = "å‡¸å°åŒä¾§æ–œè§’é€šå­”.";//å­åˆ†ç±»
+	NXString BossDoubleRightHoleNXStringdot = "Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossDoubleRightHoleStringdot(BossDoubleRightHoleNXStringdot.GetUTF8Text());
 
-	NXString BossDoubleCircleHoleNXStringdot = "å‡¸å°åŒä¾§åœ†è§’é€šå­”.";//å­åˆ†ç±»
+	NXString BossDoubleCircleHoleNXStringdot = "Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossDoubleCircleHoleStringdot(BossDoubleCircleHoleNXStringdot.GetUTF8Text());
 
-	NXString BossOneRightOneCircleHoleNXStringdot = "å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”.";//å­åˆ†ç±»
+	NXString BossOneRightOneCircleHoleNXStringdot = "Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossOneRightOneCircleHoleStringdot(BossOneRightOneCircleHoleNXStringdot.GetUTF8Text());
 
-	NXString BossManyLayerHoleNXStringdot = "å‡¸å°å¤šå±‚é€šå­”.";//å­åˆ†ç±»
+	NXString BossManyLayerHoleNXStringdot = "Í¹Ì¨¶à²ãÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossManyLayerHoleStringdot(BossManyLayerHoleNXStringdot.GetUTF8Text());
 
-	NXString BossOutsideWideCombineHoleNXStringdot = "å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”.";//å­åˆ†ç±»
+	NXString BossOutsideWideCombineHoleNXStringdot = "Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossOutsideWideCombineHoleStringdot(BossOutsideWideCombineHoleNXStringdot.GetUTF8Text());
 
-	NXString BossInsideWideCombineHoleNXStringdot = "å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”.";//å­åˆ†ç±»
+	NXString BossInsideWideCombineHoleNXStringdot = "Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossInsideWideCombineHoleStringdot(BossInsideWideCombineHoleNXStringdot.GetUTF8Text());
 
-	NXString BossMidCricleCombineHoleNXStringdot = "å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”.";//å­åˆ†ç±»
+	NXString BossMidCricleCombineHoleNXStringdot = "Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×.";//×Ó·ÖÀà
 	std::string BossMidCricleCombineHoleStringdot(BossMidCricleCombineHoleNXStringdot.GetUTF8Text());
 
-	NXString BossNormalBlindHoleNXStringdot = "å‡¸å°æ— å€’è§’ç›²å­”.";//å­åˆ†ç±»
+	NXString BossNormalBlindHoleNXStringdot = "Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×.";//×Ó·ÖÀà
 	std::string BossNormalBlindHoleStringdot(BossNormalBlindHoleNXStringdot.GetUTF8Text());
 
-	NXString BossRightBlindHoleNXStringdot = "å‡¸å°å€’æ–œè§’ç›²å­”.";//å­åˆ†ç±»
+	NXString BossRightBlindHoleNXStringdot = "Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×.";//×Ó·ÖÀà
 	std::string BossRightBlindHoleStringdot(BossRightBlindHoleNXStringdot.GetUTF8Text());
 
-	NXString other1HoleNXStringdot = "å…¶å®ƒå­”ä¸€.";//å­åˆ†ç±»
+	NXString other1HoleNXStringdot = "ÆäËü¿×Ò».";//×Ó·ÖÀà
 	std::string other1HoleStringdot(other1HoleNXStringdot.GetUTF8Text());
 
-	NXString other2HoleNXStringdot = "å…¶å®ƒå­”äºŒ.";//å­åˆ†ç±»
+	NXString other2HoleNXStringdot = "ÆäËü¿×¶ş.";//×Ó·ÖÀà
 	std::string other2HoleStringdot(other2HoleNXStringdot.GetUTF8Text());
 
-	NXString other3HoleNXStringdot = "å…¶å®ƒå­”ä¸‰.";//å­åˆ†ç±»
+	NXString other3HoleNXStringdot = "ÆäËü¿×Èı.";//×Ó·ÖÀà
 	std::string other3HoleStringdot(other3HoleNXStringdot.GetUTF8Text());
 
-	//----------------æ§½çš„æ‰€æœ‰å­ç‰¹å¾-----------------------------
-	NXString GrooveNXString = "æ§½: ";//å­”åæœ‰ç©ºæ ¼
+	//----------------²ÛµÄËùÓĞ×ÓÌØÕ÷-----------------------------
+	NXString GrooveNXString = "²Û: ";//¿×ºóÓĞ¿Õ¸ñ
 	std::string GrooveString(GrooveNXString.GetUTF8Text());
 
-	NXString CircularGroove0NXString = "å†…ä¾§ç¯å½¢æ§½ç±»";
+	NXString CircularGroove0NXString = "ÄÚ²à»·ĞÎ²ÛÀà";
 	std::string CircularGroove0String(CircularGroove0NXString.GetUTF8Text());
 
-	NXString CircularGroove1NXString = "å¤–ä¾§ç¯å½¢æ§½ç±»";
+	NXString CircularGroove1NXString = "Íâ²à»·ĞÎ²ÛÀà";
 	std::string CircularGroove1String(CircularGroove1NXString.GetUTF8Text());
 
-	NXString SubsidenceGrooveNXString = "ä¸‹é™·æ§½ç±»";
+	NXString SubsidenceGrooveNXString = "ÏÂÏİ²ÛÀà";
 	std::string SubsidenceGrooveString(SubsidenceGrooveNXString.GetUTF8Text());
 
-	NXString PlanerBlindGrooveNXString = "å¹³é¢æµ…æ§½ç±»";
+	NXString PlanerBlindGrooveNXString = "Æ½ÃæÇ³²ÛÀà";
 	std::string PlanerBlindGrooveString(PlanerBlindGrooveNXString.GetUTF8Text());
 
-	NXString PassGrooveNXString = "é€šæ§½ç±»";
+	NXString PassGrooveNXString = "Í¨²ÛÀà";
 	std::string PassGrooveString(PassGrooveNXString.GetUTF8Text());
 	//----------------dot----------------------------------------
-	NXString CircularGroove0NXStringdot = "å†…ä¾§ç¯å½¢æ§½.";
+	NXString CircularGroove0NXStringdot = "ÄÚ²à»·ĞÎ²Û.";
 	std::string CircularGroove0Stringdot(CircularGroove0NXStringdot.GetUTF8Text());
 
-	NXString CircularGroove1NXStringdot = "å¤–ä¾§ç¯å½¢æ§½.";
+	NXString CircularGroove1NXStringdot = "Íâ²à»·ĞÎ²Û.";
 	std::string CircularGroove1Stringdot(CircularGroove1NXStringdot.GetUTF8Text());
 
-	NXString SubsidenceGrooveNXStringdot = "ä¸‹é™·æ§½.";
+	NXString SubsidenceGrooveNXStringdot = "ÏÂÏİ²Û.";
 	std::string SubsidenceGrooveStringdot(SubsidenceGrooveNXStringdot.GetUTF8Text());
 
-	NXString PlanerBlindGrooveNXStringdot = "å¹³é¢æµ…æ§½.";
+	NXString PlanerBlindGrooveNXStringdot = "Æ½ÃæÇ³²Û.";
 	std::string PlanerBlindGrooveStringdot(PlanerBlindGrooveNXStringdot.GetUTF8Text());
 
-	NXString PassGrooveNXStringdot = "é€šæ§½.";
+	NXString PassGrooveNXStringdot = "Í¨²Û.";
 	std::string PassGrooveStringdot(PassGrooveNXStringdot.GetUTF8Text());
 
-	//ç­‹ç‰¹å¾20230209-mql----------------------
-	NXString RibNXString = "ç­‹: ";//ç‰¹å¾åæœ‰ç©ºæ ¼
+	//½îÌØÕ÷20230209-mql----------------------
+	NXString RibNXString = "½î: ";//ÌØÕ÷ºóÓĞ¿Õ¸ñ
 	std::string RibString(RibNXString.GetUTF8Text());
 
-	NXString DirectionRibNXString = "ä¸»è½´è§„åˆ™å›è½¬ç­‹ç±»";
+	NXString DirectionRibNXString = "Ö÷Öá¹æÔò»Ø×ª½îÀà";
 	std::string DirectionRibString(DirectionRibNXString.GetUTF8Text());
 
-	NXString DirectionRibNXStringdot = "ä¸»è½´è§„åˆ™å›è½¬ç­‹.";
+	NXString DirectionRibNXStringdot = "Ö÷Öá¹æÔò»Ø×ª½î.";
 	std::string DirectionRibStringdot(DirectionRibNXStringdot.GetUTF8Text());
 
-	NXString HookFaceRibNXString = "æ›²é¢æ§½ç­‹ç±»";
+	NXString HookFaceRibNXString = "ÇúÃæ²Û½îÀà";
 	std::string HookFaceRibString(HookFaceRibNXString.GetUTF8Text());
 
-	NXString HookFaceRibNXStringdot = "æ›²é¢æ§½ç­‹.";
+	NXString HookFaceRibNXStringdot = "ÇúÃæ²Û½î.";
 	std::string HookFaceRibStringdot(HookFaceRibNXStringdot.GetUTF8Text());
 
 
-	//ç­‹ç‰¹å¾20230209-mql----------------------
+	//½îÌØÕ÷20230209-mql----------------------
 
-	//è½®å»“ç‰¹å¾20230302-mql---------------------
+	//ÂÖÀªÌØÕ÷20230302-mql---------------------
 
-	NXString OutLineNXString = "è½®å»“: ";//ç‰¹å¾åæœ‰ç©ºæ ¼
+	NXString OutLineNXString = "ÂÖÀª: ";//ÌØÕ÷ºóÓĞ¿Õ¸ñ
 	std::string OutLineString(OutLineNXString.GetUTF8Text());
 
-	NXString OutOutLineNXString = "å¤–è½®å»“ç±»";
+	NXString OutOutLineNXString = "ÍâÂÖÀªÀà";
 	std::string OutOutLineString(OutOutLineNXString.GetUTF8Text());
 
-	NXString InOutLineNXString = "å†…è½®å»“ç±»";
+	NXString InOutLineNXString = "ÄÚÂÖÀªÀà";
 	std::string InOutLineString(InOutLineNXString.GetUTF8Text());
 
 
-	NXString OutOutlineNXStringdot = "å¤–è½®å»“.";//å­åˆ†ç±»ï¼Œ
+	NXString OutOutlineNXStringdot = "ÍâÂÖÀª.";//×Ó·ÖÀà£¬
 	std::string OutOutlineStringdot(OutOutlineNXStringdot.GetUTF8Text());
 
-	NXString InOutlineNXStringdot = "å†…è½®å»“.";//å­åˆ†ç±»ï¼Œ
+	NXString InOutlineNXStringdot = "ÄÚÂÖÀª.";//×Ó·ÖÀà£¬
 	std::string InOutlineStringdot(InOutlineNXStringdot.GetUTF8Text());
 
-	//è½®å»“ç‰¹å¾20230302-mql---------------------
+	//ÂÖÀªÌØÕ÷20230302-mql---------------------
 
 	NXString Colon2NXString = ":";
 	std::string Colon2String(Colon2NXString.GetUTF8Text());
@@ -1813,10 +1813,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	NXString PointNXString = ".";
 	std::string Pointstring(PointNXString.GetUTF8Text());
 
-	NXString ColonNXString = "ï¼š";
+	NXString ColonNXString = "£º";
 	std::string ColonString(ColonNXString.GetUTF8Text());
 
-	NXString FacedotNXString = "é¢.";
+	NXString FacedotNXString = "Ãæ.";
 	std::string FacedotString(FacedotNXString.GetUTF8Text());
 
 
@@ -1830,7 +1830,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			listStrings = FeatureSpyResultDisplayStringList;
 			/*char message[13];
 			sprintf( message, "%d\n",listStrings[0]);
-			UF_UI_write_listing_window("è¯»å–åˆ°:");
+			UF_UI_write_listing_window("¶ÁÈ¡µ½:");
 			UF_UI_write_listing_window(message);*/
 		}
 		else
@@ -1839,9 +1839,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			listStrings = FeatureSpyResultDisplayStringTitle;
 		}
 	}
-	//ç­‹ç‰¹å¾ä¸€çº§çš„å±•å¼€
+	//½îÌØÕ÷Ò»¼¶µÄÕ¹¿ª
 
-	else if (FeatureNameString.find(RibString) != std::string::npos)//ç‚¹å‡»åˆ°â€œç­‹ â€ä¸€çº§çš„æ—¶å€™ï¼Œåˆ¤æ–­æ˜¯åŠ å·è¿˜æ˜¯å‡å·ï¼ŒåŠ å·å°±å±•å¼€ï¼Œå‡å·å°±æ”¶èµ·
+	else if (FeatureNameString.find(RibString) != std::string::npos)//µã»÷µ½¡°½î ¡±Ò»¼¶µÄÊ±ºò£¬ÅĞ¶ÏÊÇ¼ÓºÅ»¹ÊÇ¼õºÅ£¬¼ÓºÅ¾ÍÕ¹¿ª£¬¼õºÅ¾ÍÊÕÆğ
 	{
 
 		NXString PlusNXString = "+";
@@ -1850,21 +1850,21 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		if (FeatureNameString.find(PlusString) != string::npos)
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- ç­‹: ";
+			*iter = "- ½î: ";
 
 			RibClassList.clear();
 
 			if (Feature_DirectionRib.size()>0)
 			{
-				NXString Outtemp = "+ ä¸»è½´è§„åˆ™å›è½¬ç­‹ç±»";
+				NXString Outtemp = "+ Ö÷Öá¹æÔò»Ø×ª½îÀà";
 				RibClassList.push_back(Outtemp);
 			}
 
 			if (Feature_HookFaceRib.size()>0)
 			{
-				NXString Outtemp = "+ æ›²é¢æ§½ç­‹ç±»";
+				NXString Outtemp = "+ ÇúÃæ²Û½îÀà";
 				RibClassList.push_back(Outtemp);
 			}
 
@@ -1887,7 +1887,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ ç­‹: ";
+			*iter = "+ ½î: ";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -1908,18 +1908,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 	//fxy-20230419
-	else if (FeatureNameString.find(HookFaceRibString) != std::string::npos)//1çº§  //G
+	else if (FeatureNameString.find(HookFaceRibString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- æ›²é¢æ§½ç­‹ç±»";//G
+			*iter = "- ÇúÃæ²Û½îÀà";//G
 
 			for (std::vector<HookFaceRib*>::size_type i = 0; i != Feature_HookFaceRib.size(); i++)//G
 
@@ -1934,7 +1934,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + æ›²é¢æ§½ç­‹." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + ÇúÃæ²Û½î." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -1950,7 +1950,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ æ›²é¢æ§½ç­‹ç±»";//G
+			*iter = "+ ÇúÃæ²Û½îÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -1970,9 +1970,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//ç­‹ç‰¹å¾äºŒçº§å±•å¼€---------20230209-mql
+	//½îÌØÕ÷¶ş¼¶Õ¹¿ª---------20230209-mql
 
-	else if (FeatureNameString.find(DirectionRibString) != std::string::npos) //ä¸»è½´è§„åˆ™å›è½¬ç­‹
+	else if (FeatureNameString.find(DirectionRibString) != std::string::npos) //Ö÷Öá¹æÔò»Ø×ª½î
 	{
 
 		NXString PlusNXString = "+";
@@ -1983,7 +1983,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
-			*iter = "- ä¸»è½´è§„åˆ™å›è½¬ç­‹ç±»";
+			*iter = "- Ö÷Öá¹æÔò»Ø×ª½îÀà";
 			for (std::vector<DirectionRib*>::size_type i = 0; i != Feature_DirectionRib.size(); i++)
 			{
 				DirectionRib* EachOutlineSpyResult = Feature_DirectionRib[i];
@@ -1993,7 +1993,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString RibSpyResultDisplayString = "  + ä¸»è½´è§„åˆ™å›è½¬ç­‹." + NXStringIndex;
+				NXString RibSpyResultDisplayString = "  + Ö÷Öá¹æÔò»Ø×ª½î." + NXStringIndex;
 				AddStringList.push_back(RibSpyResultDisplayString);
 
 			}
@@ -2009,7 +2009,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ ä¸»è½´è§„åˆ™å›è½¬ç­‹ç±»";
+			*iter = "+ Ö÷Öá¹æÔò»Ø×ª½îÀà";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2030,8 +2030,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 	}
 
-	//------------------------------------------------æ›²é¢æ§½ç­‹-----------------------------------------------
-	else if (FeatureNameString.find(HookFaceRibStringdot) != std::string::npos)//3çº§ G
+	//------------------------------------------------ÇúÃæ²Û½î-----------------------------------------------
+	else if (FeatureNameString.find(HookFaceRibStringdot) != std::string::npos)//3¼¶ G
 	{
 
 		//----------------------------
@@ -2058,15 +2058,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_HookFaceRib[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
-			/*UF_UI_write_listing_window("æ‰€é€‰åºå·:");
+			/*UF_UI_write_listing_window("ËùÑ¡ĞòºÅ:");
 			UF_UI_write_listing_window(message);*/
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - æ›²é¢æ§½ç­‹." + RibNumberString;//G
+			*iter = "  - ÇúÃæ²Û½î." + RibNumberString;//G
 
 			HookFaceRib* EachHoleSpyResult = Feature_HookFaceRib[GrooveNumber - 1];//G
 
@@ -2074,38 +2074,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->SideFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->LimitFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString LimitFaceString = "    çº¦æŸé¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString LimitFaceString = "    Ô¼ÊøÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(LimitFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 			for (std::vector<Face*>::size_type j = 0; j != EachHoleSpyResult->SideFaceVector.size(); j++)
@@ -2143,9 +2143,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + æ›²é¢æ§½ç­‹." + RibNumberString;//G
+			*iter = "  + ÇúÃæ²Û½î." + RibNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ; */       //G
 
@@ -2171,15 +2171,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 
-	//ä¸»è½´è§„åˆ™å›è½¬ç­‹ä¸‰çº§å±•å¼€
-	else if (FeatureNameString.find(DirectionRibStringdot) != std::string::npos)//ä¸»è½´è§„åˆ™å›è½¬ç­‹çš„3çº§
+	//Ö÷Öá¹æÔò»Ø×ª½îÈı¼¶Õ¹¿ª
+	else if (FeatureNameString.find(DirectionRibStringdot) != std::string::npos)//Ö÷Öá¹æÔò»Ø×ª½îµÄ3¼¶
 	{
 		std::string RibNumberString = FeatureNameString.substr(26);
 		int RiblineNumber = atoi(RibNumberString.c_str());
 
 		selectNumber = RiblineNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 		/*UF_UI_open_listing_window();*/
 		/*UF_UI_write_listing_window(RibNumberString.c_str());*/
 
@@ -2193,7 +2193,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - ä¸»è½´è§„åˆ™å›è½¬ç­‹." + RibNumberString;
+			*iter = "  - Ö÷Öá¹æÔò»Ø×ª½î." + RibNumberString;
 
 			DirectionRib* EachRibSpyResult = Feature_DirectionRib[RiblineNumber - 1];
 
@@ -2201,21 +2201,21 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachRibSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachRibSpyResult->LimitFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString LimitFaceString = "    çº¦æŸé¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString LimitFaceString = "    Ô¼ÊøÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(LimitFaceString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachRibSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			SetAllFeatureColor(DefaultColor);
@@ -2223,19 +2223,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			for (std::vector<Face*>::size_type j = 0; j != EachRibSpyResult->TopFaceVector.size(); j++)
 			{
 				Face* EachOutlineTopFace = EachRibSpyResult->TopFaceVector[j];
-				UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//çº¢
+				UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//ºì
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachRibSpyResult->LimitFaceVector.size(); j++)
 			{
 				Face* EachOutlineBottomCornerFace = EachRibSpyResult->LimitFaceVector[j];
-				UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//è“
+				UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//À¶
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachRibSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachOutlineSideFace = EachRibSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ÂÌ
 			}
 
 
@@ -2250,9 +2250,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + ä¸»è½´è§„åˆ™å›è½¬ç­‹." + RibNumberString;
+			*iter = "  + Ö÷Öá¹æÔò»Ø×ª½î." + RibNumberString;
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			//SetAllBossColor(80) ;
 
@@ -2273,9 +2273,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//è½®å»“ç‰¹å¾çš„å±•å¼€==============================
+	//ÂÖÀªÌØÕ÷µÄÕ¹¿ª==============================
 
-	else if (FeatureNameString.find(OutLineString) != std::string::npos)//ç‚¹å‡»åˆ°â€œè½®å»“ â€ä¸€çº§çš„æ—¶å€™ï¼Œåˆ¤æ–­æ˜¯åŠ å·è¿˜æ˜¯å‡å·ï¼ŒåŠ å·å°±å±•å¼€ï¼Œå‡å·å°±æ”¶èµ·
+	else if (FeatureNameString.find(OutLineString) != std::string::npos)//µã»÷µ½¡°ÂÖÀª ¡±Ò»¼¶µÄÊ±ºò£¬ÅĞ¶ÏÊÇ¼ÓºÅ»¹ÊÇ¼õºÅ£¬¼ÓºÅ¾ÍÕ¹¿ª£¬¼õºÅ¾ÍÊÕÆğ
 	{
 
 		NXString PlusNXString = "+";
@@ -2284,20 +2284,20 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		if (FeatureNameString.find(PlusString) != string::npos)
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- è½®å»“: ";
+			*iter = "- ÂÖÀª: ";
 
 			OutlineClassList.clear();
 
 			if (Feature_OutlineVector1.size()>0)
 			{
-				NXString Outtemp = "+ å†…è½®å»“ç±»";
+				NXString Outtemp = "+ ÄÚÂÖÀªÀà";
 				OutlineClassList.push_back(Outtemp);
 			}
 			if (Feature_OutlineVector.size()>0)
 			{
-				NXString Outtemp = "+ å¤–è½®å»“ç±»";
+				NXString Outtemp = "+ ÍâÂÖÀªÀà";
 				OutlineClassList.push_back(Outtemp);
 			}
 
@@ -2320,7 +2320,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ è½®å»“: ";
+			*iter = "+ ÂÖÀª: ";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2343,7 +2343,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 	}
 
-	else if (FeatureNameString.find(OutOutLineString) != std::string::npos) //å¤–è½®å»“å±•å¼€
+	else if (FeatureNameString.find(OutOutLineString) != std::string::npos) //ÍâÂÖÀªÕ¹¿ª
 	{
 
 		NXString PlusNXString = "+";
@@ -2354,7 +2354,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
-			*iter = "- å¤–è½®å»“ç±»";
+			*iter = "- ÍâÂÖÀªÀà";
 			for (std::vector<Outline*>::size_type i = 0; i != Feature_OutlineVector.size(); i++)
 			{
 				Outline* EachOutlineSpyResult = Feature_OutlineVector1[i];
@@ -2364,7 +2364,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString OutlineSpyResultDisplayString = "  + å¤–è½®å»“." + NXStringIndex;
+				NXString OutlineSpyResultDisplayString = "  + ÍâÂÖÀª." + NXStringIndex;
 				AddStringList.push_back(OutlineSpyResultDisplayString);
 
 			}
@@ -2380,7 +2380,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å¤–è½®å»“ç±»";
+			*iter = "+ ÍâÂÖÀªÀà";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2401,21 +2401,21 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 	}
 
-	else if (FeatureNameString.find(InOutLineString) != std::string::npos) //å†…è½®å»“å±•å¼€
+	else if (FeatureNameString.find(InOutLineString) != std::string::npos) //ÄÚÂÖÀªÕ¹¿ª
 	{
 
 
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		/*UF_UI_write_listing_window("è¿›å…¥if");*/
+		/*UF_UI_write_listing_window("½øÈëif");*/
 		if (FeatureNameString.find(PlusString) != string::npos)
 		{
-			/*UF_UI_write_listing_window("è¿›å…¥åŠ å·");*/
+			/*UF_UI_write_listing_window("½øÈë¼ÓºÅ");*/
 			std::vector<NXString> AddStringList;
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
-			*iter = "- å†…è½®å»“ç±»";
+			*iter = "- ÄÚÂÖÀªÀà";
 			for (std::vector<Outline*>::size_type i = 0; i != Feature_OutlineVector1.size(); i++)
 			{
 
@@ -2427,7 +2427,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString OutlineSpyResultDisplayString = "  + å†…è½®å»“." + NXStringIndex;
+				NXString OutlineSpyResultDisplayString = "  + ÄÚÂÖÀª." + NXStringIndex;
 				AddStringList.push_back(OutlineSpyResultDisplayString);
 
 			}
@@ -2445,7 +2445,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å†…è½®å»“ç±»";
+			*iter = "+ ÄÚÂÖÀªÀà";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2466,15 +2466,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 	}
 	//-----------------------------------------------------------------------------------------------------------------------
-	//å‡†å¤‡å†™å¤–è½®å»“çš„ä¸‰çº§å±•å¼€
-	else if (FeatureNameString.find(OutOutlineStringdot) != std::string::npos)//å¤–éƒ¨è½®å»“çš„3çº§
+	//×¼±¸Ğ´ÍâÂÖÀªµÄÈı¼¶Õ¹¿ª
+	else if (FeatureNameString.find(OutOutlineStringdot) != std::string::npos)//Íâ²¿ÂÖÀªµÄ3¼¶
 	{
 		std::string OutlineNumberString = FeatureNameString.substr(14);
 		int OutlineNumber = atoi(OutlineNumberString.c_str());
 
 		selectNumber = OutlineNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 		/*UF_UI_open_listing_window();
 		UF_UI_write_listing_window(OutlineNumberString.c_str());*/
 
@@ -2487,7 +2487,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å¤–è½®å»“." + OutlineNumberString;
+			*iter = "  - ÍâÂÖÀª." + OutlineNumberString;
 
 			Outline* EachOutlineSpyResult = Feature_OutlineVector[OutlineNumber - 1];
 
@@ -2495,42 +2495,42 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachOutlineSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachOutlineSpyResult->RightFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString RightFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString RightFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(RightFaceString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachOutlineSpyResult->SideFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(SideFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachOutlineSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachOutlineSpyResult->PlanerFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString PlanerFaceString = "    å¹³é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString PlanerFaceString = "    Æ½Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(PlanerFaceString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachOutlineSpyResult->ConicalFaceVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString ConicalFaceString = "    è½®å»“é”¥é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString ConicalFaceString = "    ÂÖÀª×¶Ãæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(ConicalFaceString);
 
 			SetAllFeatureColor(DefaultColor);
@@ -2538,19 +2538,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			//for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->TopFaceVector.size(); j++)
 			//{
 			//	Face* EachOutlineTopFace = EachOutlineSpyResult->TopFaceVector[j];
-			//	UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//çº¢
+			//	UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//ºì
 			//}
 
 			//for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->SideFaceVector.size(); j++)
 			//{
 			//	Face* EachOutlineBottomCornerFace = EachOutlineSpyResult->SideFaceVector[j];
-			//	UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//è“
+			//	UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//À¶
 			//}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachOutlineSideFace = EachOutlineSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ÂÌ
 			}
 
 			//for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->RightFaceVector.size(); j++)
@@ -2581,9 +2581,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å¤–è½®å»“." + OutlineNumberString;
+			*iter = "  + ÍâÂÖÀª." + OutlineNumberString;
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -2605,15 +2605,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//å‡†å¤‡å†™--å†…è½®å»“--çš„ä¸‰çº§å±•å¼€
-	else if (FeatureNameString.find(InOutlineStringdot) != std::string::npos)//å†…éƒ¨è½®å»“çš„3çº§
+	//×¼±¸Ğ´--ÄÚÂÖÀª--µÄÈı¼¶Õ¹¿ª
+	else if (FeatureNameString.find(InOutlineStringdot) != std::string::npos)//ÄÚ²¿ÂÖÀªµÄ3¼¶
 	{
 		std::string OutlineNumberString = FeatureNameString.substr(14);
 		int OutlineNumber = atoi(OutlineNumberString.c_str());
 
 		selectNumber = OutlineNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 		/*UF_UI_open_listing_window();
 		UF_UI_write_listing_window(OutlineNumberString.c_str());*/
 
@@ -2626,7 +2626,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å†…è½®å»“." + OutlineNumberString;
+			*iter = "  - ÄÚÂÖÀª." + OutlineNumberString;
 
 			Outline* EachOutlineSpyResult = Feature_OutlineVector1[OutlineNumber - 1];
 
@@ -2634,42 +2634,42 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachOutlineSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachOutlineSpyResult->RightFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString RightFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString RightFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(RightFaceString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachOutlineSpyResult->SideFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachOutlineSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachOutlineSpyResult->PlanerFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString PlanerFaceString = "    å¹³é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString PlanerFaceString = "    Æ½Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(PlanerFaceString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachOutlineSpyResult->ConicalFaceVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString ConicalFaceString = "    é”¥é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString ConicalFaceString = "    ×¶Ãæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(ConicalFaceString);*/
 
 			SetAllFeatureColor(DefaultColor);
@@ -2677,19 +2677,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->TopFaceVector.size(); j++)
 			{
 				Face* EachOutlineTopFace = EachOutlineSpyResult->TopFaceVector[j];
-				UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//çº¢
+				UF_OBJ_set_color(EachOutlineTopFace->Tag(), 186);//ºì
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->SideFaceVector.size(); j++)
 			{
 				Face* EachOutlineBottomCornerFace = EachOutlineSpyResult->SideFaceVector[j];
-				UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//è“
+				UF_OBJ_set_color(EachOutlineBottomCornerFace->Tag(), 103);//À¶
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachOutlineSideFace = EachOutlineSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachOutlineSideFace->Tag(), 108);//ÂÌ
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachOutlineSpyResult->RightFaceVector.size(); j++)
@@ -2720,9 +2720,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å†…è½®å»“." + OutlineNumberString;
+			*iter = "  + ÄÚÂÖÀª." + OutlineNumberString;
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 			iter++;
@@ -2745,8 +2745,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 
 
-	//----------------------------------------æ§½--------------------------------------------------------	
-	if (FeatureNameString.find(GrooveString) != std::string::npos)//æ§½å­åˆ†ç±»
+	//----------------------------------------²Û--------------------------------------------------------	
+	if (FeatureNameString.find(GrooveString) != std::string::npos)//²Û×Ó·ÖÀà
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
@@ -2754,32 +2754,32 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		if (FeatureNameString.find(PlusString) != string::npos)
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- æ§½: ";//æœ‰ç©ºæ ¼ï¼Œç”¨äºå†æ¬¡å±•å¼€
+			*iter = "- ²Û: ";//ÓĞ¿Õ¸ñ£¬ÓÃÓÚÔÙ´ÎÕ¹¿ª
 			GrooveClassflyList.clear();
 
-			NXString CircularGroove0NXString = "+ å†…ä¾§ç¯å½¢æ§½ç±»";
+			NXString CircularGroove0NXString = "+ ÄÚ²à»·ĞÎ²ÛÀà";
 			if (Feature_CircularGroove0.size()>0)
 			{
 				GrooveClassflyList.push_back(CircularGroove0NXString);
 			}
-			NXString CircularGroove1NXString = "+ å¤–ä¾§ç¯å½¢æ§½ç±»";
+			NXString CircularGroove1NXString = "+ Íâ²à»·ĞÎ²ÛÀà";
 			if (Feature_CircularGroove1.size()>0)
 			{
 				GrooveClassflyList.push_back(CircularGroove1NXString);
 			}
-			NXString SubsidenceGrooveNXString = "+ ä¸‹é™·æ§½ç±»";
+			NXString SubsidenceGrooveNXString = "+ ÏÂÏİ²ÛÀà";
 			if (Feature_SubsidenceGroove.size()>0)
 			{
 				GrooveClassflyList.push_back(SubsidenceGrooveNXString);
 			}
-			NXString PlanerBlindGrooveNXString = "+ å¹³é¢æµ…æ§½ç±»";
+			NXString PlanerBlindGrooveNXString = "+ Æ½ÃæÇ³²ÛÀà";
 			if (Feature_PlanerBlindGroove.size()>0)
 			{
 				GrooveClassflyList.push_back(PlanerBlindGrooveNXString);
 			}
-			NXString PassGrooveNXString = "+ é€šæ§½ç±»";
+			NXString PassGrooveNXString = "+ Í¨²ÛÀà";
 			if (Feature_PassGroove.size()>0)
 			{
 				GrooveClassflyList.push_back(PassGrooveNXString);
@@ -2801,7 +2801,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ æ§½: ";//æœ‰ç©ºæ ¼ï¼Œç”¨äºå†æ¬¡å±•å¼€
+			*iter = "+ ²Û: ";//ÓĞ¿Õ¸ñ£¬ÓÃÓÚÔÙ´ÎÕ¹¿ª
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2820,18 +2820,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------ç¯å½¢æ§½0ä¸ºå†…ä¾§-----------------------------------------
-	else if (FeatureNameString.find(CircularGroove0String) != std::string::npos)//1çº§  //G
+	//-------------------------------------------»·ĞÎ²Û0ÎªÄÚ²à-----------------------------------------
+	else if (FeatureNameString.find(CircularGroove0String) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å†…ä¾§ç¯å½¢æ§½ç±»";//G
+			*iter = "- ÄÚ²à»·ĞÎ²ÛÀà";//G
 
 			for (std::vector<CircularGroove*>::size_type i = 0; i != Feature_CircularGroove0.size(); i++)//G
 
@@ -2845,7 +2845,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + å†…ä¾§ç¯å½¢æ§½." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + ÄÚ²à»·ĞÎ²Û." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -2861,7 +2861,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å†…ä¾§ç¯å½¢æ§½ç±»";//G
+			*iter = "+ ÄÚ²à»·ĞÎ²ÛÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2880,18 +2880,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------ç¯å½¢æ§½1ä¸ºå¤–ä¾§-----------------------------------------
-	else if (FeatureNameString.find(CircularGroove1String) != std::string::npos)//1çº§  //G
+	//-------------------------------------------»·ĞÎ²Û1ÎªÍâ²à-----------------------------------------
+	else if (FeatureNameString.find(CircularGroove1String) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å¤–ä¾§ç¯å½¢æ§½ç±»";//G
+			*iter = "- Íâ²à»·ĞÎ²ÛÀà";//G
 
 			for (std::vector<CircularGroove*>::size_type i = 0; i != Feature_CircularGroove1.size(); i++)//G
 
@@ -2905,7 +2905,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + å¤–ä¾§ç¯å½¢æ§½." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + Íâ²à»·ĞÎ²Û." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -2921,7 +2921,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å¤–ä¾§ç¯å½¢æ§½ç±»";//G
+			*iter = "+ Íâ²à»·ĞÎ²ÛÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -2940,18 +2940,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------SubsidenceGrooveä¸‹é™·æ§½-----------------------------------------
-	else if (FeatureNameString.find(SubsidenceGrooveString) != std::string::npos)//1çº§  //G
+	//-------------------------------------------SubsidenceGrooveÏÂÏİ²Û-----------------------------------------
+	else if (FeatureNameString.find(SubsidenceGrooveString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- ä¸‹é™·æ§½ç±»";//G
+			*iter = "- ÏÂÏİ²ÛÀà";//G
 
 			for (std::vector<SubsidenceGroove*>::size_type i = 0; i != Feature_SubsidenceGroove.size(); i++)//G
 
@@ -2965,7 +2965,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + ä¸‹é™·æ§½." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + ÏÂÏİ²Û." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -2981,7 +2981,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ ä¸‹é™·æ§½ç±»";//G
+			*iter = "+ ÏÂÏİ²ÛÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -3000,18 +3000,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------PlanerBlindGrooveå¹³é¢æµ…æ§½-----------------------------------------
-	else if (FeatureNameString.find(PlanerBlindGrooveString) != std::string::npos)//1çº§  //G
+	//-------------------------------------------PlanerBlindGrooveÆ½ÃæÇ³²Û-----------------------------------------
+	else if (FeatureNameString.find(PlanerBlindGrooveString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å¹³é¢æµ…æ§½ç±»";//G
+			*iter = "- Æ½ÃæÇ³²ÛÀà";//G
 
 			for (std::vector<PlanerBlindGroove*>::size_type i = 0; i != Feature_PlanerBlindGroove.size(); i++)//G
 
@@ -3025,7 +3025,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + å¹³é¢æµ…æ§½." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + Æ½ÃæÇ³²Û." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -3041,7 +3041,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å¹³é¢æµ…æ§½ç±»";//G
+			*iter = "+ Æ½ÃæÇ³²ÛÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -3060,18 +3060,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------PassGrooveé€šæ§½-----------------------------------------
-	else if (FeatureNameString.find(PassGrooveString) != std::string::npos)//1çº§  //G
+	//-------------------------------------------PassGrooveÍ¨²Û-----------------------------------------
+	else if (FeatureNameString.find(PassGrooveString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- é€šæ§½ç±»";//G
+			*iter = "- Í¨²ÛÀà";//G
 
 			for (std::vector<PassGroove*>::size_type i = 0; i != Feature_PassGroove.size(); i++)//G
 
@@ -3085,7 +3085,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString GrooveSpyResultDisplayString = "  + é€šæ§½." + NXStringIndex;//G
+				NXString GrooveSpyResultDisplayString = "  + Í¨²Û." + NXStringIndex;//G
 				AddStringList.push_back(GrooveSpyResultDisplayString);
 
 			}
@@ -3101,7 +3101,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ é€šæ§½ç±»";//G
+			*iter = "+ Í¨²ÛÀà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -3120,8 +3120,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å†…ä¾§ç¯å½¢æ§½-----------------------------------------------
-	else if (FeatureNameString.find(CircularGroove0Stringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÄÚ²à»·ĞÎ²Û-----------------------------------------------
+	else if (FeatureNameString.find(CircularGroove0Stringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -3149,16 +3149,16 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_CircularGroove0[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 			/*UF_UI_open_listing_window();
 			sprintf(message, "%d\n", GrooveNumber);
-			UF_UI_write_listing_window("æ‰€é€‰åºå·:");
+			UF_UI_write_listing_window("ËùÑ¡ĞòºÅ:");
 			UF_UI_write_listing_window(message);*/
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å†…ä¾§ç¯å½¢æ§½." + GrooveNumberString;//G
+			*iter = "  - ÄÚ²à»·ĞÎ²Û." + GrooveNumberString;//G
 
 			CircularGroove* EachHoleSpyResult = Feature_CircularGroove0[GrooveNumber - 1];//G
 
@@ -3166,38 +3166,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    åº•é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    µ×Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->LimitFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString LimitFaceString = "    çº¦æŸé¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString LimitFaceString = "    Ô¼ÊøÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(LimitFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -3230,9 +3230,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å†…ä¾§ç¯å½¢æ§½." + GrooveNumberString;//G
+			*iter = "  + ÄÚ²à»·ĞÎ²Û." + GrooveNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ; */       //G
 
@@ -3256,8 +3256,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å¤–ä¾§ç¯å½¢æ§½-----------------------------------------------
-	else if (FeatureNameString.find(CircularGroove1Stringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Íâ²à»·ĞÎ²Û-----------------------------------------------
+	else if (FeatureNameString.find(CircularGroove1Stringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -3282,16 +3282,16 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_CircularGroove1[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 			/*UF_UI_open_listing_window();
 			sprintf(message, "%d\n", GrooveNumber);
-			UF_UI_write_listing_window("æ‰€é€‰åºå·:");
+			UF_UI_write_listing_window("ËùÑ¡ĞòºÅ:");
 			UF_UI_write_listing_window(message);*/
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å¤–ä¾§ç¯å½¢æ§½." + GrooveNumberString;//G
+			*iter = "  - Íâ²à»·ĞÎ²Û." + GrooveNumberString;//G
 
 			CircularGroove* EachHoleSpyResult = Feature_CircularGroove1[GrooveNumber - 1];//G
 
@@ -3299,38 +3299,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    åº•é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    µ×Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->LimitFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString LimitFaceString = "    çº¦æŸé¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString LimitFaceString = "    Ô¼ÊøÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(LimitFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -3363,9 +3363,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å¤–ä¾§ç¯å½¢æ§½." + GrooveNumberString;//G
+			*iter = "  + Íâ²à»·ĞÎ²Û." + GrooveNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ; */       //G
 
@@ -3389,8 +3389,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------SubsidenceGrooveä¸‹é™·æ§½-----------------------------------------------
-	else if (FeatureNameString.find(SubsidenceGrooveStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------SubsidenceGrooveÏÂÏİ²Û-----------------------------------------------
+	else if (FeatureNameString.find(SubsidenceGrooveStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -3417,16 +3417,16 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_SubsidenceGroove[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 			/*UF_UI_open_listing_window();
 			sprintf(message, "%d\n", GrooveNumber);
-			UF_UI_write_listing_window("æ‰€é€‰åºå·:");
+			UF_UI_write_listing_window("ËùÑ¡ĞòºÅ:");
 			UF_UI_write_listing_window(message);*/
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - ä¸‹é™·æ§½." + GrooveNumberString;//G
+			*iter = "  - ÏÂÏİ²Û." + GrooveNumberString;//G
 
 			SubsidenceGroove* EachHoleSpyResult = Feature_SubsidenceGroove[GrooveNumber - 1];//G
 
@@ -3434,38 +3434,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    åº•é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    µ×Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->LimitFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString LimitFaceString = "    çº¦æŸé¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString LimitFaceString = "    Ô¼ÊøÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(LimitFaceString);*/
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -3498,9 +3498,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + ä¸‹é™·æ§½." + GrooveNumberString;//G
+			*iter = "  + ÏÂÏİ²Û." + GrooveNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;  */      //G
 
@@ -3524,8 +3524,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------PlanerBlindGrooveå¹³é¢æµ…æ§½-----------------------------------------------
-	else if (FeatureNameString.find(PlanerBlindGrooveStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------PlanerBlindGrooveÆ½ÃæÇ³²Û-----------------------------------------------
+	else if (FeatureNameString.find(PlanerBlindGrooveStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -3552,16 +3552,16 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_PlanerBlindGroove[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 			/*UF_UI_open_listing_window();
 			sprintf(message, "%d\n", GrooveNumber);
-			UF_UI_write_listing_window("æ‰€é€‰åºå·:");
+			UF_UI_write_listing_window("ËùÑ¡ĞòºÅ:");
 			UF_UI_write_listing_window(message);*/
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å¹³é¢æµ…æ§½." + GrooveNumberString;//G
+			*iter = "  - Æ½ÃæÇ³²Û." + GrooveNumberString;//G
 
 			PlanerBlindGroove* EachHoleSpyResult = Feature_PlanerBlindGroove[GrooveNumber - 1];//G
 
@@ -3569,38 +3569,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->BottomFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(BottomFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->SideFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -3633,9 +3633,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å¹³é¢æµ…æ§½." + GrooveNumberString;//G
+			*iter = "  + Æ½ÃæÇ³²Û." + GrooveNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;  */      //G
 
@@ -3659,8 +3659,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------PassGrooveé€šæ§½-----------------------------------------------
-	else if (FeatureNameString.find(PassGrooveStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------PassGrooveÍ¨²Û-----------------------------------------------
+	else if (FeatureNameString.find(PassGrooveStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -3687,13 +3687,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			Feature_PassGroove[GrooveNumber - 1]->ifselected = 1;
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - é€šæ§½." + GrooveNumberString;//G
+			*iter = "  - Í¨²Û." + GrooveNumberString;//G
 
 			PassGroove* EachHoleSpyResult = Feature_PassGroove[GrooveNumber - 1];//G
 
@@ -3701,21 +3701,21 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->TopFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex1 = new char;
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->BottomFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(BottomFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->RightFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString RightFaceString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString RightFaceString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(RightFaceString);
 
 
@@ -3724,17 +3724,17 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->SideFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -3773,9 +3773,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + é€šæ§½." + GrooveNumberString;//G
+			*iter = "  + Í¨²Û." + GrooveNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ; */       //G
 
@@ -3804,8 +3804,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 
 
-	//----------------------------------------å‡¸å°--------------------------------------------------------	
-	else if (FeatureNameString.find(BossString) != std::string::npos)//å‡¸å°å­åˆ†ç±»
+	//----------------------------------------Í¹Ì¨--------------------------------------------------------	
+	else if (FeatureNameString.find(BossString) != std::string::npos)//Í¹Ì¨×Ó·ÖÀà
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
@@ -3813,22 +3813,22 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		if (FeatureNameString.find(PlusString) != string::npos)
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°: ";//æœ‰ç©ºæ ¼ï¼Œç”¨äºå†æ¬¡å±•å¼€
+			*iter = "- Í¹Ì¨: ";//ÓĞ¿Õ¸ñ£¬ÓÃÓÚÔÙ´ÎÕ¹¿ª
 			BossClassflyList.clear();
 
-			NXString NoSideBossNXString = "+ æ— ä¾§é¢å‡¸å°ç±»";
+			NXString NoSideBossNXString = "+ ÎŞ²àÃæÍ¹Ì¨Àà";
 			if (Feature_NoSideBoss.size()>0)
 			{
 				BossClassflyList.push_back(NoSideBossNXString);
 			}
-			NXString NormalBossNXString = "+ å«ä¾§é¢å‡¸å°ç±»";
+			NXString NormalBossNXString = "+ º¬²àÃæÍ¹Ì¨Àà";
 			if (Feature_NormalBoss.size()>0)
 			{
 				BossClassflyList.push_back(NormalBossNXString);
 			}
-			NXString DoubleLayerBossNXString = "+ å¤šå±‚å‡¸å°ç±»";
+			NXString DoubleLayerBossNXString = "+ ¶à²ãÍ¹Ì¨Àà";
 			if (Feature_DoubleLayerBoss.size()>0)
 			{
 				BossClassflyList.push_back(DoubleLayerBossNXString);
@@ -3850,7 +3850,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°: ";//æœ‰ç©ºæ ¼ï¼Œç”¨äºå†æ¬¡å±•å¼€
+			*iter = "+ Í¹Ì¨: ";//ÓĞ¿Õ¸ñ£¬ÓÃÓÚÔÙ´ÎÕ¹¿ª
 			iter++;
 
 			while (iter != listStrings.end())
@@ -3873,19 +3873,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 
-	//------------------------------------------------å«ä¾§é¢å‡¸å°ç‰¹å¾-----------------------------------------------
+	//------------------------------------------------º¬²àÃæÍ¹Ì¨ÌØÕ÷-----------------------------------------------
 
-	else if (FeatureNameString.find(NormalBossString) != std::string::npos)//å‡¸å°1çº§
+	else if (FeatureNameString.find(NormalBossString) != std::string::npos)//Í¹Ì¨1¼¶
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å«ä¾§é¢å‡¸å°ç±»";
+			*iter = "- º¬²àÃæÍ¹Ì¨Àà";
 			for (std::vector<NormalBoss*>::size_type i = 0; i != Feature_NormalBoss.size(); i++)
 
 
@@ -3898,12 +3898,12 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				delete StringIndex;
 				if (Feature_NormalBoss[i]->OutOrIn == 0)
 				{
-					NXString BossSpyResultDisplayString = "  + (å†…ä¾§)å«ä¾§é¢å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (ÄÚ²à)º¬²àÃæÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 				if (Feature_NormalBoss[i]->OutOrIn == 1)
 				{
-					NXString BossSpyResultDisplayString = "  + (å¤–ä¾§)å«ä¾§é¢å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (Íâ²à)º¬²àÃæÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 
@@ -3920,14 +3920,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å«ä¾§é¢å‡¸å°ç±»";
+			*iter = "+ º¬²àÃæÍ¹Ì¨Àà";
 			iter++;
 
 			while (iter != listStrings.end())
 			{
 
 				/*UF_UI_open_listing_window();
-				UF_UI_write_listing_window("è¿›å…¥while:\n");*/
+				UF_UI_write_listing_window("½øÈëwhile:\n");*/
 
 
 				NXString BelongBossTitNXString = *iter;
@@ -3946,20 +3946,20 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------æ— ä¾§é¢å‡¸å°ç‰¹å¾-----------------------------------------------
-	else if (FeatureNameString.find(NoSideBossString) != std::string::npos)//å‡¸å°1çº§
+	//------------------------------------------------ÎŞ²àÃæÍ¹Ì¨ÌØÕ÷-----------------------------------------------
+	else if (FeatureNameString.find(NoSideBossString) != std::string::npos)//Í¹Ì¨1¼¶
 	{
 		NXString PlusNXString = "+";
-		NXString InnerStr = "æ— ä¾§é¢å‡¸å°(å†…ä¾§)";
-		NXString ExternalStr = "æ— ä¾§é¢å‡¸å°(å¤–ä¾§)";
+		NXString InnerStr = "ÎŞ²àÃæÍ¹Ì¨(ÄÚ²à)";
+		NXString ExternalStr = "ÎŞ²àÃæÍ¹Ì¨(Íâ²à)";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- æ— ä¾§é¢å‡¸å°ç±»";
+			*iter = "- ÎŞ²àÃæÍ¹Ì¨Àà";
 			for (std::vector<NoSideBoss*>::size_type i = 0; i != Feature_NoSideBoss.size(); i++)
 
 
@@ -3972,12 +3972,12 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				delete StringIndex;
 				if (Feature_NoSideBoss[i]->OutOrIn == 0)
 				{
-					NXString BossSpyResultDisplayString = "  + (å†…ä¾§)æ— ä¾§é¢å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (ÄÚ²à)ÎŞ²àÃæÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 				if (Feature_NoSideBoss[i]->OutOrIn == 1)
 				{
-					NXString BossSpyResultDisplayString = "  + (å¤–ä¾§)æ— ä¾§é¢å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (Íâ²à)ÎŞ²àÃæÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 
@@ -3994,7 +3994,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ æ— ä¾§é¢å‡¸å°ç±»";
+			*iter = "+ ÎŞ²àÃæÍ¹Ì¨Àà";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -4018,18 +4018,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	{
 
 	}*/
-	//------------------------------------------------å¤šå±‚å‡¸å°ç‰¹å¾-----------------------------------------------
-	else if (FeatureNameString.find(DoubleLayerBossString) != std::string::npos)//å‡¸å°1çº§
+	//------------------------------------------------¶à²ãÍ¹Ì¨ÌØÕ÷-----------------------------------------------
+	else if (FeatureNameString.find(DoubleLayerBossString) != std::string::npos)//Í¹Ì¨1¼¶
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å¤šå±‚å‡¸å°ç±»";
+			*iter = "- ¶à²ãÍ¹Ì¨Àà";
 			for (std::vector<DoubleLayerBoss*>::size_type i = 0; i != Feature_DoubleLayerBoss.size(); i++)
 
 
@@ -4042,12 +4042,12 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				delete StringIndex;
 				if (Feature_DoubleLayerBoss[i]->OutOrIn == 0)
 				{
-					NXString BossSpyResultDisplayString = "  + (å†…ä¾§)å¤šå±‚å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (ÄÚ²à)¶à²ãÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 				if (Feature_DoubleLayerBoss[i]->OutOrIn == 1)
 				{
-					NXString BossSpyResultDisplayString = "  + (å¤–ä¾§)å¤šå±‚å‡¸å°." + NXStringIndex;
+					NXString BossSpyResultDisplayString = "  + (Íâ²à)¶à²ãÍ¹Ì¨." + NXStringIndex;
 					AddStringList.push_back(BossSpyResultDisplayString);
 				}
 
@@ -4064,7 +4064,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å¤šå±‚å‡¸å°ç±»";
+			*iter = "+ ¶à²ãÍ¹Ì¨Àà";
 			iter++;
 
 			while (iter != listStrings.end())
@@ -4083,15 +4083,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------2çº§å‡¸å°ç‰¹å¾-----------------------------------------------
-	else if (FeatureNameString.find(NoSideBossStringdot) != std::string::npos)//å‡¸å°3çº§
+	//------------------------------------------------2¼¶Í¹Ì¨ÌØÕ÷-----------------------------------------------
+	else if (FeatureNameString.find(NoSideBossStringdot) != std::string::npos)//Í¹Ì¨3¼¶
 	{
 		std::string BossNumberString = FeatureNameString.substr(28);
 		int BossNumber = atoi(BossNumberString.c_str());
 
 		selectNumber = BossNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 
 
 		NXString PlusNXString = "+";
@@ -4103,7 +4103,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 
@@ -4111,11 +4111,11 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			iter += iRowIndex;
 			if (Feature_NoSideBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  - (å†…ä¾§)æ— ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  - (ÄÚ²à)ÎŞ²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_NoSideBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  - (å¤–ä¾§)æ— ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  - (Íâ²à)ÎŞ²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 
 
@@ -4126,7 +4126,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachBossSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->TopFaceVector.size(); i++)
 			{
@@ -4136,7 +4136,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     é¡¶é¢." + NXStringIndex;
+				NXString EachfaceString = "     ¶¥Ãæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4146,7 +4146,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex3, "%d", EachBossSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->BottomCornerFaceVector.size(); i++)
@@ -4157,7 +4157,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     åº•è§’é¢." + NXStringIndex;
+				NXString EachfaceString = "     µ×½ÇÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4165,10 +4165,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex4, "%d", EachBossSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 
 
 			SetAllFeatureColor(DefaultColor);
@@ -4176,25 +4176,25 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->TopFaceVector.size(); j++)
 			{
 				Face* EachBossTopFace = EachBossSpyResult->TopFaceVector[j];
-				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//çº¢
+				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//ºì
 			}
 
 			//for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->SideFaceVector.size(); j++)
 			//{
 			//	Face* EachBossBottomCornerFace = EachBossSpyResult->SideFaceVector[j];
-			//	UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//è“
+			//	UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//À¶
 			//}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachBossSideFace = EachBossSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ÂÌ
 			}
 
 			//for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->BottomFaceVector.size(); j++)
 			//{
 			//	Face* EachBossBottomFace = EachBossSpyResult->BottomFaceVector[j];
-			//	UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//æ£•
+			//	UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//×Ø
 			//}
 
 			iter++;
@@ -4210,15 +4210,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 			if (Feature_NoSideBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  + (å†…ä¾§)æ— ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  + (ÄÚ²à)ÎŞ²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_NoSideBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  + (å¤–ä¾§)æ— ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  + (Íâ²à)ÎŞ²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			//SetAllBossColor(80) ;
 
@@ -4241,14 +4241,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 
-	else if (FeatureNameString.find(DoubleLayerBossStringdot) != std::string::npos)//å‡¸å°3çº§
+	else if (FeatureNameString.find(DoubleLayerBossStringdot) != std::string::npos)//Í¹Ì¨3¼¶
 	{
 		std::string BossNumberString = FeatureNameString.substr(25);
 		int BossNumber = atoi(BossNumberString.c_str());
 
 		selectNumber = BossNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 
 
 		NXString PlusNXString = "+";
@@ -4260,7 +4260,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 
@@ -4268,11 +4268,11 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			iter += iRowIndex;
 			if (Feature_DoubleLayerBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  - (å†…ä¾§)å¤šå±‚å‡¸å°." + BossNumberString;
+				*iter = "  - (ÄÚ²à)¶à²ãÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_DoubleLayerBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  - (å¤–ä¾§)å¤šå±‚å‡¸å°." + BossNumberString;
+				*iter = "  - (Íâ²à)¶à²ãÍ¹Ì¨." + BossNumberString;
 			}
 
 
@@ -4283,7 +4283,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachBossSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->TopFaceVector.size(); i++)
 			{
@@ -4293,7 +4293,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     é¡¶é¢." + NXStringIndex;
+				NXString EachfaceString = "     ¶¥Ãæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4302,7 +4302,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex2, "%d", EachBossSpyResult->SideFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->SideFaceVector.size(); i++)
@@ -4313,7 +4313,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     ä¾§é¢." + NXStringIndex;
+				NXString EachfaceString = "     ²àÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4322,7 +4322,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex3, "%d", EachBossSpyResult->NTopFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString NTopFaceString = "    æ¬¡é¡¶é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString NTopFaceString = "    ´Î¶¥Ãæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(NTopFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->NTopFaceVector.size(); i++)
@@ -4333,7 +4333,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     æ¬¡é¡¶é¢." + NXStringIndex;
+				NXString EachfaceString = "     ´Î¶¥Ãæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4342,7 +4342,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex4, "%d", EachBossSpyResult->NSideFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString NSideFaceString = "    æ¬¡ä¾§é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString NSideFaceString = "    ´Î²àÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(NSideFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->NSideFaceVector.size(); i++)
@@ -4353,7 +4353,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     æ¬¡ä¾§é¢." + NXStringIndex;
+				NXString EachfaceString = "     ´Î²àÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4362,7 +4362,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex5, "%d", EachBossSpyResult->ConnectFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString ConnectFaceString = "    è¿æ¥é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString ConnectFaceString = "    Á¬½ÓÃæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(ConnectFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->ConnectFaceVector.size(); i++)
@@ -4373,7 +4373,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     è¿æ¥é¢." + NXStringIndex;
+				NXString EachfaceString = "     Á¬½ÓÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4382,7 +4382,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex6, "%d", EachBossSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->BottomCornerFaceVector.size(); i++)
@@ -4393,7 +4393,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     åº•è§’é¢." + NXStringIndex;
+				NXString EachfaceString = "     µ×½ÇÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4405,37 +4405,37 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->TopFaceVector.size(); j++)
 			{
 				Face* EachBossTopFace = EachBossSpyResult->TopFaceVector[j];
-				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//çº¢
+				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//ºì
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->SideFaceVector.size(); j++)
 			{
 				Face* EachBossBottomCornerFace = EachBossSpyResult->SideFaceVector[j];
-				UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//è“
+				UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//À¶
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachBossSideFace = EachBossSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ÂÌ
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->NTopFaceVector.size(); j++)
 			{
 				Face* EachBossBottomFace = EachBossSpyResult->NTopFaceVector[j];
-				UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//æ£•
+				UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//×Ø
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->NSideFaceVector.size(); j++)
 			{
 				Face* EachBossBottomFace = EachBossSpyResult->NSideFaceVector[j];
-				UF_OBJ_set_color(EachBossBottomFace->Tag(), 150);//ï¼Ÿ
+				UF_OBJ_set_color(EachBossBottomFace->Tag(), 150);//£¿
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->NSideFaceVector.size(); j++)
 			{
 				Face* EachBossBottomFace = EachBossSpyResult->NSideFaceVector[j];
-				UF_OBJ_set_color(EachBossBottomFace->Tag(), 160);//ï¼Ÿ
+				UF_OBJ_set_color(EachBossBottomFace->Tag(), 160);//£¿
 			}
 
 			iter++;
@@ -4452,15 +4452,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 			if (Feature_DoubleLayerBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  + (å†…ä¾§)å¤šå±‚å‡¸å°." + BossNumberString;
+				*iter = "  + (ÄÚ²à)¶à²ãÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_DoubleLayerBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  + (å¤–ä¾§)å¤šå±‚å‡¸å°." + BossNumberString;
+				*iter = "  + (Íâ²à)¶à²ãÍ¹Ì¨." + BossNumberString;
 			}
 
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			//SetAllBossColor(80) ;
 
@@ -4482,14 +4482,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	else if (FeatureNameString.find(NormalBossStringdot) != std::string::npos)//å‡¸å°3çº§
+	else if (FeatureNameString.find(NormalBossStringdot) != std::string::npos)//Í¹Ì¨3¼¶
 	{
 		std::string BossNumberString = FeatureNameString.substr(28);
 		int BossNumber = atoi(BossNumberString.c_str());
 
 		selectNumber = BossNumber;
 
-		//---------è°ƒè¯•æ¨¡æ¿-----------
+		//---------µ÷ÊÔÄ£°å-----------
 
 
 		NXString PlusNXString = "+";
@@ -4501,7 +4501,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 
@@ -4509,11 +4509,11 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			iter += iRowIndex;
 			if (Feature_NormalBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  - (å†…ä¾§)å«ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  - (ÄÚ²à)º¬²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_NormalBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  - (å¤–ä¾§)å«ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  - (Íâ²à)º¬²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 
 
@@ -4524,7 +4524,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachBossSpyResult->TopFaceVector.size());
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";
 			AddStringList.push_back(TopFaceString);
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->TopFaceVector.size(); i++)
 			{
@@ -4534,7 +4534,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     é¡¶é¢." + NXStringIndex;
+				NXString EachfaceString = "     ¶¥Ãæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4543,7 +4543,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex2, "%d", EachBossSpyResult->SideFaceVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString SideFaceString = "    ä¾§é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString SideFaceString = "    ²àÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(SideFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->SideFaceVector.size(); i++)
@@ -4554,7 +4554,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     ä¾§é¢." + NXStringIndex;
+				NXString EachfaceString = "     ²àÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4563,7 +4563,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex3, "%d", EachBossSpyResult->BottomCornerFaceVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString BottomCornerFaceString = "    åº•è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString BottomCornerFaceString = "    µ×½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(BottomCornerFaceString);
 
 			for (std::vector<NXOpen::Face*>::size_type i = 0; i != EachBossSpyResult->BottomCornerFaceVector.size(); i++)
@@ -4574,7 +4574,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				sprintf(StringIndex, "%d", index);
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
-				NXString EachfaceString = "     åº•è§’é¢." + NXStringIndex;
+				NXString EachfaceString = "     µ×½ÇÃæ." + NXStringIndex;
 				AddStringList.push_back(EachfaceString);
 			}
 
@@ -4582,10 +4582,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex4, "%d", EachBossSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 
 
 			SetAllFeatureColor(DefaultColor);
@@ -4593,25 +4593,25 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->TopFaceVector.size(); j++)
 			{
 				Face* EachBossTopFace = EachBossSpyResult->TopFaceVector[j];
-				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//çº¢
+				UF_OBJ_set_color(EachBossTopFace->Tag(), 186);//ºì
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->SideFaceVector.size(); j++)
 			{
 				Face* EachBossBottomCornerFace = EachBossSpyResult->SideFaceVector[j];
-				UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//è“
+				UF_OBJ_set_color(EachBossBottomCornerFace->Tag(), 103);//À¶
 			}
 
 			for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->BottomCornerFaceVector.size(); j++)
 			{
 				Face* EachBossSideFace = EachBossSpyResult->BottomCornerFaceVector[j];
-				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ç»¿
+				UF_OBJ_set_color(EachBossSideFace->Tag(), 108);//ÂÌ
 			}
 
 			//for (std::vector<Face*>::size_type j = 0; j != EachBossSpyResult->BottomFaceVector.size(); j++)
 			//{
 			//	Face* EachBossBottomFace = EachBossSpyResult->BottomFaceVector[j];
-			//	UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//æ£•
+			//	UF_OBJ_set_color(EachBossBottomFace->Tag(), 175);//×Ø
 			//}
 
 			iter++;
@@ -4627,15 +4627,15 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 			if (Feature_NormalBoss[BossNumber - 1]->OutOrIn == 0)
 			{
-				*iter = "  + (å†…ä¾§)å«ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  + (ÄÚ²à)º¬²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 			if (Feature_NormalBoss[BossNumber - 1]->OutOrIn == 1)
 			{
-				*iter = "  + (å¤–ä¾§)å«ä¾§é¢å‡¸å°." + BossNumberString;
+				*iter = "  + (Íâ²à)º¬²àÃæÍ¹Ì¨." + BossNumberString;
 			}
 
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			//SetAllBossColor(80) ;
 
@@ -4658,7 +4658,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 
-	else if (FeatureNameString.find(HoleString) != std::string::npos)//å­”1çº§
+	else if (FeatureNameString.find(HoleString) != std::string::npos)//¿×1¼¶
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
@@ -4668,111 +4668,111 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXString> AddStringList;
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
-			*iter = "- å­”: ";
+			*iter = "- ¿×: ";
 			HoleClassflyList.clear();
 
-			NXString other1HoleNXString = "+ å…¶å®ƒå­”ç±»ä¸€";
+			NXString other1HoleNXString = "+ ÆäËü¿×ÀàÒ»";
 			if (Feature_otherHole1.size() > 0)
 			{
 				HoleClassflyList.push_back(other1HoleNXString);
 			}
-			NXString other2HoleNXString = "+ å…¶å®ƒå­”ç±»äºŒ";
+			NXString other2HoleNXString = "+ ÆäËü¿×Àà¶ş";
 			if (Feature_otherHole2.size() > 0)
 			{
 				HoleClassflyList.push_back(other2HoleNXString);
 			}
-			NXString other3HoleNXString = "+ å…¶å®ƒå­”ç±»ä¸‰";
+			NXString other3HoleNXString = "+ ÆäËü¿×ÀàÈı";
 			if (Feature_otherHole3.size() > 0)
 			{
 				HoleClassflyList.push_back(other3HoleNXString);
 			}
 
-			NXString DirectionNormalHoleNXString = "+ è½´å‘æ™®é€šå­”ç±»";
+			NXString DirectionNormalHoleNXString = "+ ÖáÏòÆÕÍ¨¿×Àà";
 			if (Feature_DirectionNormalHole.size()>0)
 			{
 				HoleClassflyList.push_back(DirectionNormalHoleNXString);
 			}
-			NXString DirectionRightHoleNXString = "+ è½´å‘å•ä¾§æ–œè§’é€šå­”ç±»";
+			NXString DirectionRightHoleNXString = "+ ÖáÏòµ¥²àĞ±½ÇÍ¨¿×Àà";
 			if (Feature_DirectionRightHole.size()>0)
 			{
 				HoleClassflyList.push_back(DirectionRightHoleNXString);
 			}
-			NXString DirectionBlindHoleNXString = "+ è½´å‘æ— å€’è§’ç›²å­”ç±»";
+			NXString DirectionBlindHoleNXString = "+ ÖáÏòÎŞµ¹½ÇÃ¤¿×Àà";
 			if (Feature_DirectionBlindHole.size()>0)
 			{
 				HoleClassflyList.push_back(DirectionBlindHoleNXString);
 			}
-			NXString WallNormalHoleNXString = "+ å£é¢é€šå­”ç±»";
+			NXString WallNormalHoleNXString = "+ ±ÚÃæÍ¨¿×Àà";
 			if (Feature_WallNormalHole.size()>0)
 			{
 				HoleClassflyList.push_back(WallNormalHoleNXString);
 			}
-			NXString WallCircleCombineHoleNXString = "+ å£é¢å€’æ–œè§’å¤åˆé€šå­”ç±»";
+			NXString WallCircleCombineHoleNXString = "+ ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×Àà";
 			if (Feature_WallCircleCombineHole.size()>0)
 			{
 				HoleClassflyList.push_back(WallCircleCombineHoleNXString);
 			}
-			NXString RibCombineHoleNXString = "+ ç­‹é¢å¤åˆå­”ç±»";
+			NXString RibCombineHoleNXString = "+ ½îÃæ¸´ºÏ¿×Àà";
 			if (Feature_RibCombineHole.size()>0)
 			{
 				HoleClassflyList.push_back(RibCombineHoleNXString);
 			}
-			NXString BossNormalHoleNXString = "+ å‡¸å°é€šå­”ç±»";
+			NXString BossNormalHoleNXString = "+ Í¹Ì¨Í¨¿×Àà";
 			if (Feature_BossNormalHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossNormalHoleNXString);
 			}
-			NXString BossOneRightHoleNXString = "+ å‡¸å°å•ä¾§æ–œè§’é€šå­”ç±»";
+			NXString BossOneRightHoleNXString = "+ Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×Àà";
 			if (Feature_BossOneRightHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossOneRightHoleNXString);
 			}
-			NXString BossOneCircleHoleNXString = "+ å‡¸å°å•ä¾§åœ†è§’é€šå­”ç±»";
+			NXString BossOneCircleHoleNXString = "+ Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×Àà";
 			if (Feature_BossOneCircleHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossOneCircleHoleNXString);
 			}
-			NXString BossDoubleRightHoleNXString = "+ å‡¸å°åŒä¾§æ–œè§’é€šå­”ç±»";
+			NXString BossDoubleRightHoleNXString = "+ Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×Àà";
 			if (Feature_BossDoubleRightHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossDoubleRightHoleNXString);
 			}
-			NXString BossDoubleCircleHoleNXString = "+ å‡¸å°åŒä¾§åœ†è§’é€šå­”ç±»";
+			NXString BossDoubleCircleHoleNXString = "+ Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×Àà";
 			if (Feature_BossDoubleCircleHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossDoubleCircleHoleNXString);
 			}
-			NXString BossOneRightOneCircleHoleNXString = "+ å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”ç±»";
+			NXString BossOneRightOneCircleHoleNXString = "+ Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×Àà";
 			if (Feature_BossOneRightOneCircleHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossOneRightOneCircleHoleNXString);
 			}
-			NXString BossManyLayerHoleNXString = "+ å‡¸å°å¤šå±‚é€šå­”ç±»";
+			NXString BossManyLayerHoleNXString = "+ Í¹Ì¨¶à²ãÍ¨¿×Àà";
 			if (Feature_BossManyLayerHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossManyLayerHoleNXString);
 			}
-			NXString BossOutsideWideCombineHoleNXString = "+ å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”ç±»";
+			NXString BossOutsideWideCombineHoleNXString = "+ Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×Àà";
 			if (Feature_BossOutsideWideCombineHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossOutsideWideCombineHoleNXString);
 			}
-			NXString BossInsideWideCombineHoleNXString = "+ å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”ç±»";
+			NXString BossInsideWideCombineHoleNXString = "+ Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×Àà";
 			if (Feature_BossInsideWideCombineHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossInsideWideCombineHoleNXString);
 			}
-			NXString BossMidCricleCombineHoleNXString = "+ å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”ç±»";
+			NXString BossMidCricleCombineHoleNXString = "+ Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×Àà";
 			if (Feature_BossMidCricleCombineHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossMidCricleCombineHoleNXString);
 			}
-			NXString BossNormalBlindHoleNXString = "+ å‡¸å°æ— å€’è§’ç›²å­”ç±»";
+			NXString BossNormalBlindHoleNXString = "+ Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×Àà";
 			if (Feature_BossNormalBlindHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossNormalBlindHoleNXString);
 			}
-			NXString BossRightBlindHoleNXString = "+ å‡¸å°å€’æ–œè§’ç›²å­”ç±»";
+			NXString BossRightBlindHoleNXString = "+ Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×Àà";
 			if (Feature_BossRightBlindHole.size()>0)
 			{
 				HoleClassflyList.push_back(BossRightBlindHoleNXString);
@@ -4786,16 +4786,16 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			iter++;
 			listStrings.insert(iter, AddStringList.begin(), AddStringList.end());
 			SetAllFeatureColor(DefaultColor);
-			//æ˜¾ç¤ºå­”é¢œè‰²
+			//ÏÔÊ¾¿×ÑÕÉ«
 			SetAllHoleColor(40);
-			//æ˜¾ç¤ºå­”é¢œè‰²
+			//ÏÔÊ¾¿×ÑÕÉ«
 		}
 		else
 		{
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å­”: ";//æœ‰ç©ºæ ¼ï¼Œç”¨äºå†æ¬¡å±•å¼€
+			*iter = "+ ¿×: ";//ÓĞ¿Õ¸ñ£¬ÓÃÓÚÔÙ´ÎÕ¹¿ª
 			iter++;
 
 			while (iter != listStrings.end())
@@ -4815,19 +4815,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//-------------------------------------------------å…¶å®ƒå­”ç‰¹å¾1------------------------------------------------
+	//-------------------------------------------------ÆäËü¿×ÌØÕ÷1------------------------------------------------
 
-	else if (FeatureNameString.find(other1HoleString) != std::string::npos)//1çº§  //G
+	else if (FeatureNameString.find(other1HoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å…¶å®ƒå­”ç±»ä¸€";//G
+			*iter = "- ÆäËü¿×ÀàÒ»";//G
 
 			for (std::vector<Other1Hole*>::size_type i = 0; i != Feature_otherHole1.size(); i++)//G
 
@@ -4841,7 +4841,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å…¶å®ƒå­”ä¸€." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÆäËü¿×Ò»." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -4857,7 +4857,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å…¶å®ƒå­”ç±»ä¸€";//G
+			*iter = "+ ÆäËü¿×ÀàÒ»";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -4877,19 +4877,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//-------------------------------------------------å…¶å®ƒå­”ç‰¹å¾2------------------------------------------------
+	//-------------------------------------------------ÆäËü¿×ÌØÕ÷2------------------------------------------------
 
-	else if (FeatureNameString.find(other2HoleString) != std::string::npos)//1çº§  //G
+	else if (FeatureNameString.find(other2HoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å…¶å®ƒå­”ç±»äºŒ";//G
+			*iter = "- ÆäËü¿×Àà¶ş";//G
 
 			for (std::vector<Other2Hole*>::size_type i = 0; i != Feature_otherHole2.size(); i++)//G
 
@@ -4903,7 +4903,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å…¶å®ƒå­”äºŒ." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÆäËü¿×¶ş." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -4919,7 +4919,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å…¶å®ƒå­”ç±»äºŒ";//G
+			*iter = "+ ÆäËü¿×Àà¶ş";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -4941,19 +4941,19 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 
 
-	//-------------------------------------------------å…¶å®ƒå­”ç‰¹å¾3------------------------------------------------
+	//-------------------------------------------------ÆäËü¿×ÌØÕ÷3------------------------------------------------
 
-	else if (FeatureNameString.find(other3HoleString) != std::string::npos)//1çº§  //G
+	else if (FeatureNameString.find(other3HoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å…¶å®ƒå­”ç±»ä¸‰";//G
+			*iter = "- ÆäËü¿×ÀàÈı";//G
 
 			for (std::vector<Other3Hole*>::size_type i = 0; i != Feature_otherHole3.size(); i++)//G
 
@@ -4967,7 +4967,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å…¶å®ƒå­”ä¸‰." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÆäËü¿×Èı." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -4983,7 +4983,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å…¶å®ƒå­”ç±»ä¸‰";//G
+			*iter = "+ ÆäËü¿×ÀàÈı";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5003,8 +5003,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//------------------------------------------------å…¶å®ƒå­”1-----------------------------------------------
-	else if (FeatureNameString.find(other1HoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÆäËü¿×1-----------------------------------------------
+	else if (FeatureNameString.find(other1HoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		
 
@@ -5024,13 +5024,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å…¶å®ƒå­”ä¸€." + HoleNumberString;//G
+			*iter = "  - ÆäËü¿×Ò»." + HoleNumberString;//G
 
 			Other1Hole* EachHoleSpyResult = Feature_otherHole1[HoleNumber - 1];//G
 
@@ -5038,38 +5038,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->OuterVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    å†…å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ÄÚ±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->InterVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -5106,9 +5106,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å…¶å®ƒå­”ä¸€." + HoleNumberString;//G
+			*iter = "  + ÆäËü¿×Ò»." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -5133,8 +5133,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//------------------------------------------------å…¶å®ƒå­”2-----------------------------------------------
-	else if (FeatureNameString.find(other2HoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÆäËü¿×2-----------------------------------------------
+	else if (FeatureNameString.find(other2HoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -5150,13 +5150,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å…¶å®ƒå­”äºŒ." + HoleNumberString;//G
+			*iter = "  - ÆäËü¿×¶ş." + HoleNumberString;//G
 
 			Other2Hole* EachHoleSpyResult = Feature_otherHole2[HoleNumber - 1];//G
 
@@ -5164,38 +5164,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->OuterVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    å†…å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ÄÚ±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->InterVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -5232,9 +5232,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å…¶å®ƒå­”äºŒ." + HoleNumberString;//G
+			*iter = "  + ÆäËü¿×¶ş." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -5259,8 +5259,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		}
 	}
 
-	//------------------------------------------------å…¶å®ƒå­”3-----------------------------------------------
-	else if (FeatureNameString.find(other3HoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÆäËü¿×3-----------------------------------------------
+	else if (FeatureNameString.find(other3HoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -5276,13 +5276,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å…¶å®ƒå­”ä¸‰." + HoleNumberString;//G
+			*iter = "  - ÆäËü¿×Èı." + HoleNumberString;//G
 
 			Other3Hole* EachHoleSpyResult = Feature_otherHole3[HoleNumber - 1];//G
 
@@ -5290,21 +5290,21 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->OuterVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    å†…å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ÄÚ±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 
@@ -5312,10 +5312,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -5347,9 +5347,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å…¶å®ƒå­”ä¸‰." + HoleNumberString;//G
+			*iter = "  + ÆäËü¿×Èı." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -5376,18 +5376,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 
 
-	//------------------------------------------------è½´å‘æ™®é€šå­”ç‰¹å¾-----------------------------------------------
-	else if (FeatureNameString.find(DirectionNormalHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------ÖáÏòÆÕÍ¨¿×ÌØÕ÷-----------------------------------------------
+	else if (FeatureNameString.find(DirectionNormalHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- è½´å‘æ™®é€šå­”ç±»";//G
+			*iter = "- ÖáÏòÆÕÍ¨¿×Àà";//G
 
 			for (std::vector<DirectionNormalHole*>::size_type i = 0; i != Feature_DirectionNormalHole.size(); i++)//G
 
@@ -5401,7 +5401,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + è½´å‘æ™®é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÖáÏòÆÕÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5417,7 +5417,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ è½´å‘æ™®é€šå­”ç±»";//G
+			*iter = "+ ÖáÏòÆÕÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5436,18 +5436,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------è½´å‘å•ä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(DirectionRightHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------ÖáÏòµ¥²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(DirectionRightHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- è½´å‘å•ä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "- ÖáÏòµ¥²àĞ±½ÇÍ¨¿×Àà";//G
 			for (std::vector<DirectionRightHole*>::size_type i = 0; i != Feature_DirectionRightHole.size(); i++)//G
 
 
@@ -5459,7 +5459,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + è½´å‘å•ä¾§æ–œè§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÖáÏòµ¥²àĞ±½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5475,7 +5475,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ è½´å‘å•ä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "+ ÖáÏòµ¥²àĞ±½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5494,20 +5494,20 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(DirectionBlindHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Ã¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(DirectionBlindHoleString) != std::string::npos)//1¼¶  //G
 	{
 
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- è½´å‘æ— å€’è§’ç›²å­”ç±»";//G
+			*iter = "- ÖáÏòÎŞµ¹½ÇÃ¤¿×Àà";//G
 			for (std::vector<DirectionBlindHole*>::size_type i = 0; i != Feature_DirectionBlindHole.size(); i++)//G
 
 
@@ -5519,7 +5519,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + è½´å‘æ— å€’è§’ç›²å­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ÖáÏòÎŞµ¹½ÇÃ¤¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5535,7 +5535,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ è½´å‘æ— å€’è§’ç›²å­”ç±»";//G
+			*iter = "+ ÖáÏòÎŞµ¹½ÇÃ¤¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5554,18 +5554,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å£é¢é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(WallNormalHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------±ÚÃæÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(WallNormalHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å£é¢é€šå­”ç±»";//G
+			*iter = "- ±ÚÃæÍ¨¿×Àà";//G
 			for (std::vector<WallNormalHole*>::size_type i = 0; i != Feature_WallNormalHole.size(); i++)//G
 
 
@@ -5577,7 +5577,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å£é¢é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ±ÚÃæÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5593,7 +5593,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å£é¢é€šå­”ç±»";//G
+			*iter = "+ ±ÚÃæÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5612,18 +5612,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å£é¢å€’æ–œè§’å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(WallCircleCombineHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(WallCircleCombineHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å£é¢å€’æ–œè§’å¤åˆé€šå­”ç±»";//G
+			*iter = "- ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×Àà";//G
 			for (std::vector<WallCircleCombineHole*>::size_type i = 0; i != Feature_WallCircleCombineHole.size(); i++)//G
 
 
@@ -5635,7 +5635,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å£é¢å€’æ–œè§’å¤åˆé€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5651,7 +5651,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å£é¢å€’æ–œè§’å¤åˆé€šå­”ç±»";//G
+			*iter = "+ ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5670,18 +5670,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------ç­‹é¢å¤åˆå­”-----------------------------------------------
-	else if (FeatureNameString.find(RibCombineHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------½îÃæ¸´ºÏ¿×-----------------------------------------------
+	else if (FeatureNameString.find(RibCombineHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- ç­‹é¢å¤åˆå­”ç±»";//G
+			*iter = "- ½îÃæ¸´ºÏ¿×Àà";//G
 			for (std::vector<RibCombineHole*>::size_type i = 0; i != Feature_RibCombineHole.size(); i++)//G
 
 
@@ -5693,7 +5693,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + ç­‹é¢å¤åˆå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + ½îÃæ¸´ºÏ¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5709,7 +5709,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ ç­‹é¢å¤åˆå­”ç±»";//G
+			*iter = "+ ½îÃæ¸´ºÏ¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5728,18 +5728,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossNormalHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨Í¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossNormalHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨Í¨¿×Àà";//G
 
 
 			for (std::vector<BossNormalHole*>::size_type i = 0; i != Feature_BossNormalHole.size(); i++)//G
@@ -5755,7 +5755,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨Í¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5771,7 +5771,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨Í¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5790,18 +5790,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneRightHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneRightHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å•ä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×Àà";//G
 			for (std::vector<BossOneRightHole*>::size_type i = 0; i != Feature_BossOneRightHole.size(); i++)//G
 
 
@@ -5813,7 +5813,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å•ä¾§æ–œè§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5829,7 +5829,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å•ä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5848,18 +5848,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneCircleHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneCircleHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å•ä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×Àà";//G
 			for (std::vector<BossOneCircleHole*>::size_type i = 0; i != Feature_BossOneCircleHole.size(); i++)//G
 
 
@@ -5871,7 +5871,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å•ä¾§åœ†è§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5887,7 +5887,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å•ä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5906,18 +5906,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°åŒä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossDoubleRightHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossDoubleRightHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°åŒä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×Àà";//G
 			for (std::vector<BossDoubleRightHole*>::size_type i = 0; i != Feature_BossDoubleRightHole.size(); i++)//G
 
 
@@ -5929,7 +5929,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°åŒä¾§æ–œè§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -5945,7 +5945,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°åŒä¾§æ–œè§’é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -5964,18 +5964,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°åŒä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossDoubleCircleHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossDoubleCircleHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°åŒä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×Àà";//G
 			for (std::vector<BossDoubleCircleHole*>::size_type i = 0; i != Feature_BossDoubleCircleHole.size(); i++)//G
 
 
@@ -5987,7 +5987,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°åŒä¾§åœ†è§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6003,7 +6003,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°åŒä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6022,18 +6022,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneRightOneCircleHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneRightOneCircleHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×Àà";//G
 			for (std::vector<BossOneRightOneCircleHole*>::size_type i = 0; i != Feature_BossOneRightOneCircleHole.size(); i++)//G
 
 
@@ -6045,7 +6045,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6061,7 +6061,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6080,18 +6080,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å¤šå±‚é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossManyLayerHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨¶à²ãÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossManyLayerHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å¤šå±‚é€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨¶à²ãÍ¨¿×Àà";//G
 			for (std::vector<BossManyLayerHole*>::size_type i = 0; i != Feature_BossManyLayerHole.size(); i++)//G
 
 
@@ -6103,7 +6103,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å¤šå±‚é€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨¶à²ãÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6119,7 +6119,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å¤šå±‚é€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨¶à²ãÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6138,18 +6138,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOutsideWideCombineHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOutsideWideCombineHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×Àà";//G
 			for (std::vector<BossOutsideWideCombineHole*>::size_type i = 0; i != Feature_BossOutsideWideCombineHole.size(); i++)//G
 
 
@@ -6161,7 +6161,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6177,7 +6177,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6196,18 +6196,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossInsideWideCombineHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossInsideWideCombineHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×Àà";//G
 			for (std::vector<BossInsideWideCombineHole*>::size_type i = 0; i != Feature_BossInsideWideCombineHole.size(); i++)//G
 
 
@@ -6219,7 +6219,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6235,7 +6235,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6254,18 +6254,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossMidCricleCombineHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossMidCricleCombineHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”ç±»";//G
+			*iter = "- Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×Àà";//G
 			for (std::vector<BossMidCricleCombineHole*>::size_type i = 0; i != Feature_BossMidCricleCombineHole.size(); i++)//G
 
 
@@ -6277,7 +6277,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6293,7 +6293,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”ç±»";//G
+			*iter = "+ Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6312,18 +6312,18 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°æ— å€’è§’ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(BossNormalBlindHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossNormalBlindHoleString) != std::string::npos)//1¼¶  //G
 	{
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°æ— å€’è§’ç›²å­”ç±»";//G
+			*iter = "- Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×Àà";//G
 			for (std::vector<BossNormalBlindHole*>::size_type i = 0; i != Feature_BossNormalBlindHole.size(); i++)//G
 
 
@@ -6335,7 +6335,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°æ— å€’è§’ç›²å­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6351,7 +6351,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°æ— å€’è§’ç›²å­”ç±»";//G
+			*iter = "+ Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6370,8 +6370,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			SetAllFeatureColor(DefaultColor);
 		}
 	}
-	//------------------------------------------------å‡¸å°å€’æ–œè§’ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(BossRightBlindHoleString) != std::string::npos)//1çº§  //G
+	//------------------------------------------------Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossRightBlindHoleString) != std::string::npos)//1¼¶  //G
 	{
 
 
@@ -6379,13 +6379,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		NXString PlusNXString = "+";
 		std::string PlusString(PlusNXString.GetUTF8Text());
 
-		if (FeatureNameString.find(PlusString) != string::npos)//å¦‚æœæŸ¥æ‰¾åˆ°å­—ç¬¦+ï¼Œå½“å‰ä¸ºå±•å¼€çŠ¶æ€
+		if (FeatureNameString.find(PlusString) != string::npos)//Èç¹û²éÕÒµ½×Ö·û+£¬µ±Ç°ÎªÕ¹¿ª×´Ì¬
 		{
 
 			std::vector<NXString> AddStringList;
-			std::vector<NXString>::iterator iter = listStrings.begin();//è¿­ä»£å™¨ä¸­çš„ç¬¬ä¸€ä¸ªå­—ç¬¦å…ƒç´ 
+			std::vector<NXString>::iterator iter = listStrings.begin();//µü´úÆ÷ÖĞµÄµÚÒ»¸ö×Ö·ûÔªËØ
 			iter += iRowIndex;
-			*iter = "- å‡¸å°å€’æ–œè§’ç›²å­”ç±»";//G
+			*iter = "- Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×Àà";//G
 			for (std::vector<BossRightBlindHole*>::size_type i = 0; i != Feature_BossRightBlindHole.size(); i++)//G
 
 
@@ -6397,7 +6397,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 				NXString NXStringIndex = StringIndex;
 				delete StringIndex;
 
-				NXString HoleSpyResultDisplayString = "  + å‡¸å°å€’æ–œè§’ç›²å­”." + NXStringIndex;//G
+				NXString HoleSpyResultDisplayString = "  + Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×." + NXStringIndex;//G
 				AddStringList.push_back(HoleSpyResultDisplayString);
 
 			}
@@ -6413,7 +6413,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "+ å‡¸å°å€’æ–œè§’ç›²å­”ç±»";//G
+			*iter = "+ Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×Àà";//G
 			iter++;
 
 			while (iter != listStrings.end())
@@ -6434,8 +6434,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 	}
 
 
-	//------------------------------------------------è½´å‘æ™®é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(DirectionNormalHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÖáÏòÆÕÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(DirectionNormalHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 
 		//----------------------------
@@ -6461,13 +6461,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - è½´å‘æ™®é€šå­”." + HoleNumberString;//G
+			*iter = "  - ÖáÏòÆÕÍ¨¿×." + HoleNumberString;//G
 
 			DirectionNormalHole* EachHoleSpyResult = Feature_DirectionNormalHole[HoleNumber - 1];//G
 
@@ -6475,38 +6475,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    ä¾§å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ²à±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -6538,9 +6538,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + è½´å‘æ™®é€šå­”." + HoleNumberString;//G
+			*iter = "  + ÖáÏòÆÕÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -6564,8 +6564,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------è½´å‘å•ä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(DirectionRightHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------ÖáÏòµ¥²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(DirectionRightHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -6581,14 +6581,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
 
-			*iter = "  - è½´å‘å•ä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - ÖáÏòµ¥²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
 			DirectionRightHole* EachHoleSpyResult = Feature_DirectionRightHole[HoleNumber - 1];
 
@@ -6596,14 +6596,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceVectorString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceVectorString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceVectorString);//G
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->RightVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(RightVectorString);//G
 
 
@@ -6612,31 +6612,31 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    ä¾§å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ²à±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -6673,9 +6673,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + è½´å‘å•ä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + ÖáÏòµ¥²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -6699,8 +6699,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(DirectionBlindHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Ã¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(DirectionBlindHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -6716,13 +6716,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - è½´å‘æ— å€’è§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  - ÖáÏòÎŞµ¹½ÇÃ¤¿×." + HoleNumberString;//G
 
 			DirectionBlindHole* EachHoleSpyResult = Feature_DirectionBlindHole[HoleNumber - 1];//G
 
@@ -6730,7 +6730,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 
@@ -6738,31 +6738,31 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    ä¾§å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ²à±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -6799,9 +6799,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + è½´å‘æ— å€’è§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  + ÖáÏòÎŞµ¹½ÇÃ¤¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -6825,8 +6825,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å£é¢é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(WallNormalHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------±ÚÃæÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(WallNormalHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -6842,13 +6842,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å£é¢é€šå­”." + HoleNumberString;//G
+			*iter = "  - ±ÚÃæÍ¨¿×." + HoleNumberString;//G
 
 			WallNormalHole* EachHoleSpyResult = Feature_WallNormalHole[HoleNumber - 1];//G
 
@@ -6856,38 +6856,38 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString WallFaceString = "    ä¾§å£ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString WallFaceString = "    ²à±Ú£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(WallFaceString);
 
 			/*char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->CornerVector.size());
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString CornerFaceString = "    å€’è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";
+			NXString CornerFaceString = "    µ¹½ÇÃæ£º" + NXStringIndex3 + "¸ö";
 			AddStringList.push_back(CornerFaceString);*/
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomFaceString = "    åº•é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomFaceString = "    µ×Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomFaceString);
 
 			/*char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->JoniorHoleVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString JoniorHoleString = "    å­å­”ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString JoniorHoleString = "    ×Ó¿×£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(JoniorHoleString);*/
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -6924,9 +6924,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å£é¢é€šå­”." + HoleNumberString;//G
+			*iter = "  + ±ÚÃæÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -6950,8 +6950,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å£é¢å€’æ–œè§’å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(WallCircleCombineHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(WallCircleCombineHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -6967,13 +6967,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å£é¢å€’æ–œè§’å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  - ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
 			WallCircleCombineHole* EachHoleSpyResult = Feature_WallCircleCombineHole[HoleNumber - 1];//G
 
@@ -6981,14 +6981,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->TopInWallVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString TopInWallVectorString = "    ä¸Šä¾§é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString TopInWallVectorString = "    ÉÏ²àÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(TopInWallVectorString);//G
 
 
@@ -6997,31 +6997,31 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString CircleVectorString = "    å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString CircleVectorString = "    µ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->PlanerVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(PlanerVectorString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->BottomInWallVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString BottomInWallVectorString = "    ä¸‹ä¾§é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString BottomInWallVectorString = "    ÏÂ²àÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(BottomInWallVectorString);
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7073,9 +7073,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å£é¢å€’æ–œè§’å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  + ±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7099,8 +7099,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------ç­‹é¢å¤åˆå­”-----------------------------------------------
-	else if (FeatureNameString.find(RibCombineHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------½îÃæ¸´ºÏ¿×-----------------------------------------------
+	else if (FeatureNameString.find(RibCombineHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7116,13 +7116,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - ç­‹é¢å¤åˆå­”." + HoleNumberString;//G
+			*iter = "  - ½îÃæ¸´ºÏ¿×." + HoleNumberString;//G
 
 			RibCombineHole* EachHoleSpyResult = Feature_RibCombineHole[HoleNumber - 1];//G
 
@@ -7130,45 +7130,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString CircleVectorString = "    å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString CircleVectorString = "    µ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7220,9 +7220,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + ç­‹é¢å¤åˆå­”." + HoleNumberString;//G
+			*iter = "  + ½îÃæ¸´ºÏ¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7246,8 +7246,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossNormalHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨Í¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossNormalHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7263,13 +7263,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨Í¨¿×." + HoleNumberString;//G
 
 			BossNormalHole* EachHoleSpyResult = Feature_BossNormalHole[HoleNumber - 1];//G
 
@@ -7277,31 +7277,31 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7353,9 +7353,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨Í¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7379,8 +7379,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneRightHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneRightHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7396,13 +7396,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å•ä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
 			BossOneRightHole* EachHoleSpyResult = Feature_BossOneRightHole[HoleNumber - 1];//G
 
@@ -7410,31 +7410,31 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7486,9 +7486,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å•ä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7512,8 +7512,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneCircleHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneCircleHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7529,13 +7529,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å•ä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
 			BossOneCircleHole* EachHoleSpyResult = Feature_BossOneCircleHole[HoleNumber - 1];//G
 
@@ -7543,45 +7543,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString CircleVectorString = "    å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString CircleVectorString = "    µ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			//char* StringIndex3 = new char;
 			//sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			//NXString NXStringIndex3 = StringIndex3;
 			//delete StringIndex3;
-			//NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			//NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			//AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7633,9 +7633,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å•ä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7659,8 +7659,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°åŒä¾§æ–œè§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossDoubleRightHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossDoubleRightHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7676,13 +7676,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°åŒä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
 			BossDoubleRightHole* EachHoleSpyResult = Feature_BossDoubleRightHole[HoleNumber - 1];//G
 
@@ -7690,45 +7690,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->TopRightVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString TopRightVectorString = "    ä¸Šä¾§å€’æ–œè§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString TopRightVectorString = "    ÉÏ²àµ¹Ğ±½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(TopRightVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->BottomRightVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString BottomRightVectorString = "    ä¸‹ä¾§å€’æ–œè§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString BottomRightVectorString = "    ÏÂ²àµ¹Ğ±½ÇÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(BottomRightVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7780,9 +7780,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°åŒä¾§æ–œè§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7806,8 +7806,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°åŒä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossDoubleCircleHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossDoubleCircleHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7823,13 +7823,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°åŒä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
 			BossDoubleCircleHole* EachHoleSpyResult = Feature_BossDoubleCircleHole[HoleNumber - 1];//G
 
@@ -7837,45 +7837,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->TopCircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString TopCircleVectorString = "    ä¸Šä¾§å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString TopCircleVectorString = "    ÉÏ²àµ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(TopCircleVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->BottomCircleVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString BottomCircleVectorString = "    ä¸‹ä¾§å€’åœ†è§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString BottomCircleVectorString = "    ÏÂ²àµ¹Ô²½ÇÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(BottomCircleVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -7927,9 +7927,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°åŒä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -7953,8 +7953,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOneRightOneCircleHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOneRightOneCircleHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -7970,13 +7970,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
 			BossOneRightOneCircleHole* EachHoleSpyResult = Feature_BossOneRightOneCircleHole[HoleNumber - 1];//G
 
@@ -7984,45 +7984,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString CircleVectorString = "    ä¸Šä¾§å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString CircleVectorString = "    ÉÏ²àµ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->RightVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString RightVectorString = "    ä¸‹ä¾§å€’æ–œè§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString RightVectorString = "    ÏÂ²àµ¹Ğ±½ÇÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(RightVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(RightVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8074,9 +8074,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8100,8 +8100,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å¤šå±‚é€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossManyLayerHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨¶à²ãÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossManyLayerHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8117,13 +8117,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å¤šå±‚é€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨¶à²ãÍ¨¿×." + HoleNumberString;//G
 
 			BossManyLayerHole* EachHoleSpyResult = Feature_BossManyLayerHole[HoleNumber - 1];//G
 
@@ -8131,45 +8131,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString CircleVectorString = "    ä¸Šä¾§å€’åœ†è§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString CircleVectorString = "    ÉÏ²àµ¹Ô²½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->RightVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString RightVectorString = "    ä¸Šä¾§å€’æ–œè§’é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString RightVectorString = "    ÉÏ²àµ¹Ğ±½ÇÃæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(RightVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->PlanerVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(PlanerVectorString);
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8221,9 +8221,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å¤šå±‚é€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨¶à²ãÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8247,8 +8247,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossOutsideWideCombineHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossOutsideWideCombineHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8264,13 +8264,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
 			BossOutsideWideCombineHole* EachHoleSpyResult = Feature_BossOutsideWideCombineHole[HoleNumber - 1];//G
 
@@ -8278,45 +8278,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->TopWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString TopWallVectorString = "    ä¸Šä¾§é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString TopWallVectorString = "    ÉÏ²àÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(TopWallVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->BottomWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString BottomWallVectorString = "    ä¸‹ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString BottomWallVectorString = "    ÏÂ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(BottomWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->PlanerVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(PlanerVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8368,9 +8368,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8394,8 +8394,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossInsideWideCombineHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossInsideWideCombineHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8411,13 +8411,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
 			BossInsideWideCombineHole* EachHoleSpyResult = Feature_BossInsideWideCombineHole[HoleNumber - 1];//G
 
@@ -8425,45 +8425,45 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->TopWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString TopWallVectorString = "    ä¸Šä¾§é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString TopWallVectorString = "    ÉÏ²àÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(TopWallVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->BottomWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString BottomWallVectorString = "    ä¸‹ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString BottomWallVectorString = "    ÏÂ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(BottomWallVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->PlanerVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(PlanerVectorString);*/
 
 			char* StringIndex5 = new char;
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8515,9 +8515,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8541,8 +8541,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”-----------------------------------------------
-	else if (FeatureNameString.find(BossMidCricleCombineHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossMidCricleCombineHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8558,13 +8558,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
 			BossMidCricleCombineHole* EachHoleSpyResult = Feature_BossMidCricleCombineHole[HoleNumber - 1];//G
 
@@ -8572,35 +8572,35 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->TopWallVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString TopWallVectorString = "    ä¸Šä¾§é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString TopWallVectorString = "    ÉÏ²àÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(TopWallVectorString);
 
 			char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString CircleVectorString = "    å€’åœ†è§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString CircleVectorString = "    µ¹Ô²½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(CircleVectorString);
 
 			char* StringIndex3 = new char;
 			sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			NXString NXStringIndex3 = StringIndex3;
 			delete StringIndex3;
-			NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->BottomWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString BottomWallVectorString = "    ä¸‹ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString BottomWallVectorString = "    ÏÂ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(BottomWallVectorString);
 
 
@@ -8609,10 +8609,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8664,9 +8664,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8690,8 +8690,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°æ— å€’è§’ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(BossNormalBlindHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossNormalBlindHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8707,13 +8707,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°æ— å€’è§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×." + HoleNumberString;//G
 
 			BossNormalBlindHole* EachHoleSpyResult = Feature_BossNormalBlindHole[HoleNumber - 1];//G
 
@@ -8721,14 +8721,14 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 
@@ -8737,10 +8737,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8793,9 +8793,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°æ— å€’è§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8819,8 +8819,8 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			}
 		}
 	}
-	//------------------------------------------------å‡¸å°å€’æ–œè§’ç›²å­”-----------------------------------------------
-	else if (FeatureNameString.find(BossRightBlindHoleStringdot) != std::string::npos)//å­”3çº§ G
+	//------------------------------------------------Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×-----------------------------------------------
+	else if (FeatureNameString.find(BossRightBlindHoleStringdot) != std::string::npos)//¿×3¼¶ G
 	{
 		char str[5];
 		int HoleNumber = to_int(FeatureNameString);
@@ -8836,13 +8836,13 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 		{
 			std::vector<NXString> AddStringList;
 			char message[13];
-			//---------è°ƒè¯•æ¨¡æ¿-----------
+			//---------µ÷ÊÔÄ£°å-----------
 
 
 			std::vector<NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  - å‡¸å°å€’æ–œè§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  - Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×." + HoleNumberString;//G
 
 			BossRightBlindHole* EachHoleSpyResult = Feature_BossRightBlindHole[HoleNumber - 1];//G
 
@@ -8850,35 +8850,35 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex1, "%d", EachHoleSpyResult->TopFaceVector.size());//G
 			NXString NXStringIndex1 = StringIndex1;
 			delete StringIndex1;
-			NXString TopFaceString = "    é¡¶é¢ï¼š" + NXStringIndex1 + "ä¸ª";//G
+			NXString TopFaceString = "    ¶¥Ãæ£º" + NXStringIndex1 + "¸ö";//G
 			AddStringList.push_back(TopFaceString);//G
 
 			char* StringIndex2 = new char;
 			sprintf(StringIndex2, "%d", EachHoleSpyResult->RightVector.size());
 			NXString NXStringIndex2 = StringIndex2;
 			delete StringIndex2;
-			NXString RightVectorString = "    å€’æ–œè§’é¢ï¼š" + NXStringIndex2 + "ä¸ª";
+			NXString RightVectorString = "    µ¹Ğ±½ÇÃæ£º" + NXStringIndex2 + "¸ö";
 			AddStringList.push_back(RightVectorString);
 
 			/*char* StringIndex4 = new char;
 			sprintf(StringIndex4, "%d", EachHoleSpyResult->CircleVector.size());
 			NXString NXStringIndex4 = StringIndex4;
 			delete StringIndex4;
-			NXString CircleVectorString = "    å€’åœ†è§’é¢ï¼š" + NXStringIndex4 + "ä¸ª";
+			NXString CircleVectorString = "    µ¹Ô²½ÇÃæ£º" + NXStringIndex4 + "¸ö";
 			AddStringList.push_back(CircleVectorString);*/
 
 			//char* StringIndex3 = new char;
 			//sprintf(StringIndex3, "%d", EachHoleSpyResult->PlanerVector.size());//G
 			//NXString NXStringIndex3 = StringIndex3;
 			//delete StringIndex3;
-			//NXString PlanerVectorString = "    è¿‡æ¸¡å¹³é¢ï¼š" + NXStringIndex3 + "ä¸ª";//G
+			//NXString PlanerVectorString = "    ¹ı¶ÉÆ½Ãæ£º" + NXStringIndex3 + "¸ö";//G
 			//AddStringList.push_back(PlanerVectorString);//G
 
 			char* StringIndex6 = new char;
 			sprintf(StringIndex6, "%d", EachHoleSpyResult->InWallVector.size());
 			NXString NXStringIndex6 = StringIndex6;
 			delete StringIndex6;
-			NXString InWallVectorString = "    ä¾§é¢ï¼š" + NXStringIndex6 + "ä¸ª";
+			NXString InWallVectorString = "    ²àÃæ£º" + NXStringIndex6 + "¸ö";
 			AddStringList.push_back(InWallVectorString);
 
 
@@ -8887,10 +8887,10 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			sprintf(StringIndex5, "%d", EachHoleSpyResult->BottomFaceVector.size());
 			NXString NXStringIndex5 = StringIndex5;
 			delete StringIndex5;
-			NXString BottomFaceVectorString = "    åº•é¢ï¼š" + NXStringIndex5 + "ä¸ª";
+			NXString BottomFaceVectorString = "    µ×Ãæ£º" + NXStringIndex5 + "¸ö";
 			AddStringList.push_back(BottomFaceVectorString);
 
-			//æ˜¾ç¤ºé¢œè‰²
+			//ÏÔÊ¾ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 
 
@@ -8943,9 +8943,9 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 			std::vector<NXOpen::NXString>::iterator iter = listStrings.begin();
 			iter += iRowIndex;
 
-			*iter = "  + å‡¸å°å€’æ–œè§’ç›²å­”." + HoleNumberString;//G
+			*iter = "  + Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×." + HoleNumberString;//G
 
-			//æ¢å¤é¢œè‰²
+			//»Ö¸´ÑÕÉ«
 			SetAllFeatureColor(DefaultColor);
 			/*SetAllHoleColor(150) ;*/        //G
 
@@ -8976,7 +8976,7 @@ void FeatureSpy::ResponseToFeatureList(int iRowIndex, NXString FeatureName)
 
 void FeatureSpy::SetAllFeatureColor(int i)
 {
-	//--------------------------------------------å…¶å®ƒå­”ç±»1ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×Àà1ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other1Hole*>::size_type ii = 0; ii != Feature_otherHole1.size(); ii++)
 	{
 		Other1Hole* EachOutlineSpyResult = Feature_otherHole1[ii];
@@ -9000,7 +9000,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 	}
 
-	//--------------------------------------------å…¶å®ƒå­”ç±»2ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×Àà2ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other2Hole*>::size_type ii = 0; ii != Feature_otherHole2.size(); ii++)
 	{
 		Other2Hole* EachOutlineSpyResult = Feature_otherHole2[ii];
@@ -9024,7 +9024,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 	}
 
-	//--------------------------------------------å…¶å®ƒå­”ç±»3ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×Àà3ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other3Hole*>::size_type ii = 0; ii != Feature_otherHole3.size(); ii++)
 	{
 		Other3Hole* EachOutlineSpyResult = Feature_otherHole3[ii];
@@ -9042,7 +9042,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 	}
 
-	//--------------------------------------------è½´å‘æ™®é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÆÕÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionNormalHole*>::size_type ii = 0; ii != Feature_DirectionNormalHole.size(); ii++)
 	{
 		DirectionNormalHole* EachOutlineSpyResult = Feature_DirectionNormalHole[ii];
@@ -9065,7 +9065,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 			UF_OBJ_set_color(EachOutlineSideFace->Tag(), i);
 		}
 	}
-	//--------------------------------------------è½´å‘å•ä¾§æ–œè§’é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòµ¥²àĞ±½ÇÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionRightHole*>::size_type ii = 0; ii != Feature_DirectionRightHole.size(); ii++)
 	{
 
@@ -9095,7 +9095,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 			UF_OBJ_set_color(EachOutlineRightFace->Tag(), i);//
 		}
 	}
-	//--------------------------------------------è½´å‘æ— å€’è§’ç›²å­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÎŞµ¹½ÇÃ¤¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionBlindHole*>::size_type ii = 0; ii != Feature_DirectionBlindHole.size(); ii++)
 	{
 		DirectionBlindHole* EachOutlineSpyResult = Feature_DirectionBlindHole[ii];
@@ -9135,7 +9135,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		//}
 
 	}
-	//--------------------------------------------å£é¢æ™®é€šé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæÆÕÍ¨Í¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallNormalHole*>::size_type ii = 0; ii != Feature_WallNormalHole.size(); ii++)
 	{
 		WallNormalHole* EachOutlineSpyResult = Feature_WallNormalHole[ii];
@@ -9175,7 +9175,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		//}
 
 	}
-	//--------------------------------------------å£é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallCircleCombineHole*>::size_type ii = 0; ii != Feature_WallCircleCombineHole.size(); ii++)
 	{
 		WallCircleCombineHole* EachOutlineSpyResult = Feature_WallCircleCombineHole[ii];
@@ -9215,7 +9215,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------ç­‹é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------½îÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<RibCombineHole*>::size_type ii = 0; ii != Feature_RibCombineHole.size(); ii++)
 	{
 		RibCombineHole* EachOutlineSpyResult = Feature_RibCombineHole[ii];
@@ -9255,7 +9255,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°æ— å€’è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÎŞµ¹½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalHole*>::size_type ii = 0; ii != Feature_BossNormalHole.size(); ii++)
 	{
 		BossNormalHole* EachOutlineSpyResult = Feature_BossNormalHole[ii];
@@ -9295,7 +9295,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightHole*>::size_type ii = 0; ii != Feature_BossOneRightHole.size(); ii++)
 	{
 		BossOneRightHole* EachOutlineSpyResult = Feature_BossOneRightHole[ii];
@@ -9335,7 +9335,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneCircleHole.size(); ii++)
 	{
 		BossOneCircleHole* EachOutlineSpyResult = Feature_BossOneCircleHole[ii];
@@ -9375,7 +9375,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°åŒä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleRightHole*>::size_type ii = 0; ii != Feature_BossDoubleRightHole.size(); ii++)
 	{
 		BossDoubleRightHole* EachOutlineSpyResult = Feature_BossDoubleRightHole[ii];
@@ -9417,7 +9417,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°åŒä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleCircleHole*>::size_type ii = 0; ii != Feature_BossDoubleCircleHole.size(); ii++)
 	{
 		BossDoubleCircleHole* EachOutlineSpyResult = Feature_BossDoubleCircleHole[ii];
@@ -9459,7 +9459,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½Çµ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneRightOneCircleHole.size(); ii++)
 	{
 		BossOneRightOneCircleHole* EachOutlineSpyResult = Feature_BossOneRightOneCircleHole[ii];
@@ -9501,7 +9501,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å¤šå±‚é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨¶à²ãÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossManyLayerHole*>::size_type ii = 0; ii != Feature_BossManyLayerHole.size(); ii++)
 	{
 		BossManyLayerHole* EachOutlineSpyResult = Feature_BossManyLayerHole[ii];
@@ -9543,7 +9543,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOutsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossOutsideWideCombineHole.size(); ii++)
 	{
 		BossOutsideWideCombineHole* EachOutlineSpyResult = Feature_BossOutsideWideCombineHole[ii];
@@ -9585,7 +9585,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossInsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossInsideWideCombineHole.size(); ii++)
 	{
 		BossInsideWideCombineHole* EachOutlineSpyResult = Feature_BossInsideWideCombineHole[ii];
@@ -9627,7 +9627,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossMidCricleCombineHole*>::size_type ii = 0; ii != Feature_BossMidCricleCombineHole.size(); ii++)
 	{
 		BossMidCricleCombineHole* EachOutlineSpyResult = Feature_BossMidCricleCombineHole[ii];
@@ -9669,7 +9669,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalBlindHole*>::size_type ii = 0; ii != Feature_BossNormalBlindHole.size(); ii++)
 	{
 		BossNormalBlindHole* EachOutlineSpyResult = Feature_BossNormalBlindHole[ii];
@@ -9711,7 +9711,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		//}
 
 	}
-	//--------------------------------------------å‡¸å°å€’æ–œè§’ç›²å­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×---------------------------------------------------------
 	for (std::vector<BossRightBlindHole*>::size_type ii = 0; ii != Feature_BossRightBlindHole.size(); ii++)
 	{
 		BossRightBlindHole* EachOutlineSpyResult = Feature_BossRightBlindHole[ii];
@@ -9753,7 +9753,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		//}
 
 	}
-	//è½®å»“å†…ä¾§
+	//ÂÖÀªÄÚ²à
 	for (std::vector<Outline*>::size_type ii = 0; ii != Feature_OutlineVector1.size(); ii++)
 	{
 		Outline* EachOutlineSpyResult = Feature_OutlineVector1[ii];
@@ -9793,7 +9793,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//è½®å»“å¤–ä¾§
+	//ÂÖÀªÍâ²à
 	for (std::vector<Outline*>::size_type ii = 0; ii != Feature_OutlineVector.size(); ii++)
 	{
 		Outline* EachOutlineSpyResult = Feature_OutlineVector[ii];
@@ -9833,7 +9833,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//ç¯å½¢æ§½0
+	//»·ĞÎ²Û0
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove0.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove0[ii];
@@ -9856,7 +9856,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 			UF_OBJ_set_color(EachSubsidenceCavityLimitFaceVector->Tag(), i);
 		}
 	}
-	//ç¯å½¢æ§½1
+	//»·ĞÎ²Û1
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove1.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove1[ii];
@@ -9879,7 +9879,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 			UF_OBJ_set_color(EachSubsidenceCavityLimitFaceVector->Tag(), i);
 		}
 	}
-	//ä¸‹é™·æ§½
+	//ÏÂÏİ²Û
 	for (std::vector<SubsidenceGroove*>::size_type ii = 0; ii != Feature_SubsidenceGroove.size(); ii++)
 	{
 		SubsidenceGroove* EachSubsidenceCavitySpyResult = Feature_SubsidenceGroove[ii];
@@ -9897,7 +9897,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 	}
 
-	//å¹³é¢æµ…æ§½
+	//Æ½ÃæÇ³²Û
 	for (std::vector<PlanerBlindGroove*>::size_type ii = 0; ii != Feature_PlanerBlindGroove.size(); ii++)
 	{
 		PlanerBlindGroove* EachArcCavitySpyResult = Feature_PlanerBlindGroove[ii];
@@ -9920,8 +9920,8 @@ void FeatureSpy::SetAllFeatureColor(int i)
 			UF_OBJ_set_color(EachArcCavitySideFaceVector->Tag(), i);
 		}
 	}
-	//é€šæ§½
-	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//å‡¸å°
+	//Í¨²Û
+	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//Í¹Ì¨
 	{
 		PassGroove* EachBossSpyResult = Feature_PassGroove[ii];
 
@@ -9952,8 +9952,8 @@ void FeatureSpy::SetAllFeatureColor(int i)
 	}
 
 
-	//--------------------------------------------å«ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------º¬²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//Í¹Ì¨
 	{
 		NormalBoss* EachBossSpyResult = Feature_NormalBoss[ii];
 
@@ -9982,8 +9982,8 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}*/
 
 	}
-	//--------------------------------------------æ— ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------ÎŞ²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//Í¹Ì¨
 	{
 		NoSideBoss* EachBossSpyResult = Feature_NoSideBoss[ii];
 
@@ -10006,8 +10006,8 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}*/
 
 	}
-	//--------------------------------------------å¤šå±‚å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------¶à²ãÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//Í¹Ì¨
 	{
 		DoubleLayerBoss* EachBossSpyResult = Feature_DoubleLayerBoss[ii];
 
@@ -10055,7 +10055,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}*/
 
 	}
-	//--------------------------------------------ä¸»è½´è§„åˆ™å›è½¬ç­‹ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------Ö÷Öá¹æÔò»Ø×ª½îÉÏÉ«---------------------------------------------------------
 
 	for (std::vector<DirectionRib*>::size_type ii = 0; ii != Feature_DirectionRib.size(); ii++)
 	{
@@ -10080,7 +10080,7 @@ void FeatureSpy::SetAllFeatureColor(int i)
 		}
 
 	}
-	//--------------------------------------------æ›²é¢æ§½ç­‹ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÇúÃæ²Û½îÉÏÉ«---------------------------------------------------------
 	for (std::vector<HookFaceRib*>::size_type ii = 0; ii != Feature_HookFaceRib.size(); ii++)
 	{
 		HookFaceRib* EachHookFaceRibSpyResult = Feature_HookFaceRib[ii];
@@ -10120,8 +10120,8 @@ void FeatureSpy::SetAllFeatureColor(int i)
 
 void FeatureSpy::SetAllBossColor(int Color)
 {
-	//--------------------------------------------å«ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------º¬²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//Í¹Ì¨
 	{
 		NormalBoss* EachBossSpyResult = Feature_NormalBoss[ii];
 
@@ -10150,8 +10150,8 @@ void FeatureSpy::SetAllBossColor(int Color)
 		}*/
 
 	}
-	//--------------------------------------------æ— ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------ÎŞ²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//Í¹Ì¨
 	{
 		NoSideBoss* EachBossSpyResult = Feature_NoSideBoss[ii];
 
@@ -10174,8 +10174,8 @@ void FeatureSpy::SetAllBossColor(int Color)
 		}*/
 
 	}
-	//--------------------------------------------å¤šå±‚å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------¶à²ãÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//Í¹Ì¨
 	{
 		DoubleLayerBoss* EachBossSpyResult = Feature_DoubleLayerBoss[ii];
 
@@ -10228,8 +10228,8 @@ void FeatureSpy::SetAllBossColor(int Color)
 
 void FeatureSpy::SetAllNormalBossColor(int Color)
 {
-	//--------------------------------------------å«ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------º¬²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NormalBoss*>::size_type ii = 0; ii != Feature_NormalBoss.size(); ii++)//Í¹Ì¨
 	{
 		NormalBoss* EachBossSpyResult = Feature_NormalBoss[ii];
 
@@ -10260,8 +10260,8 @@ void FeatureSpy::SetAllNormalBossColor(int Color)
 }
 void FeatureSpy::SetAllNoSideBossColor(int Color)
 {
-	//--------------------------------------------æ— ä¾§é¢å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------ÎŞ²àÃæÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<NoSideBoss*>::size_type ii = 0; ii != Feature_NoSideBoss.size(); ii++)//Í¹Ì¨
 	{
 		NoSideBoss* EachBossSpyResult = Feature_NoSideBoss[ii];
 
@@ -10287,8 +10287,8 @@ void FeatureSpy::SetAllNoSideBossColor(int Color)
 }
 void FeatureSpy::SetAllDoubleLayerBossColor(int Color)
 {
-	//--------------------------------------------å¤šå±‚å‡¸å°ä¸Šè‰²---------------------------------------------------------
-	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//å‡¸å°
+	//--------------------------------------------¶à²ãÍ¹Ì¨ÉÏÉ«---------------------------------------------------------
+	for (std::vector<DoubleLayerBoss*>::size_type ii = 0; ii != Feature_DoubleLayerBoss.size(); ii++)//Í¹Ì¨
 	{
 		DoubleLayerBoss* EachBossSpyResult = Feature_DoubleLayerBoss[ii];
 
@@ -10339,7 +10339,7 @@ void FeatureSpy::SetAllDoubleLayerBossColor(int Color)
 }
 
 
-//ä¸ºæ‰€æœ‰çš„ç­‹ç‰¹å¾è®¾ç½®é¢œè‰²------mql------æš‚æ—¶åªå†™äº†ä¸»è½´è§„åˆ™å›è½¬ç­‹çš„é¢œè‰²è®¾ç½®
+//ÎªËùÓĞµÄ½îÌØÕ÷ÉèÖÃÑÕÉ«------mql------ÔİÊ±Ö»Ğ´ÁËÖ÷Öá¹æÔò»Ø×ª½îµÄÑÕÉ«ÉèÖÃ
 void FeatureSpy::SetAllRibColor(int Color)
 {
 	for (std::vector<DirectionRib*>::size_type ii = 0; ii != Feature_DirectionRib.size(); ii++)
@@ -10364,7 +10364,7 @@ void FeatureSpy::SetAllRibColor(int Color)
 			UF_OBJ_set_color(EachOutlineSideFace->Tag(), Color);
 		}
 	}
-	// æ›²é¢æ§½ç­‹
+	// ÇúÃæ²Û½î
 
 	for (std::vector<HookFaceRib*>::size_type ii = 0; ii != Feature_HookFaceRib.size(); ii++)
 	{
@@ -10397,7 +10397,7 @@ void FeatureSpy::SetAllRibColor(int Color)
 	}
 
 }
-void FeatureSpy::SetAllHookFaceRibColor(int Color)//è®¾ç½®æ›²é¢æ§½ç­‹ç‰¹å¾é¢œè‰²
+void FeatureSpy::SetAllHookFaceRibColor(int Color)//ÉèÖÃÇúÃæ²Û½îÌØÕ÷ÑÕÉ«
 {
 	for (std::vector<HookFaceRib*>::size_type ii = 0; ii != Feature_HookFaceRib.size(); ii++)
 	{
@@ -10429,8 +10429,8 @@ void FeatureSpy::SetAllHookFaceRibColor(int Color)//è®¾ç½®æ›²é¢æ§½ç­‹ç‰¹å¾é¢œè
 	}
 }
 
-//ç»™æ‰€æœ‰çš„ä¸»è½´è§„åˆ™å›è½¬ç­‹ç‰¹å¾è®¾ç½®é¢œè‰²------mql
-void FeatureSpy::SetAllDirectionRibColor(int Color)//è®¾ç½®ä¸»è½´è§„åˆ™å›è½¬ç­‹ç‰¹å¾é¢œè‰²
+//¸øËùÓĞµÄÖ÷Öá¹æÔò»Ø×ª½îÌØÕ÷ÉèÖÃÑÕÉ«------mql
+void FeatureSpy::SetAllDirectionRibColor(int Color)//ÉèÖÃÖ÷Öá¹æÔò»Ø×ª½îÌØÕ÷ÑÕÉ«
 {
 
 	for (std::vector<DirectionRib*>::size_type ii = 0; ii != Feature_DirectionRib.size(); ii++)
@@ -10460,7 +10460,7 @@ void FeatureSpy::SetAllDirectionRibColor(int Color)//è®¾ç½®ä¸»è½´è§„åˆ™å›è½¬ç­‹
 
 void FeatureSpy::SetCircularGroove0Color(int i)
 {
-	//ç¯å½¢æ§½0
+	//»·ĞÎ²Û0
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove0.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove0[ii];
@@ -10487,7 +10487,7 @@ void FeatureSpy::SetCircularGroove0Color(int i)
 
 void FeatureSpy::SetCircularGroove1Color(int i)
 {
-	//ç¯å½¢æ§½1
+	//»·ĞÎ²Û1
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove1.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove1[ii];
@@ -10513,7 +10513,7 @@ void FeatureSpy::SetCircularGroove1Color(int i)
 }
 void FeatureSpy::SetSubsidenceGrooveColor(int i)
 {
-	//ä¸‹é™·æ§½
+	//ÏÂÏİ²Û
 	for (std::vector<SubsidenceGroove*>::size_type ii = 0; ii != Feature_SubsidenceGroove.size(); ii++)
 	{
 		SubsidenceGroove* EachSubsidenceCavitySpyResult = Feature_SubsidenceGroove[ii];
@@ -10534,7 +10534,7 @@ void FeatureSpy::SetSubsidenceGrooveColor(int i)
 }
 void FeatureSpy::SetPlanerBlindGrooveColor(int i)
 {
-	//å¹³é¢æµ…æ§½
+	//Æ½ÃæÇ³²Û
 	for (std::vector<PlanerBlindGroove*>::size_type ii = 0; ii != Feature_PlanerBlindGroove.size(); ii++)
 	{
 		PlanerBlindGroove* EachArcCavitySpyResult = Feature_PlanerBlindGroove[ii];
@@ -10560,8 +10560,8 @@ void FeatureSpy::SetPlanerBlindGrooveColor(int i)
 }
 void FeatureSpy::SetPassGrooveColor(int i)
 {
-	//é€šæ§½
-	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//å‡¸å°
+	//Í¨²Û
+	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//Í¹Ì¨
 	{
 		PassGroove* EachBossSpyResult = Feature_PassGroove[ii];
 
@@ -10593,7 +10593,7 @@ void FeatureSpy::SetPassGrooveColor(int i)
 
 void FeatureSpy::SetAllGrooveColor(int i)
 {
-	//ç¯å½¢æ§½0
+	//»·ĞÎ²Û0
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove0.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove0[ii];
@@ -10616,7 +10616,7 @@ void FeatureSpy::SetAllGrooveColor(int i)
 			UF_OBJ_set_color(EachSubsidenceCavityLimitFaceVector->Tag(), i);
 		}
 	}
-	//ç¯å½¢æ§½1
+	//»·ĞÎ²Û1
 	for (std::vector<CircularGroove*>::size_type ii = 0; ii != Feature_CircularGroove1.size(); ii++)//g
 	{
 		CircularGroove* EachSubsidenceCavitySpyResult = Feature_CircularGroove1[ii];
@@ -10639,7 +10639,7 @@ void FeatureSpy::SetAllGrooveColor(int i)
 			UF_OBJ_set_color(EachSubsidenceCavityLimitFaceVector->Tag(), i);
 		}
 	}
-	//ä¸‹é™·æ§½
+	//ÏÂÏİ²Û
 	for (std::vector<SubsidenceGroove*>::size_type ii = 0; ii != Feature_SubsidenceGroove.size(); ii++)
 	{
 		SubsidenceGroove* EachSubsidenceCavitySpyResult = Feature_SubsidenceGroove[ii];
@@ -10657,7 +10657,7 @@ void FeatureSpy::SetAllGrooveColor(int i)
 		}
 	}
 
-	//å¹³é¢æµ…æ§½
+	//Æ½ÃæÇ³²Û
 	for (std::vector<PlanerBlindGroove*>::size_type ii = 0; ii != Feature_PlanerBlindGroove.size(); ii++)
 	{
 		PlanerBlindGroove* EachArcCavitySpyResult = Feature_PlanerBlindGroove[ii];
@@ -10680,8 +10680,8 @@ void FeatureSpy::SetAllGrooveColor(int i)
 			UF_OBJ_set_color(EachArcCavitySideFaceVector->Tag(), i);
 		}
 	}
-	//é€šæ§½
-	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//å‡¸å°
+	//Í¨²Û
+	for (std::vector<PassGroove*>::size_type ii = 0; ii != Feature_PassGroove.size(); ii++)//Í¹Ì¨
 	{
 		PassGroove* EachBossSpyResult = Feature_PassGroove[ii];
 
@@ -10714,7 +10714,7 @@ void FeatureSpy::SetAllGrooveColor(int i)
 }
 
 
-//-----ç»™æ‰€æœ‰è½®å»“ä¸Šè‰²20230204-mql
+//-----¸øËùÓĞÂÖÀªÉÏÉ«20230204-mql
 void FeatureSpy::SetAllOutLineColor(int Color)
 {
 	for (std::vector<Outline*>::size_type ii = 0; ii != Feature_OutlineVector1.size(); ii++)
@@ -10798,7 +10798,7 @@ void FeatureSpy::SetAllOutLineColor(int Color)
 	}
 }
 
-void FeatureSpy::SetOutOutLineColor(int Color)//è®¾ç½®å¤–è½®å»“ç‰¹å¾é¢œè‰²
+void FeatureSpy::SetOutOutLineColor(int Color)//ÉèÖÃÍâÂÖÀªÌØÕ÷ÑÕÉ«
 {
 
 	for (std::vector<Outline*>::size_type ii = 0; ii != Feature_OutlineVector.size(); ii++)
@@ -10844,7 +10844,7 @@ void FeatureSpy::SetOutOutLineColor(int Color)//è®¾ç½®å¤–è½®å»“ç‰¹å¾é¢œè‰²
 
 
 
-void FeatureSpy::SetInOutLineColor(int Color)//è®¾ç½®å†…è½®å»“ç‰¹å¾é¢œè‰²
+void FeatureSpy::SetInOutLineColor(int Color)//ÉèÖÃÄÚÂÖÀªÌØÕ÷ÑÕÉ«
 {
 
 	for (std::vector<Outline*>::size_type ii = 0; ii != Feature_OutlineVector1.size(); ii++)
@@ -10890,7 +10890,7 @@ void FeatureSpy::SetInOutLineColor(int Color)//è®¾ç½®å†…è½®å»“ç‰¹å¾é¢œè‰²
 
 void FeatureSpy::SetAllHoleColor(int Color)
 {
-	//--------------------------------------------å…¶å®ƒå­”1ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×1ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other1Hole*>::size_type ii = 0; ii != Feature_otherHole1.size(); ii++)
 	{
 		Other1Hole* EachOutlineSpyResult = Feature_otherHole1[ii];
@@ -10914,7 +10914,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 	}
 
-	//--------------------------------------------å…¶å®ƒå­”2ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×2ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other2Hole*>::size_type ii = 0; ii != Feature_otherHole2.size(); ii++)
 	{
 		Other2Hole* EachOutlineSpyResult = Feature_otherHole2[ii];
@@ -10938,7 +10938,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 	}
 
-	//--------------------------------------------å…¶å®ƒå­”3ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×3ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other3Hole*>::size_type ii = 0; ii != Feature_otherHole3.size(); ii++)
 	{
 		Other3Hole* EachOutlineSpyResult = Feature_otherHole3[ii];
@@ -10956,7 +10956,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 	}
 
-	//--------------------------------------------è½´å‘æ™®é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÆÕÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionNormalHole*>::size_type ii = 0; ii != Feature_DirectionNormalHole.size(); ii++)
 	{
 		DirectionNormalHole* EachOutlineSpyResult = Feature_DirectionNormalHole[ii];
@@ -10979,7 +10979,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 			UF_OBJ_set_color(EachOutlineSideFace->Tag(), Color);
 		}
 	}
-	//--------------------------------------------è½´å‘å•ä¾§æ–œè§’é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòµ¥²àĞ±½ÇÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionRightHole*>::size_type ii = 0; ii != Feature_DirectionRightHole.size(); ii++)
 	{
 		DirectionRightHole* EachOutlineSpyResult = Feature_DirectionRightHole[ii];
@@ -11008,7 +11008,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 			UF_OBJ_set_color(EachOutlineRightFace->Tag(), Color);//
 		}
 	}
-	//--------------------------------------------è½´å‘æ— å€’è§’ç›²å­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÎŞµ¹½ÇÃ¤¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionBlindHole*>::size_type ii = 0; ii != Feature_DirectionBlindHole.size(); ii++)
 	{
 		DirectionBlindHole* EachOutlineSpyResult = Feature_DirectionBlindHole[ii];
@@ -11048,7 +11048,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		//}
 
 	}
-	//--------------------------------------------å£é¢æ™®é€šé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæÆÕÍ¨Í¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallNormalHole*>::size_type ii = 0; ii != Feature_WallNormalHole.size(); ii++)
 	{
 		WallNormalHole* EachOutlineSpyResult = Feature_WallNormalHole[ii];
@@ -11088,7 +11088,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		//}
 
 	}
-	//--------------------------------------------å£é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallCircleCombineHole*>::size_type ii = 0; ii != Feature_WallCircleCombineHole.size(); ii++)
 	{
 		WallCircleCombineHole* EachOutlineSpyResult = Feature_WallCircleCombineHole[ii];
@@ -11128,7 +11128,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------ç­‹é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------½îÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<RibCombineHole*>::size_type ii = 0; ii != Feature_RibCombineHole.size(); ii++)
 	{
 		RibCombineHole* EachOutlineSpyResult = Feature_RibCombineHole[ii];
@@ -11168,7 +11168,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°æ— å€’è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÎŞµ¹½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalHole*>::size_type ii = 0; ii != Feature_BossNormalHole.size(); ii++)
 	{
 		BossNormalHole* EachOutlineSpyResult = Feature_BossNormalHole[ii];
@@ -11208,7 +11208,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightHole*>::size_type ii = 0; ii != Feature_BossOneRightHole.size(); ii++)
 	{
 		BossOneRightHole* EachOutlineSpyResult = Feature_BossOneRightHole[ii];
@@ -11248,7 +11248,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneCircleHole.size(); ii++)
 	{
 		BossOneCircleHole* EachOutlineSpyResult = Feature_BossOneCircleHole[ii];
@@ -11288,7 +11288,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°åŒä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleRightHole*>::size_type ii = 0; ii != Feature_BossDoubleRightHole.size(); ii++)
 	{
 		BossDoubleRightHole* EachOutlineSpyResult = Feature_BossDoubleRightHole[ii];
@@ -11330,7 +11330,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°åŒä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleCircleHole*>::size_type ii = 0; ii != Feature_BossDoubleCircleHole.size(); ii++)
 	{
 		BossDoubleCircleHole* EachOutlineSpyResult = Feature_BossDoubleCircleHole[ii];
@@ -11372,7 +11372,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½Çµ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneRightOneCircleHole.size(); ii++)
 	{
 		BossOneRightOneCircleHole* EachOutlineSpyResult = Feature_BossOneRightOneCircleHole[ii];
@@ -11414,7 +11414,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å¤šå±‚é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨¶à²ãÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossManyLayerHole*>::size_type ii = 0; ii != Feature_BossManyLayerHole.size(); ii++)
 	{
 		BossManyLayerHole* EachOutlineSpyResult = Feature_BossManyLayerHole[ii];
@@ -11456,7 +11456,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOutsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossOutsideWideCombineHole.size(); ii++)
 	{
 		BossOutsideWideCombineHole* EachOutlineSpyResult = Feature_BossOutsideWideCombineHole[ii];
@@ -11498,7 +11498,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossInsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossInsideWideCombineHole.size(); ii++)
 	{
 		BossInsideWideCombineHole* EachOutlineSpyResult = Feature_BossInsideWideCombineHole[ii];
@@ -11540,7 +11540,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossMidCricleCombineHole*>::size_type ii = 0; ii != Feature_BossMidCricleCombineHole.size(); ii++)
 	{
 		BossMidCricleCombineHole* EachOutlineSpyResult = Feature_BossMidCricleCombineHole[ii];
@@ -11582,7 +11582,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		}
 
 	}
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalBlindHole*>::size_type ii = 0; ii != Feature_BossNormalBlindHole.size(); ii++)
 	{
 		BossNormalBlindHole* EachOutlineSpyResult = Feature_BossNormalBlindHole[ii];
@@ -11624,7 +11624,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 		//}
 
 	}
-	//--------------------------------------------å‡¸å°å€’æ–œè§’ç›²å­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×---------------------------------------------------------
 	for (std::vector<BossRightBlindHole*>::size_type ii = 0; ii != Feature_BossRightBlindHole.size(); ii++)
 	{
 		BossRightBlindHole* EachOutlineSpyResult = Feature_BossRightBlindHole[ii];
@@ -11672,7 +11672,7 @@ void FeatureSpy::SetAllHoleColor(int Color)
 
 void FeatureSpy::Setother1HoleColor(int Color)
 {
-	//--------------------------------------------å…¶å®ƒå­”1ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×1ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other1Hole*>::size_type ii = 0; ii != Feature_otherHole1.size(); ii++)
 	{
 		Other1Hole* EachOutlineSpyResult = Feature_otherHole1[ii];
@@ -11700,7 +11700,7 @@ void FeatureSpy::Setother1HoleColor(int Color)
 
 void FeatureSpy::Setother2HoleColor(int Color)
 {
-	//--------------------------------------------å…¶å®ƒå­”2ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×2ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other2Hole*>::size_type ii = 0; ii != Feature_otherHole2.size(); ii++)
 	{
 		Other2Hole* EachOutlineSpyResult = Feature_otherHole2[ii];
@@ -11728,7 +11728,7 @@ void FeatureSpy::Setother2HoleColor(int Color)
 
 void FeatureSpy::Setother3HoleColor(int Color)
 {
-	//--------------------------------------------å…¶å®ƒå­”3ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÆäËü¿×3ÉÏÉ«---------------------------------------------------------
 	for (std::vector<Other3Hole*>::size_type ii = 0; ii != Feature_otherHole3.size(); ii++)
 	{
 		Other3Hole* EachOutlineSpyResult = Feature_otherHole3[ii];
@@ -11749,7 +11749,7 @@ void FeatureSpy::Setother3HoleColor(int Color)
 
 void FeatureSpy::SetDirectionNormalHoleColor(int Color)
 {
-	//--------------------------------------------è½´å‘æ™®é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÆÕÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionNormalHole*>::size_type ii = 0; ii != Feature_DirectionNormalHole.size(); ii++)
 	{
 		DirectionNormalHole* EachOutlineSpyResult = Feature_DirectionNormalHole[ii];
@@ -11793,7 +11793,7 @@ void FeatureSpy::SetDirectionNormalHoleColor(int Color)
 
 void FeatureSpy::SetDirectionRightHoleColor(int Color)
 {
-	//--------------------------------------------è½´å‘å•ä¾§æ–œè§’é€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòµ¥²àĞ±½ÇÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionRightHole*>::size_type ii = 0; ii != Feature_DirectionRightHole.size(); ii++)
 	{
 		DirectionRightHole* EachOutlineSpyResult = Feature_DirectionRightHole[ii];
@@ -11837,7 +11837,7 @@ void FeatureSpy::SetDirectionRightHoleColor(int Color)
 
 void FeatureSpy::SetDirectionBlindHoleColor(int Color)
 {
-	//--------------------------------------------è½´å‘æ— å€’è§’ç›²å­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------ÖáÏòÎŞµ¹½ÇÃ¤¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<DirectionBlindHole*>::size_type ii = 0; ii != Feature_DirectionBlindHole.size(); ii++)
 	{
 		DirectionBlindHole* EachOutlineSpyResult = Feature_DirectionBlindHole[ii];
@@ -11881,7 +11881,7 @@ void FeatureSpy::SetDirectionBlindHoleColor(int Color)
 
 void FeatureSpy::SetWallNormalHoleColor(int Color)
 {
-	//--------------------------------------------å£é¢æ™®é€šé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæÆÕÍ¨Í¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallNormalHole*>::size_type ii = 0; ii != Feature_WallNormalHole.size(); ii++)
 	{
 		WallNormalHole* EachOutlineSpyResult = Feature_WallNormalHole[ii];
@@ -11925,7 +11925,7 @@ void FeatureSpy::SetWallNormalHoleColor(int Color)
 
 void FeatureSpy::SetWallCircleCombineHoleColor(int Color)
 {
-	//--------------------------------------------å£é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------±ÚÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<WallCircleCombineHole*>::size_type ii = 0; ii != Feature_WallCircleCombineHole.size(); ii++)
 	{
 		WallCircleCombineHole* EachOutlineSpyResult = Feature_WallCircleCombineHole[ii];
@@ -11969,7 +11969,7 @@ void FeatureSpy::SetWallCircleCombineHoleColor(int Color)
 
 void FeatureSpy::SetRibCombineHoleColor(int Color)
 {
-	//--------------------------------------------ç­‹é¢å¤åˆé€šå­”ä¸Šè‰²---------------------------------------------------------
+	//--------------------------------------------½îÃæ¸´ºÏÍ¨¿×ÉÏÉ«---------------------------------------------------------
 	for (std::vector<RibCombineHole*>::size_type ii = 0; ii != Feature_RibCombineHole.size(); ii++)
 	{
 		RibCombineHole* EachOutlineSpyResult = Feature_RibCombineHole[ii];
@@ -12013,7 +12013,7 @@ void FeatureSpy::SetRibCombineHoleColor(int Color)
 
 void FeatureSpy::SetBossNormalHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°æ— å€’è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÎŞµ¹½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalHole*>::size_type ii = 0; ii != Feature_BossNormalHole.size(); ii++)
 	{
 		BossNormalHole* EachOutlineSpyResult = Feature_BossNormalHole[ii];
@@ -12057,7 +12057,7 @@ void FeatureSpy::SetBossNormalHoleColor(int Color)
 
 void FeatureSpy::SetBossOneRightHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightHole*>::size_type ii = 0; ii != Feature_BossOneRightHole.size(); ii++)
 	{
 		BossOneRightHole* EachOutlineSpyResult = Feature_BossOneRightHole[ii];
@@ -12101,7 +12101,7 @@ void FeatureSpy::SetBossOneRightHoleColor(int Color)
 
 void FeatureSpy::SetBossOneCircleHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneCircleHole.size(); ii++)
 	{
 		BossOneCircleHole* EachOutlineSpyResult = Feature_BossOneCircleHole[ii];
@@ -12145,7 +12145,7 @@ void FeatureSpy::SetBossOneCircleHoleColor(int Color)
 
 void FeatureSpy::SetBossDoubleRightHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°åŒä¾§æ–œè§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleRightHole*>::size_type ii = 0; ii != Feature_BossDoubleRightHole.size(); ii++)
 	{
 		BossDoubleRightHole* EachOutlineSpyResult = Feature_BossDoubleRightHole[ii];
@@ -12191,7 +12191,7 @@ void FeatureSpy::SetBossDoubleRightHoleColor(int Color)
 
 void FeatureSpy::SetBossDoubleCircleHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°åŒä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossDoubleCircleHole*>::size_type ii = 0; ii != Feature_BossDoubleCircleHole.size(); ii++)
 	{
 		BossDoubleCircleHole* EachOutlineSpyResult = Feature_BossDoubleCircleHole[ii];
@@ -12237,7 +12237,7 @@ void FeatureSpy::SetBossDoubleCircleHoleColor(int Color)
 
 void FeatureSpy::SetBossOneRightOneCircleHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å•ä¾§æ–œè§’å•ä¾§åœ†è§’é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¥²àĞ±½Çµ¥²àÔ²½ÇÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOneRightOneCircleHole*>::size_type ii = 0; ii != Feature_BossOneRightOneCircleHole.size(); ii++)
 	{
 		BossOneRightOneCircleHole* EachOutlineSpyResult = Feature_BossOneRightOneCircleHole[ii];
@@ -12283,7 +12283,7 @@ void FeatureSpy::SetBossOneRightOneCircleHoleColor(int Color)
 
 void FeatureSpy::SetBossManyLayerHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å¤šå±‚é€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨¶à²ãÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossManyLayerHole*>::size_type ii = 0; ii != Feature_BossManyLayerHole.size(); ii++)
 	{
 		BossManyLayerHole* EachOutlineSpyResult = Feature_BossManyLayerHole[ii];
@@ -12329,7 +12329,7 @@ void FeatureSpy::SetBossManyLayerHoleColor(int Color)
 
 void FeatureSpy::SetBossOutsideWideCombineHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossOutsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossOutsideWideCombineHole.size(); ii++)
 	{
 		BossOutsideWideCombineHole* EachOutlineSpyResult = Feature_BossOutsideWideCombineHole[ii];
@@ -12375,7 +12375,7 @@ void FeatureSpy::SetBossOutsideWideCombineHoleColor(int Color)
 
 void FeatureSpy::SetBossInsideWideCombineHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossInsideWideCombineHole*>::size_type ii = 0; ii != Feature_BossInsideWideCombineHole.size(); ii++)
 	{
 		BossInsideWideCombineHole* EachOutlineSpyResult = Feature_BossInsideWideCombineHole[ii];
@@ -12421,7 +12421,7 @@ void FeatureSpy::SetBossInsideWideCombineHoleColor(int Color)
 
 void FeatureSpy::SetBossMidCricleCombineHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossMidCricleCombineHole*>::size_type ii = 0; ii != Feature_BossMidCricleCombineHole.size(); ii++)
 	{
 		BossMidCricleCombineHole* EachOutlineSpyResult = Feature_BossMidCricleCombineHole[ii];
@@ -12467,7 +12467,7 @@ void FeatureSpy::SetBossMidCricleCombineHoleColor(int Color)
 
 void FeatureSpy::SetBossNormalBlindHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°ä¸­åœ†è§’å¤åˆé€šå­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨ÖĞÔ²½Ç¸´ºÏÍ¨¿×---------------------------------------------------------
 	for (std::vector<BossNormalBlindHole*>::size_type ii = 0; ii != Feature_BossNormalBlindHole.size(); ii++)
 	{
 		BossNormalBlindHole* EachOutlineSpyResult = Feature_BossNormalBlindHole[ii];
@@ -12513,7 +12513,7 @@ void FeatureSpy::SetBossNormalBlindHoleColor(int Color)
 
 void FeatureSpy::SetBossRightBlindHoleColor(int Color)
 {
-	//--------------------------------------------å‡¸å°å€’æ–œè§’ç›²å­”---------------------------------------------------------
+	//--------------------------------------------Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×---------------------------------------------------------
 	for (std::vector<BossRightBlindHole*>::size_type ii = 0; ii != Feature_BossRightBlindHole.size(); ii++)
 	{
 		BossRightBlindHole* EachOutlineSpyResult = Feature_BossRightBlindHole[ii];
@@ -12562,24 +12562,24 @@ void FeatureSpy::GetInfomation()
 {
 	std::vector<Face*> HorizontalFaceVector;
 
-	//ç”¨foræ–¹å¼ä¸‹æ ‡éå†vectoræ˜¯æœ€å¿«çš„ï¼Œè¿­ä»£å™¨iteratoræ˜¯æœ€æ…¢çš„
+	//ÓÃfor·½Ê½ÏÂ±ê±éÀúvectorÊÇ×î¿ìµÄ£¬µü´úÆ÷iteratorÊÇ×îÂıµÄ
 	for (std::vector<Face*>::size_type i = 0; i != AllFaces.size(); i++)
 	{
 		Face* EachFace = AllFaces[i];
 
-		//é€‰å‡ºæ‰€æœ‰æ°´å¹³é¢
+		//Ñ¡³öËùÓĞË®Æ½Ãæ
 		if (EachFace->SolidFaceType() == Face::FaceTypePlanar)
 		{
 			Vector3d EachMainNormal;
 			get_MainNormal_fr_plane(EachFace, EachMainNormal);
-			double angle = get_Angle_Two_vector3d(EachMainNormal, _Approach_Normal);//è·å–ä¸¤ä¸ªå¹³é¢çš„æ³•å‘å¤¹è§’
+			double angle = get_Angle_Two_vector3d(EachMainNormal, _Approach_Normal);//»ñÈ¡Á½¸öÆ½ÃæµÄ·¨Ïò¼Ğ½Ç
 
 			angle = angle / PI * 180;
 			if (angle < 0.01 || angle > 179.99) HorizontalFaceVector.push_back(EachFace);
 		}
 	}
 
-	//æ‰¾å‡ºä¸¤ç«¯é¢ï¼Œå³åº•é¢ï¼ˆæœ€ä½é¢ï¼‰å’Œé¡¶é¢ï¼ˆæœ€é«˜é¢ï¼‰
+	//ÕÒ³öÁ½¶ËÃæ£¬¼´µ×Ãæ£¨×îµÍÃæ£©ºÍ¶¥Ãæ£¨×î¸ßÃæ£©
 	int TopPlaneIndex = -1;
 	int BottomPlaneIndex = -1;
 	double ZMax = 1000000;
@@ -12607,7 +12607,7 @@ void FeatureSpy::GetInfomation()
 		}
 		else
 		{
-			//uc1601(" Warningï¼\n å»ºæ¨¡æ—‹è½¬è½´éXYZä¸‰åæ ‡è½´ä¹‹ä¸€",1);
+			//uc1601(" Warning£¡\n ½¨Ä£Ğı×ªÖá·ÇXYZÈı×ø±êÖáÖ®Ò»",1);
 			_name_Z = FaceCenterPoint.X*_Approach_Normal.X + FaceCenterPoint.Y*_Approach_Normal.Y + FaceCenterPoint.Z*_Approach_Normal.Z;
 		}
 
@@ -12627,7 +12627,7 @@ void FeatureSpy::GetInfomation()
 
 	if (TopPlaneIndex == -1 || BottomPlaneIndex == -1 || TopPlaneIndex == BottomPlaneIndex)
 	{
-		uc1601(" Errorï¼\n æ¨¡å‹ä¸Šä¸‹ç«¯é¢ä¸å…¨ä¸ºå¹³é¢æˆ–åˆ†å‹é¢é€‰æ‹©é”™è¯¯ï¼", 1);
+		uc1601(" Error£¡\n Ä£ĞÍÉÏÏÂ¶ËÃæ²»È«ÎªÆ½Ãæ»ò·ÖĞÍÃæÑ¡Ôñ´íÎó£¡", 1);
 		std::vector<Face*> AllF;
 		Face* errorface = AllF[-1];
 		//return;
@@ -12638,7 +12638,7 @@ void FeatureSpy::GetInfomation()
 	for (std::vector<Face*>::size_type i = 0; i != HorizontalFaceVector.size(); i++)
 	{
 		Face* EachFace = HorizontalFaceVector[i];
-		////ä¸¤ä¸ªå‘é‡çš„è§’åº¦ ä¸é¡¶åº•é¢å¹³è¡Œçš„é¢
+		////Á½¸öÏòÁ¿µÄ½Ç¶È Óë¶¥µ×ÃæÆ½ĞĞµÄÃæ
 		Point3d FaceCenterPoint, facepoint1;
 		NXOpen::Vector3d FaceCenterNormal, facenorm1;
 		get_Centre_fr_Face(TopPlaneFace, FaceCenterPoint, FaceCenterNormal);
@@ -12658,11 +12658,11 @@ void FeatureSpy::GetInfomation()
 		UF_MODL_ask_face_data(TopPlaneFace->Tag(), &_type1, _point1, _dir1,
 			_box1, &_radius1, &_rad_data1, &_norm_dir1);
 		double Vec2[3] = { _dir1[0], _dir1[1], _dir1[2] };
-		//æ±‚ä¸¤ä¸ªå‘é‡çš„å‰ä¹˜
+		//ÇóÁ½¸öÏòÁ¿µÄ²æ³Ë
 		double CrossProduct[3];
 		UF_VEC3_cross(Vec1, Vec2, CrossProduct);
 
-		//å·²çŸ¥ä¸¤ä¸ªå‘é‡æ±‚å¤¹è§’(è¾“å‡ºçš„æ˜¯å¼§åº¦)
+		//ÒÑÖªÁ½¸öÏòÁ¿Çó¼Ğ½Ç(Êä³öµÄÊÇ»¡¶È)
 		double Angle;
 		UF_VEC3_angle_between(Vec1, Vec2, CrossProduct, &Angle);
 		double angle = Angle / PI * 180;

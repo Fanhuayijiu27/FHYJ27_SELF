@@ -92,9 +92,9 @@ void xml::initial(std::vector<CircularGroove*> CircularGroove0Result, std::vecto
 
 void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 {
-	/*uc1601("å·²è¿›å…¥ç¨‹åº",1);*/
+	/*uc1601("ÒÑ½øÈë³ÌĞò",1);*/
 	
-	/*UF_UI_write_listing_window("è¿›å…¥ç¨‹åºæµ‹è¯•2:");*/
+	/*UF_UI_write_listing_window("½øÈë³ÌĞò²âÊÔ2:");*/
 	
 
 	::CoInitialize(NULL);
@@ -113,38 +113,38 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		AppendChildToParent(pi, pDoc);
 		pi.Release();
 	}
-	/*UF_UI_write_listing_window("è¿›å…¥ç¨‹åºæµ‹è¯•3:");*/
+	/*UF_UI_write_listing_window("½øÈë³ÌĞò²âÊÔ3:");*/
 	BSTR bstr;
-	NXString iString = "ç‰¹å¾è¯†åˆ«ç»“æœåˆ—è¡¨";
+	NXString iString = "ÌØÕ÷Ê¶±ğ½á¹ûÁĞ±í";
 
 	bstr = ConvertToBSTR(iString);
 
 	IXMLDOMElementPtr pDocElement;
 	pDoc->createElement(bstr, &pDocElement);
 	AppendChildToParent(pDocElement, pDoc);
-	/*UF_UI_write_listing_window("è¿›å…¥ç¨‹åºæµ‹è¯•4:");
+	/*UF_UI_write_listing_window("½øÈë³ÌĞò²âÊÔ4:");
 	
 	char mes[13];
 	sprintf( mes, "%d\n",1111111);
-	UF_UI_write_listing_window("ç¯å½¢æ§½ä¸­å‘é‡æ•°:");
+	UF_UI_write_listing_window("»·ĞÎ²ÛÖĞÏòÁ¿Êı:");
 	UF_UI_write_listing_window(mes);
 
-	UF_UI_write_listing_window("è¿›å…¥ç¨‹åºæµ‹è¯•5:");*/
-	////ç¯å½¢æ§½ç»“ç‚¹
-	//NXString iStringAnnulusCavity = "ç¯å½¢æ§½";
+	UF_UI_write_listing_window("½øÈë³ÌĞò²âÊÔ5:");*/
+	////»·ĞÎ²Û½áµã
+	//NXString iStringAnnulusCavity = "»·ĞÎ²Û";
 	//bstr = ConvertToBSTR(iStringAnnulusCavity);
 
 	//IXMLDOMElementPtr pElement_AnnulusCavity;
 	//pDoc->createElement(bstr, &pElement_AnnulusCavity);
 	//AppendChildToParent(pElement_AnnulusCavity, pDocElement);
 
-	////ç¯å½¢æ§½ç‰¹å¾è¾“å‡º
+	////»·ĞÎ²ÛÌØÕ÷Êä³ö
 	//for (std::vector<AnnulusCavity*>::size_type i = 0; i != AnnulusCavitySpyResult.size(); i++)
 	//{
 	//	
 	//	char message[13];
 	//	sprintf( message, "%d\n",AnnulusCavitySpyResult.size());
-	//	UF_UI_write_listing_window("ç¯å½¢æ§½ä¸­å‘é‡æ•°:");
+	//	UF_UI_write_listing_window("»·ĞÎ²ÛÖĞÏòÁ¿Êı:");
 	//	UF_UI_write_listing_window(message);
 	//	AnnulusCavity* EachAnnulusCavity = AnnulusCavitySpyResult[i];
 
@@ -154,7 +154,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	NXString NXStringIndexI = StringIndexI;
 
 	//	BSTR bstr_AnnulusCavityFeatureNode;
-	//	NXString iStringAnnulusCavityFeatureNode = "ç¯å½¢æ§½." + NXStringIndexI;
+	//	NXString iStringAnnulusCavityFeatureNode = "»·ĞÎ²Û." + NXStringIndexI;
 
 	//	bstr_AnnulusCavityFeatureNode = ConvertToBSTR(iStringAnnulusCavityFeatureNode);
 
@@ -162,7 +162,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pDoc->createElement(bstr_AnnulusCavityFeatureNode, &pElement_AnnulusCavityFeatureNode);
 	//	AppendChildToParent(pElement_AnnulusCavityFeatureNode, pElement_AnnulusCavity);
 
-	//	//å±‚
+	//	//²ã
 	//	for (std::vector<AnnulusCavityLayer*>::size_type j = 0; j != EachAnnulusCavity->AnnulusCavityLayerVector.size(); j++)
 	//	{
 	//		AnnulusCavityLayer* EachAnnulusCavityLayer = EachAnnulusCavity->AnnulusCavityLayerVector[j];
@@ -173,7 +173,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_AnnulusCavityLayerNumber;
-	//		NXString iStringAnnulusCavityLayerNumber = "å±‚." + NXStringIndexJ;
+	//		NXString iStringAnnulusCavityLayerNumber = "²ã." + NXStringIndexJ;
 
 	//		bstr_AnnulusCavityLayerNumber = ConvertToBSTR(iStringAnnulusCavityLayerNumber);
 
@@ -181,9 +181,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pDoc->createElement(bstr_AnnulusCavityLayerNumber, &pElement_AnnulusCavityLayerNode);
 	//		AppendChildToParent(pElement_AnnulusCavityLayerNode, pElement_AnnulusCavityFeatureNode);
 
-	//		//ç¯å½¢æ§½åº•é¢
+	//		//»·ĞÎ²Ûµ×Ãæ
 	//		BSTR bstr_AnnulusCavityBottomFaceNode;
-	//		NXString iStringAnnulusCavityBottomFaceNode = "åº•é¢";
+	//		NXString iStringAnnulusCavityBottomFaceNode = "µ×Ãæ";
 
 	//		bstr_AnnulusCavityBottomFaceNode = ConvertToBSTR(iStringAnnulusCavityBottomFaceNode);
 
@@ -201,7 +201,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			NXString NXStringIndexK = StringIndexK;
 
 	//			BSTR bstr_AnnulusCavityBottomFace;
-	//			NXString iStringAnnulusCavityBottomFace = "åº•é¢." + NXStringIndexK;
+	//			NXString iStringAnnulusCavityBottomFace = "µ×Ãæ." + NXStringIndexK;
 
 	//			bstr_AnnulusCavityBottomFace = ConvertToBSTR(iStringAnnulusCavityBottomFace);
 
@@ -219,9 +219,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			pElement_AnnulusCavityBottomFace->put_text(bstr_AnnulusCavityBottomFaceTag);
 	//		}
 
-	//		//ç¯å½¢æ§½åº•è§’é¢
+	//		//»·ĞÎ²Ûµ×½ÇÃæ
 	//		BSTR bstr_AnnulusCavityBottomCornerFaceNode;
-	//		NXString iStringAnnulusCavityBottomCornerFaceNode = "åº•è§’é¢";
+	//		NXString iStringAnnulusCavityBottomCornerFaceNode = "µ×½ÇÃæ";
 
 	//		bstr_AnnulusCavityBottomCornerFaceNode = ConvertToBSTR(iStringAnnulusCavityBottomCornerFaceNode);
 
@@ -239,7 +239,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			NXString NXStringIndexK = StringIndexK;
 
 	//			BSTR bstr_AnnulusCavityBottomCornerFace;
-	//			NXString iStringAnnulusCavityBottomCornerFace = "åº•è§’é¢." + NXStringIndexK;
+	//			NXString iStringAnnulusCavityBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexK;
 
 	//			bstr_AnnulusCavityBottomCornerFace = ConvertToBSTR(iStringAnnulusCavityBottomCornerFace);
 
@@ -257,9 +257,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			pElement_AnnulusCavityBottomCornerFace->put_text(bstr_AnnulusCavityBottomCornerFaceTag);
 	//		}
 
-	//		//ç¯å½¢æ§½ä¾§é¢
+	//		//»·ĞÎ²Û²àÃæ
 	//		BSTR bstr_AnnulusCavitySideFaceNode;
-	//		NXString iStringAnnulusCavitySideFaceNode = "ä¾§é¢";
+	//		NXString iStringAnnulusCavitySideFaceNode = "²àÃæ";
 
 	//		bstr_AnnulusCavitySideFaceNode = ConvertToBSTR(iStringAnnulusCavitySideFaceNode);
 
@@ -277,7 +277,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			NXString NXStringIndexK = StringIndexK;
 
 	//			BSTR bstr_AnnulusCavitySideFace;
-	//			NXString iStringAnnulusCavitySideFace = "ä¾§é¢." + NXStringIndexK;
+	//			NXString iStringAnnulusCavitySideFace = "²àÃæ." + NXStringIndexK;
 
 	//			bstr_AnnulusCavitySideFace = ConvertToBSTR(iStringAnnulusCavitySideFace);
 
@@ -295,9 +295,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			pElement_AnnulusCavitySideFace->put_text(bstr_AnnulusCavitySideFaceTag);
 	//		}
 
-	//		//ç¯å½¢æ§½é¡¶é¢
+	//		//»·ĞÎ²Û¶¥Ãæ
 	//		BSTR bstr_AnnulusCavityTopFaceNode;
-	//		NXString iStringAnnulusCavityTopFaceNode = "é¡¶é¢";
+	//		NXString iStringAnnulusCavityTopFaceNode = "¶¥Ãæ";
 
 	//		bstr_AnnulusCavityTopFaceNode = ConvertToBSTR(iStringAnnulusCavityTopFaceNode);
 
@@ -315,7 +315,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//			NXString NXStringIndexK = StringIndexK;
 
 	//			BSTR bstr_AnnulusCavityTopFace;
-	//			NXString iStringAnnulusCavityTopFace = "é¡¶é¢." + NXStringIndexK;
+	//			NXString iStringAnnulusCavityTopFace = "¶¥Ãæ." + NXStringIndexK;
 
 	//			bstr_AnnulusCavityTopFace = ConvertToBSTR(iStringAnnulusCavityTopFace);
 
@@ -334,15 +334,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		}
 	//	}
 	//}
-	////ä¸‹é™·æ§½ç»“ç‚¹
-	//NXString iStringSubsidenceCavity = "ä¸‹é™·æ§½";
+	////ÏÂÏİ²Û½áµã
+	//NXString iStringSubsidenceCavity = "ÏÂÏİ²Û";
 	//bstr = ConvertToBSTR(iStringSubsidenceCavity);
 
 	//IXMLDOMElementPtr pElement_SubsidenceCavity;
 	//pDoc->createElement(bstr, &pElement_SubsidenceCavity);
 	//AppendChildToParent(pElement_SubsidenceCavity, pDocElement);
 
-	////ä¸‹é™·æ§½ç‰¹å¾è¾“å‡º
+	////ÏÂÏİ²ÛÌØÕ÷Êä³ö
 	//for (std::vector<SubsidenceCavity*>::size_type i = 0; i != SubsidenceCavitySpyResult.size(); i++)
 	//{
 	//	SubsidenceCavity* EachSubsidenceCavity = SubsidenceCavitySpyResult[i];
@@ -353,7 +353,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	NXString NXStringIndexI = StringIndexI;
 
 	//	BSTR bstr_SubsidenceCavityFeatureNode;
-	//	NXString iStringSubsidenceCavityFeatureNode = "ä¸‹é™·æ§½." + NXStringIndexI;
+	//	NXString iStringSubsidenceCavityFeatureNode = "ÏÂÏİ²Û." + NXStringIndexI;
 
 	//	bstr_SubsidenceCavityFeatureNode = ConvertToBSTR(iStringSubsidenceCavityFeatureNode);
 
@@ -361,9 +361,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pDoc->createElement(bstr_SubsidenceCavityFeatureNode, &pElement_SubsidenceCavityFeatureNode);
 	//	AppendChildToParent(pElement_SubsidenceCavityFeatureNode, pElement_SubsidenceCavity);
 
-	//	//ä¸‹é™·æ§½åº•é¢
+	//	//ÏÂÏİ²Ûµ×Ãæ
 	//	BSTR bstr_SubsidenceCavityBottomFaceNode;
-	//	NXString iStringSubsidenceCavityBottomFaceNode = "åº•é¢";
+	//	NXString iStringSubsidenceCavityBottomFaceNode = "µ×Ãæ";
 
 	//	bstr_SubsidenceCavityBottomFaceNode = ConvertToBSTR(iStringSubsidenceCavityBottomFaceNode);
 
@@ -381,7 +381,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_SubsidenceCavityBottomFace;
-	//		NXString iStringSubsidenceCavityBottomFace = "åº•é¢." + NXStringIndexJ;
+	//		NXString iStringSubsidenceCavityBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 	//		bstr_SubsidenceCavityBottomFace = ConvertToBSTR(iStringSubsidenceCavityBottomFace);
 
@@ -399,9 +399,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_SubsidenceCavityBottomFace->put_text(bstr_SubsidenceCavityBottomFaceTag);
 	//	}
 
-	//	//ä¸‹é™·æ§½åº•è§’é¢
+	//	//ÏÂÏİ²Ûµ×½ÇÃæ
 	//	BSTR bstr_SubsidenceCavityBottomCornerFaceNode;
-	//	NXString iStringSubsidenceCavityBottomCornerFaceNode = "åº•è§’é¢";
+	//	NXString iStringSubsidenceCavityBottomCornerFaceNode = "µ×½ÇÃæ";
 
 	//	bstr_SubsidenceCavityBottomCornerFaceNode = ConvertToBSTR(iStringSubsidenceCavityBottomCornerFaceNode);
 
@@ -419,7 +419,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_SubsidenceCavityBottomCornerFace;
-	//		NXString iStringSubsidenceCavityBottomCornerFace = "åº•è§’é¢." + NXStringIndexJ;
+	//		NXString iStringSubsidenceCavityBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 	//		bstr_SubsidenceCavityBottomCornerFace = ConvertToBSTR(iStringSubsidenceCavityBottomCornerFace);
 
@@ -438,15 +438,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	}
 	//}
 
-	////å¼§å½¢æ§½ç»“ç‚¹
-	//NXString iStringArcCavity = "å¼§å½¢æ§½";
+	////»¡ĞÎ²Û½áµã
+	//NXString iStringArcCavity = "»¡ĞÎ²Û";
 	//bstr = ConvertToBSTR(iStringArcCavity);
 
 	//IXMLDOMElementPtr pElement_ArcCavity;
 	//pDoc->createElement(bstr, &pElement_ArcCavity);
 	//AppendChildToParent(pElement_ArcCavity, pDocElement);
 
-	////å¼§å½¢æ§½ç‰¹å¾è¾“å‡º
+	////»¡ĞÎ²ÛÌØÕ÷Êä³ö
 	//for (std::vector<ArcCavity*>::size_type i = 0; i != ArcCavitySpyResult.size(); i++)
 	//{
 	//	ArcCavity* EachSubsidenceCavity = ArcCavitySpyResult[i];
@@ -457,7 +457,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	NXString NXStringIndexI = StringIndexI;
 
 	//	BSTR bstr_SubsidenceCavityFeatureNode;
-	//	NXString iStringSubsidenceCavityFeatureNode = "å¼§å½¢æ§½." + NXStringIndexI;
+	//	NXString iStringSubsidenceCavityFeatureNode = "»¡ĞÎ²Û." + NXStringIndexI;
 
 	//	bstr_SubsidenceCavityFeatureNode = ConvertToBSTR(iStringSubsidenceCavityFeatureNode);
 
@@ -465,9 +465,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pDoc->createElement(bstr_SubsidenceCavityFeatureNode, &pElement_SubsidenceCavityFeatureNode);
 	//	AppendChildToParent(pElement_SubsidenceCavityFeatureNode, pElement_ArcCavity);
 
-	//	//å¼§å½¢æ§½åº•é¢
+	//	//»¡ĞÎ²Ûµ×Ãæ
 	//	BSTR bstr_SubsidenceCavityBottomFaceNode;
-	//	NXString iStringSubsidenceCavityBottomFaceNode = "åº•é¢";
+	//	NXString iStringSubsidenceCavityBottomFaceNode = "µ×Ãæ";
 
 	//	bstr_SubsidenceCavityBottomFaceNode = ConvertToBSTR(iStringSubsidenceCavityBottomFaceNode);
 
@@ -485,7 +485,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_SubsidenceCavityBottomFace;
-	//		NXString iStringSubsidenceCavityBottomFace = "åº•é¢." + NXStringIndexJ;
+	//		NXString iStringSubsidenceCavityBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 	//		bstr_SubsidenceCavityBottomFace = ConvertToBSTR(iStringSubsidenceCavityBottomFace);
 
@@ -503,9 +503,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_SubsidenceCavityBottomFace->put_text(bstr_SubsidenceCavityBottomFaceTag);
 	//	}
 
-	//	//å¼§å½¢æ§½åº•è§’é¢
+	//	//»¡ĞÎ²Ûµ×½ÇÃæ
 	//	BSTR bstr_SubsidenceCavityBottomCornerFaceNode;
-	//	NXString iStringSubsidenceCavityBottomCornerFaceNode = "åº•è§’é¢";
+	//	NXString iStringSubsidenceCavityBottomCornerFaceNode = "µ×½ÇÃæ";
 
 	//	bstr_SubsidenceCavityBottomCornerFaceNode = ConvertToBSTR(iStringSubsidenceCavityBottomCornerFaceNode);
 
@@ -523,7 +523,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_SubsidenceCavityBottomCornerFace;
-	//		NXString iStringSubsidenceCavityBottomCornerFace = "åº•è§’é¢." + NXStringIndexJ;
+	//		NXString iStringSubsidenceCavityBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 	//		bstr_SubsidenceCavityBottomCornerFace = ConvertToBSTR(iStringSubsidenceCavityBottomCornerFace);
 
@@ -541,15 +541,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_SubsidenceCavityBottomCornerFace->put_text(bstr_SubsidenceCavityBottomCornerFaceTag);
 	//	}
 	//}
-	//ç­‹ç»“ç‚¹
-	NXString iStringRib = "ç­‹";
+	//½î½áµã
+	NXString iStringRib = "½î";
 	bstr = ConvertToBSTR(iStringRib);
 
 	IXMLDOMElementPtr pElement_Rib;
 	pDoc->createElement(bstr, &pElement_Rib);
 	AppendChildToParent(pElement_Rib, pDocElement);
 
-	//ä¸»è½´è§„åˆ™å›è½¬ç­‹
+	//Ö÷Öá¹æÔò»Ø×ª½î
 	for (std::vector<DirectionRib*>::size_type i = 0; i != DirectionRibSpyResult.size(); i++) //G
 	{
 		DirectionRib* EachHole = DirectionRibSpyResult[i];//G
@@ -560,23 +560,23 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "ä¸»è½´è§„åˆ™å›è½¬ç­‹." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Ö÷Öá¹æÔò»Ø×ª½î." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
 		IXMLDOMElementPtr pElement_HoleFeatureNode;
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
-		AppendChildToParent(pElement_HoleFeatureNode, pElement_Rib);//æ¥
+		AppendChildToParent(pElement_HoleFeatureNode, pElement_Rib);//½Ó
 
-		//é¡¶é¢
+		//¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";//g
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
 		IXMLDOMElementPtr pElement_HoleTopFaceNode;
 		pDoc->createElement(bstr_HoleTopFaceNode, &pElement_HoleTopFaceNode);
-		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//æ¥
+		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//½Ó
 
 		for (std::vector<Face*>::size_type j = 0; j != EachHole->TopFaceVector.size(); j++)//g
 		{
@@ -588,7 +588,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -606,9 +606,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "çº¦æŸé¢";//g
+		NXString iStringHoleSideFaceNode = "Ô¼ÊøÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -626,7 +626,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "çº¦æŸé¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "Ô¼ÊøÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -644,9 +644,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -664,7 +664,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -682,9 +682,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•è§’é¢";
+		NXString iStringHoleBottomFaceNode = "µ×½ÇÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -702,7 +702,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -725,7 +725,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//æ›²é¢æ§½ç­‹
+	//ÇúÃæ²Û½î
 	for (std::vector<HookFaceRib*>::size_type i = 0; i != HookFaceRibSpyResult.size(); i++) //G
 	{
 		HookFaceRib* EachHole = HookFaceRibSpyResult[i];//G
@@ -736,23 +736,23 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "æ›²é¢æ§½ç­‹." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÇúÃæ²Û½î." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
 		IXMLDOMElementPtr pElement_HoleFeatureNode;
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
-		AppendChildToParent(pElement_HoleFeatureNode, pElement_Rib);//æ¥
+		AppendChildToParent(pElement_HoleFeatureNode, pElement_Rib);//½Ó
 
-		//é¡¶é¢
+		//¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";//g
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
 		IXMLDOMElementPtr pElement_HoleTopFaceNode;
 		pDoc->createElement(bstr_HoleTopFaceNode, &pElement_HoleTopFaceNode);
-		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//æ¥
+		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//½Ó
 
 		for (std::vector<Face*>::size_type j = 0; j != EachHole->TopFaceVector.size(); j++)//g
 		{
@@ -764,7 +764,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -782,9 +782,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "çº¦æŸé¢";//g
+		NXString iStringHoleSideFaceNode = "Ô¼ÊøÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -802,7 +802,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "çº¦æŸé¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "Ô¼ÊøÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -820,9 +820,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -840,7 +840,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -858,9 +858,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•è§’é¢";
+		NXString iStringHoleBottomFaceNode = "µ×½ÇÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -878,7 +878,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -903,15 +903,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 //--------------
 
-	//è½®å»“ç»“ç‚¹
-	NXString iStringOutline = "è½®å»“";
+	//ÂÖÀª½áµã
+	NXString iStringOutline = "ÂÖÀª";
 	bstr = ConvertToBSTR(iStringOutline);
 
 	IXMLDOMElementPtr pElement_Outline;
 	pDoc->createElement(bstr, &pElement_Outline);
 	AppendChildToParent(pElement_Outline, pDocElement);
 
-	//å¤–è½®å»“ç‰¹å¾
+	//ÍâÂÖÀªÌØÕ÷
 	for (std::vector<Outline*>::size_type i = 0; i != OutlineSpyResult.size(); i++) //G
 	{
 		Outline* EachHole = OutlineSpyResult[i];//G
@@ -922,23 +922,23 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å¤–è½®å»“ç‰¹å¾." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÍâÂÖÀªÌØÕ÷." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
 		IXMLDOMElementPtr pElement_HoleFeatureNode;
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
-		AppendChildToParent(pElement_HoleFeatureNode, pElement_Outline);//æ¥
+		AppendChildToParent(pElement_HoleFeatureNode, pElement_Outline);//½Ó
 
-		//é¡¶é¢
+		//¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "åº•è§’é¢";//g
+		NXString iStringHoleTopFaceNode = "µ×½ÇÃæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
 		IXMLDOMElementPtr pElement_HoleTopFaceNode;
 		pDoc->createElement(bstr_HoleTopFaceNode, &pElement_HoleTopFaceNode);
-		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//æ¥
+		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//½Ó
 
 		for (std::vector<Face*>::size_type j = 0; j != EachHole->BottomCornerFaceVector.size(); j++)//g
 		{
@@ -950,7 +950,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "åº•è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "µ×½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -968,9 +968,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å¹³é¢
+		//Æ½Ãæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "å¹³é¢";//g
+		NXString iStringHoleSideFaceNode = "Æ½Ãæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -988,7 +988,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "å¹³é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "Æ½Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -1006,9 +1006,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -1026,7 +1026,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -1044,9 +1044,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//è½®å»“é”¥é¢
+		//ÂÖÀª×¶Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "è½®å»“é”¥é¢";
+		NXString iStringHoleBottomFaceNode = "ÂÖÀª×¶Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -1064,7 +1064,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "è½®å»“é”¥é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "ÂÖÀª×¶Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -1086,7 +1086,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//å†…è½®å»“ç‰¹å¾
+	//ÄÚÂÖÀªÌØÕ÷
 	for (std::vector<Outline*>::size_type i = 0; i != Outline1SpyResult.size(); i++) //G
 	{
 		Outline* EachHole = Outline1SpyResult[i];//G
@@ -1097,23 +1097,23 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å†…è½®å»“ç‰¹å¾." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÄÚÂÖÀªÌØÕ÷." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
 		IXMLDOMElementPtr pElement_HoleFeatureNode;
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
-		AppendChildToParent(pElement_HoleFeatureNode, pElement_Outline);//æ¥
+		AppendChildToParent(pElement_HoleFeatureNode, pElement_Outline);//½Ó
 
-		//é¡¶é¢
+		//¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";//g
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
 		IXMLDOMElementPtr pElement_HoleTopFaceNode;
 		pDoc->createElement(bstr_HoleTopFaceNode, &pElement_HoleTopFaceNode);
-		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//æ¥
+		AppendChildToParent(pElement_HoleTopFaceNode, pElement_HoleFeatureNode);//½Ó
 
 		for (std::vector<Face*>::size_type j = 0; j != EachHole->TopFaceVector.size(); j++)//g
 		{
@@ -1125,7 +1125,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -1143,9 +1143,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å€’è§’é¢
+		//µ¹½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "å€’è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ¹½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -1163,7 +1163,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "å€’è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ¹½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -1181,9 +1181,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -1201,7 +1201,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -1219,9 +1219,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•è§’é¢";
+		NXString iStringHoleBottomFaceNode = "µ×½ÇÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -1239,7 +1239,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -1265,14 +1265,14 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 //--------------
 
-	//å‡¸å°ç»“ç‚¹
-	NXString iStringBoss = "å‡¸å°";
+	//Í¹Ì¨½áµã
+	NXString iStringBoss = "Í¹Ì¨";
 	bstr = ConvertToBSTR(iStringBoss);
 
 	IXMLDOMElementPtr pElement_Boss;
 	pDoc->createElement(bstr, &pElement_Boss);
 	AppendChildToParent(pElement_Boss, pDocElement);
-	//å¤šå±‚å‡¸å°ç‰¹å¾è¾“å‡º										
+	//¶à²ãÍ¹Ì¨ÌØÕ÷Êä³ö										
 	for (std::vector<DoubleLayerBoss*>::size_type i = 0; i != DoubleLayerBossSpyResult.size(); i++)
 	{
 		DoubleLayerBoss* EachBoss = DoubleLayerBossSpyResult[i];
@@ -1285,11 +1285,11 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString iStringAnnulusCavityFeatureNode;
 		if(EachBoss->OutOrIn==0)
 		{
-			iStringAnnulusCavityFeatureNode = "å†…ä¾§-å¤šå±‚å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "ÄÚ²à-¶à²ãÍ¹Ì¨." + NXStringIndexI;
 		}
 		if(EachBoss->OutOrIn==1)
 		{
-			iStringAnnulusCavityFeatureNode = "å¤–ä¾§-å¤šå±‚å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "Íâ²à-¶à²ãÍ¹Ì¨." + NXStringIndexI;
 		}
 
 		bstr_BossFeatureNode = ConvertToBSTR(iStringAnnulusCavityFeatureNode);
@@ -1299,9 +1299,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		AppendChildToParent(pElement_BossFeatureNode, pElement_Boss);
 
 
-		//å‡¸å°åº•è§’é¢
+		//Í¹Ì¨µ×½ÇÃæ
 		BSTR bstr_BossBottomCornerFaceNode;
-		NXString iStringBossBottomCornerFaceNode = "åº•è§’é¢";
+		NXString iStringBossBottomCornerFaceNode = "µ×½ÇÃæ";
 
 		bstr_BossBottomCornerFaceNode = ConvertToBSTR(iStringBossBottomCornerFaceNode);
 
@@ -1322,7 +1322,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossBottomCornerFace;
-			NXString iStringBossBottomCornerFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringBossBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossBottomCornerFace = ConvertToBSTR(iStringBossBottomCornerFace);
 
@@ -1340,9 +1340,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossBottomCornerFace->put_text(bstr_BossBottomCornerFaceTag);
 		}
 
-		//å‡¸å°ä¾§é¢
+		//Í¹Ì¨²àÃæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "ä¾§é¢";
+		NXString iStringBossSideFaceNode = "²àÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -1360,7 +1360,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -1378,9 +1378,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossSideFace->put_text(bstr_BossSideFaceTag);
 		}
 
-		//å‡¸å°é¡¶é¢
+		//Í¹Ì¨¶¥Ãæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "é¡¶é¢";
+		NXString iStringBossTopFaceNode = "¶¥Ãæ";
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -1398,7 +1398,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -1416,9 +1416,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//å‡¸å°æ¬¡é¡¶é¢
+		//Í¹Ì¨´Î¶¥Ãæ
 		BSTR bstr_BossNTopFaceNode;
-		NXString iStringBossNTopFaceNode = "æ¬¡é¡¶é¢";
+		NXString iStringBossNTopFaceNode = "´Î¶¥Ãæ";
 
 		bstr_BossNTopFaceNode = ConvertToBSTR(iStringBossNTopFaceNode);
 
@@ -1436,13 +1436,13 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "æ¬¡é¡¶é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "´Î¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
 			IXMLDOMElementPtr pElement_BossTopFace;
 			pDoc->createElement(bstr_BossTopFace, &pElement_BossTopFace);
-			AppendChildToParent(pElement_BossTopFace, pElement_BossNTopFaceNode);//ç»“ç‚¹è¿æ¥å¤„è¦æ”¹
+			AppendChildToParent(pElement_BossTopFace, pElement_BossNTopFaceNode);//½áµãÁ¬½Ó´¦Òª¸Ä
 
 			char* StringIndexTopFace = new char;
 			sprintf(StringIndexTopFace, "%d", EachTopFace->Tag());
@@ -1453,9 +1453,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_BossTopFaceTag = ConvertToBSTR(iStringBossTopFaceTag);
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
-		//å‡¸å°æ¬¡ä¾§é¢
+		//Í¹Ì¨´Î²àÃæ
 		BSTR bstr_BossNSideFaceNode;
-		NXString iStringBossNSideFaceNode = "æ¬¡ä¾§é¢";
+		NXString iStringBossNSideFaceNode = "´Î²àÃæ";
 
 		bstr_BossNSideFaceNode = ConvertToBSTR(iStringBossNSideFaceNode);
 
@@ -1473,7 +1473,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "æ¬¡ä¾§é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "´Î²àÃæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -1491,9 +1491,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//å‡¸å°è¿æ¥é¢
+		//Í¹Ì¨Á¬½ÓÃæ
 		BSTR bstr_BossConnectFaceNode;
-		NXString iStringBossConnectFaceNode = "è¿æ¥é¢";
+		NXString iStringBossConnectFaceNode = "Á¬½ÓÃæ";
 
 		bstr_BossConnectFaceNode = ConvertToBSTR(iStringBossConnectFaceNode);
 
@@ -1511,7 +1511,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "è¿æ¥é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "Á¬½ÓÃæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -1531,7 +1531,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		
 	}
 
-	//æ— ä¾§é¢å‡¸å°ç‰¹å¾è¾“å‡º
+	//ÎŞ²àÃæÍ¹Ì¨ÌØÕ÷Êä³ö
 	for (std::vector<NoSideBoss*>::size_type i = 0; i != NoSideBossSpyResult.size(); i++)
 	{
 		NoSideBoss* EachBoss = NoSideBossSpyResult[i];
@@ -1544,11 +1544,11 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString iStringAnnulusCavityFeatureNode;
 		if(EachBoss->OutOrIn==0)
 		{
-			iStringAnnulusCavityFeatureNode = "å†…ä¾§-æ— ä¾§é¢å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "ÄÚ²à-ÎŞ²àÃæÍ¹Ì¨." + NXStringIndexI;
 		}
 		if(EachBoss->OutOrIn==1)
 		{
-			iStringAnnulusCavityFeatureNode = "å¤–ä¾§-æ— ä¾§é¢å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "Íâ²à-ÎŞ²àÃæÍ¹Ì¨." + NXStringIndexI;
 		}
 
 		bstr_BossFeatureNode = ConvertToBSTR(iStringAnnulusCavityFeatureNode);
@@ -1558,9 +1558,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		AppendChildToParent(pElement_BossFeatureNode, pElement_Boss);
 
 
-		//å‡¸å°åº•è§’é¢
+		//Í¹Ì¨µ×½ÇÃæ
 		BSTR bstr_BossBottomCornerFaceNode;
-		NXString iStringBossBottomCornerFaceNode = "åº•è§’é¢";
+		NXString iStringBossBottomCornerFaceNode = "µ×½ÇÃæ";
 
 		bstr_BossBottomCornerFaceNode = ConvertToBSTR(iStringBossBottomCornerFaceNode);
 
@@ -1581,7 +1581,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossBottomCornerFace;
-			NXString iStringBossBottomCornerFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringBossBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossBottomCornerFace = ConvertToBSTR(iStringBossBottomCornerFace);
 
@@ -1599,9 +1599,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossBottomCornerFace->put_text(bstr_BossBottomCornerFaceTag);
 		}
 
-		//å‡¸å°é¡¶é¢
+		//Í¹Ì¨¶¥Ãæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "é¡¶é¢";
+		NXString iStringBossTopFaceNode = "¶¥Ãæ";
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -1619,7 +1619,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -1639,7 +1639,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	}
 
 
-	//å«ä¾§é¢å‡¸å°ç‰¹å¾è¾“å‡º
+	//º¬²àÃæÍ¹Ì¨ÌØÕ÷Êä³ö
 	for (std::vector<NormalBoss*>::size_type i = 0; i != NormalBossSpyResult.size(); i++)
 	{
 		NormalBoss* EachBoss = NormalBossSpyResult[i];
@@ -1652,11 +1652,11 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString iStringAnnulusCavityFeatureNode;
 		if(EachBoss->OutOrIn==0)
 		{
-			iStringAnnulusCavityFeatureNode = "å†…ä¾§-å«ä¾§é¢å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "ÄÚ²à-º¬²àÃæÍ¹Ì¨." + NXStringIndexI;
 		}
 		if(EachBoss->OutOrIn==1)
 		{
-			iStringAnnulusCavityFeatureNode = "å¤–ä¾§-å«ä¾§é¢å‡¸å°." + NXStringIndexI;
+			iStringAnnulusCavityFeatureNode = "Íâ²à-º¬²àÃæÍ¹Ì¨." + NXStringIndexI;
 		}
 		
 		bstr_BossFeatureNode = ConvertToBSTR(iStringAnnulusCavityFeatureNode);
@@ -1666,9 +1666,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		AppendChildToParent(pElement_BossFeatureNode, pElement_Boss);
 		
 
-		//å‡¸å°åº•è§’é¢
+		//Í¹Ì¨µ×½ÇÃæ
 		BSTR bstr_BossBottomCornerFaceNode;
-		NXString iStringBossBottomCornerFaceNode = "åº•è§’é¢";
+		NXString iStringBossBottomCornerFaceNode = "µ×½ÇÃæ";
 		
 		bstr_BossBottomCornerFaceNode = ConvertToBSTR(iStringBossBottomCornerFaceNode);
 		
@@ -1689,7 +1689,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossBottomCornerFace;
-			NXString iStringBossBottomCornerFace = "åº•è§’é¢." + NXStringIndexJ;
+			NXString iStringBossBottomCornerFace = "µ×½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossBottomCornerFace = ConvertToBSTR(iStringBossBottomCornerFace);
 
@@ -1707,9 +1707,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossBottomCornerFace->put_text(bstr_BossBottomCornerFaceTag);
 		}
 
-		//å‡¸å°ä¾§é¢
+		//Í¹Ì¨²àÃæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "ä¾§é¢";
+		NXString iStringBossSideFaceNode = "²àÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -1727,7 +1727,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -1745,9 +1745,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossSideFace->put_text(bstr_BossSideFaceTag);
 		}
 
-		//å‡¸å°é¡¶é¢
+		//Í¹Ì¨¶¥Ãæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "é¡¶é¢";
+		NXString iStringBossTopFaceNode = "¶¥Ãæ";
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -1765,7 +1765,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -1783,17 +1783,17 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 	}
-	/*UF_UI_write_listing_window("ç¦»å¼€å‡¸å°:");*/
+	/*UF_UI_write_listing_window("Àë¿ªÍ¹Ì¨:");*/
 
-	//ç­‹ç»“ç‚¹
-	//NXString iStringRib = "ç­‹";
+	//½î½áµã
+	//NXString iStringRib = "½î";
 	//bstr = ConvertToBSTR(iStringRib);
 
 	//IXMLDOMElementPtr pElement_Rib;
 	//pDoc->createElement(bstr, &pElement_Rib);
 	//AppendChildToParent(pElement_Rib, pDocElement);
 
-	////ç­‹ç‰¹å¾è¾“å‡º
+	////½îÌØÕ÷Êä³ö
 	//for (std::vector<Rib*>::size_type i = 0; i != RibSpyResult.size(); i++)
 	//{
 	//	Rib* EachRib = RibSpyResult[i];
@@ -1804,7 +1804,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	NXString NXStringIndexI = StringIndexI;
 
 	//	BSTR bstr_RibFeatureNode;
-	//	NXString iStringRibFeatureNode = "ç­‹." + NXStringIndexI;
+	//	NXString iStringRibFeatureNode = "½î." + NXStringIndexI;
 
 	//	bstr_RibFeatureNode = ConvertToBSTR(iStringRibFeatureNode);
 
@@ -1812,9 +1812,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pDoc->createElement(bstr_RibFeatureNode, &pElement_RibFeatureNode);
 	//	AppendChildToParent(pElement_RibFeatureNode, pElement_Rib);
 
-	//	//ç­‹é¡¶é¢
+	//	//½î¶¥Ãæ
 	//	BSTR bstr_RibTopFaceNode;
-	//	NXString iStringRibTopFaceNode = "é¡¶é¢";
+	//	NXString iStringRibTopFaceNode = "¶¥Ãæ";
 
 	//	bstr_RibTopFaceNode = ConvertToBSTR(iStringRibTopFaceNode);
 
@@ -1832,7 +1832,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_RibTopFace;
-	//		NXString iStringRibTopFace = "é¡¶é¢." + NXStringIndexJ;
+	//		NXString iStringRibTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 	//		bstr_RibTopFace = ConvertToBSTR(iStringRibTopFace);
 
@@ -1850,9 +1850,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_RibTopFace->put_text(bstr_RibTopFaceTag);
 	//	}
 
-	//	//ç­‹ä¾§é¢
+	//	//½î²àÃæ
 	//	BSTR bstr_RibSideFaceNode;
-	//	NXString iStringRibSideFaceNode = "ä¾§é¢";
+	//	NXString iStringRibSideFaceNode = "²àÃæ";
 
 	//	bstr_RibSideFaceNode = ConvertToBSTR(iStringRibSideFaceNode);
 
@@ -1870,7 +1870,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_RibSideFace;
-	//		NXString iStringRibSideFace = "ä¾§é¢." + NXStringIndexJ;
+	//		NXString iStringRibSideFace = "²àÃæ." + NXStringIndexJ;
 
 	//		bstr_RibSideFace = ConvertToBSTR(iStringRibSideFace);
 
@@ -1888,15 +1888,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_RibSideFace->put_text(bstr_RibSideFaceTag);
 	//	}
 	//}
-	//æ§½ç»“ç‚¹
-	NXString iStringGroove = "æ§½";
+	//²Û½áµã
+	NXString iStringGroove = "²Û";
 	bstr = ConvertToBSTR(iStringGroove);
 
 	IXMLDOMElementPtr pElement_Groove;
 	pDoc->createElement(bstr, &pElement_Groove);
 	AppendChildToParent(pElement_Groove, pDocElement);
 
-	//å†…ä¾§ç¯å½¢æ§½
+	//ÄÚ²à»·ĞÎ²Û
 	for (std::vector<CircularGroove*>::size_type i = 0; i != CircularGroove0SpyResult.size(); i++) //G
 	{
 		CircularGroove* EachHole = CircularGroove0SpyResult[i];//G
@@ -1907,7 +1907,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å†…ä¾§ç¯å½¢æ§½." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÄÚ²à»·ĞÎ²Û." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -1915,9 +1915,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Groove);
 
-		//æ§½åº•é¢
+		//²Ûµ×Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "åº•é¢";//g
+		NXString iStringHoleTopFaceNode = "µ×Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -1935,7 +1935,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "åº•é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "µ×Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -1953,9 +1953,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "åº•è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ×½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -1973,7 +1973,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "åº•è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ×½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -1991,9 +1991,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2011,7 +2011,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -2029,9 +2029,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "çº¦æŸé¢";
+		NXString iStringHoleBottomFaceNode = "Ô¼ÊøÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -2049,7 +2049,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "çº¦æŸé¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "Ô¼ÊøÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -2071,7 +2071,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//å¤–ä¾§ç¯å½¢æ§½
+	//Íâ²à»·ĞÎ²Û
 	for (std::vector<CircularGroove*>::size_type i = 0; i != CircularGroove1SpyResult.size(); i++) //G
 	{
 		CircularGroove* EachHole = CircularGroove1SpyResult[i];//G
@@ -2082,7 +2082,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å¤–ä¾§ç¯å½¢æ§½." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Íâ²à»·ĞÎ²Û." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2090,9 +2090,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Groove);
 
-		//æ§½åº•é¢
+		//²Ûµ×Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "åº•é¢";//g
+		NXString iStringHoleTopFaceNode = "µ×Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2110,7 +2110,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "åº•é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "µ×Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2128,9 +2128,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "åº•è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ×½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2148,7 +2148,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "åº•è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ×½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2166,9 +2166,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2186,7 +2186,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -2204,9 +2204,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "çº¦æŸé¢";
+		NXString iStringHoleBottomFaceNode = "Ô¼ÊøÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -2224,7 +2224,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "çº¦æŸé¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "Ô¼ÊøÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -2246,7 +2246,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//ä¸‹é™·æ§½
+	//ÏÂÏİ²Û
 	for (std::vector<SubsidenceGroove*>::size_type i = 0; i != SubsidenceGrooveSpyResult.size(); i++) //G
 	{
 		SubsidenceGroove* EachHole = SubsidenceGrooveSpyResult[i];//G
@@ -2257,7 +2257,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "ä¸‹é™·æ§½." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÏÂÏİ²Û." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2265,9 +2265,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Groove);
 
-		//æ§½åº•é¢
+		//²Ûµ×Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "åº•é¢";//g
+		NXString iStringHoleTopFaceNode = "µ×Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2285,7 +2285,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "åº•é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "µ×Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2303,9 +2303,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "åº•è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ×½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2323,7 +2323,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "åº•è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ×½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2341,9 +2341,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2361,7 +2361,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -2379,9 +2379,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		/*BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "çº¦æŸé¢";
+		NXString iStringHoleBottomFaceNode = "Ô¼ÊøÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -2399,7 +2399,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "çº¦æŸé¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "Ô¼ÊøÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -2421,7 +2421,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}*/
 	}
-	//å¹³é¢æµ…æ§½
+	//Æ½ÃæÇ³²Û
 	for (std::vector<PlanerBlindGroove*>::size_type i = 0; i != PlanerBlindGrooveSpyResult.size(); i++) //G
 	{
 		PlanerBlindGroove* EachHole = PlanerBlindGrooveSpyResult[i];//G
@@ -2432,7 +2432,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å¹³é¢æµ…æ§½." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Æ½ÃæÇ³²Û." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2440,9 +2440,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Groove);
 
-		//æ§½åº•é¢
+		//²Ûµ×Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "åº•é¢";//g
+		NXString iStringHoleTopFaceNode = "µ×Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2460,7 +2460,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "åº•é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "µ×Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2477,9 +2477,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2497,7 +2497,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -2515,9 +2515,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//åº•è§’é¢
+		//µ×½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "åº•è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ×½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2535,7 +2535,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "åº•è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ×½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2555,9 +2555,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	    
 		
 
-		//çº¦æŸé¢
+		//Ô¼ÊøÃæ
 		/*BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "çº¦æŸé¢";
+		NXString iStringHoleBottomFaceNode = "Ô¼ÊøÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -2575,7 +2575,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "çº¦æŸé¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "Ô¼ÊøÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -2597,7 +2597,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}*/
 	}
-	//é€šæ§½
+	//Í¨²Û
 	for (std::vector<PassGroove*>::size_type i = 0; i != PassGrooveSpyResult.size(); i++) //G
 	{
 		PassGroove* EachHole = PassGrooveSpyResult[i];//G
@@ -2608,7 +2608,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "é€šæ§½." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¨²Û." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2616,9 +2616,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Groove);
 
-		//æ§½åº•é¢
+		//²Ûµ×Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";//g
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";//g
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2636,7 +2636,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;//g
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2653,9 +2653,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//åº•é¢
+		//µ×Ãæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "åº•é¢";
+		NXString iStringHoleCornerFaceNode = "µ×Ãæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2673,7 +2673,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -2691,9 +2691,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "å€’æ–œè§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ¹Ğ±½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2711,7 +2711,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2731,9 +2731,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	    
 		
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "ä¾§é¢";
+		NXString iStringHoleBottomFaceNode = "²àÃæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -2751,7 +2751,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -2774,15 +2774,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å­”ç»“ç‚¹
-	NXString iStringHole = "å­”";
+	//¿×½áµã
+	NXString iStringHole = "¿×";
 	bstr = ConvertToBSTR(iStringHole);
 
 	IXMLDOMElementPtr pElement_Hole;
 	pDoc->createElement(bstr, &pElement_Hole);
 	AppendChildToParent(pElement_Hole, pDocElement);
 
-	//å…¶å®ƒå­”
+	//ÆäËü¿×
 	for (std::vector<Other3Hole*>::size_type i = 0; i != otherHole3SpyResult.size(); i++) //G
 	{
 		Other3Hole* EachHole = otherHole3SpyResult[i];//G
@@ -2793,7 +2793,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å…¶å®ƒå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÆäËü¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2801,9 +2801,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2821,7 +2821,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2839,9 +2839,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å­”å£
+		//¿×±Ú
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "å†…å£é¢";//g
+		NXString iStringHoleSideFaceNode = "ÄÚ±ÚÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2859,7 +2859,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2878,7 +2878,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//æ™®é€šé€šå­”
+	//ÆÕÍ¨Í¨¿×
 	for (std::vector<DirectionNormalHole*>::size_type i = 0; i != DirectionNormalHoleSpyResult.size(); i++) //G
 	{
 		DirectionNormalHole* EachHole = DirectionNormalHoleSpyResult[i];//G
@@ -2889,7 +2889,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "è½´å‘æ™®é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÖáÏòÆÕÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -2897,9 +2897,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -2917,7 +2917,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -2935,9 +2935,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å­”å£
+		//¿×±Ú
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -2955,7 +2955,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -2973,9 +2973,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -2993,7 +2993,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -3011,9 +3011,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -3031,7 +3031,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -3053,7 +3053,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//è½´å‘å•ä¾§æ–œè§’é€šå­”
+	//ÖáÏòµ¥²àĞ±½ÇÍ¨¿×
 	for (std::vector<DirectionRightHole*>::size_type i = 0; i != DirectionRightHoleSpyResult.size(); i++) //G
 	{
 		DirectionRightHole* EachHole = DirectionRightHoleSpyResult[i];//G
@@ -3064,7 +3064,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "è½´å‘å•ä¾§æ–œè§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÖáÏòµ¥²àĞ±½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -3072,9 +3072,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -3092,7 +3092,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -3110,9 +3110,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossTopFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -3130,7 +3130,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossTopFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -3148,9 +3148,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//å­”å£
+		//¿×±Ú
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -3168,7 +3168,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -3186,9 +3186,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -3206,7 +3206,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -3224,9 +3224,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -3244,7 +3244,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -3262,7 +3262,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//ç›²å­”
+	//Ã¤¿×
 	for (std::vector<DirectionBlindHole*>::size_type i = 0; i != DirectionBlindHoleSpyResult.size(); i++) //G
 	{
 		DirectionBlindHole* EachHole = DirectionBlindHoleSpyResult[i];//G
@@ -3273,7 +3273,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "è½´å‘æ— å€’è§’ç›²å­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "ÖáÏòÎŞµ¹½ÇÃ¤¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -3281,9 +3281,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -3301,7 +3301,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -3318,9 +3318,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		////å€’æ–œè§’é¢
+		////µ¹Ğ±½ÇÃæ
 		//BSTR bstr_BossTopFaceNode;
-		//NXString iStringBossTopFaceNode = "å€’æ–œè§’é¢";
+		//NXString iStringBossTopFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		//bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -3338,7 +3338,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_BossTopFace;
-		//	NXString iStringBossTopFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+		//	NXString iStringBossTopFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 		//	bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -3356,9 +3356,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		//}
 
-		//å­”å£
+		//¿×±Ú
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -3376,7 +3376,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -3394,9 +3394,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -3414,7 +3414,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -3432,9 +3432,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -3452,7 +3452,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -3470,7 +3470,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//å£é¢é€šå­”
+	//±ÚÃæÍ¨¿×
 	for (std::vector<WallNormalHole*>::size_type i = 0; i != WallNormalHoleSpyResult.size(); i++) //G
 	{
 		WallNormalHole* EachHole = WallNormalHoleSpyResult[i];//G
@@ -3481,7 +3481,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å£é¢é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "±ÚÃæÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -3489,9 +3489,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -3509,7 +3509,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -3526,9 +3526,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		////å€’æ–œè§’é¢
+		////µ¹Ğ±½ÇÃæ
 		//BSTR bstr_BossTopFaceNode;
-		//NXString iStringBossTopFaceNode = "å€’æ–œè§’é¢";
+		//NXString iStringBossTopFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		//bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -3546,7 +3546,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_BossTopFace;
-		//	NXString iStringBossTopFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+		//	NXString iStringBossTopFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 		//	bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -3564,9 +3564,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		//}
 
-		//å­”å£
+		//¿×±Ú
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -3584,7 +3584,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -3602,9 +3602,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//å­”å€’è§’
+		//¿×µ¹½Ç
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -3622,7 +3622,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -3640,9 +3640,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}*/
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -3660,7 +3660,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -3678,7 +3678,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleBottomFace->put_text(bstr_HoleBottomFaceTag);
 		}
 	}
-	//å£é¢å€’æ–œè§’å¤åˆé€šå­”
+	//±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×
 	for (std::vector<WallCircleCombineHole*>::size_type i = 0; i != WallCircleCombineHoleSpyResult.size(); i++) //G
 	{
 		WallCircleCombineHole* EachHole = WallCircleCombineHoleSpyResult[i];//G
@@ -3689,7 +3689,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å£é¢å€’æ–œè§’å¤åˆé€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "±ÚÃæµ¹Ğ±½Ç¸´ºÏÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -3697,9 +3697,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -3717,7 +3717,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -3734,9 +3734,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§é¢
+		//ÉÏ²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -3754,7 +3754,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -3772,9 +3772,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*å€’åœ†è§’é¢*/
+		/*µ¹Ô²½ÇÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "å€’åœ†è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "µ¹Ô²½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -3792,7 +3792,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -3810,9 +3810,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 	    
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringHoleCornerFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -3830,7 +3830,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -3848,9 +3848,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//ä¸‹ä¾§é¢
+		//ÏÂ²àÃæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "ä¸‹ä¾§é¢";
+		NXString iStringBossSideFaceNode = "ÏÂ²àÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -3868,7 +3868,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -3887,9 +3887,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -3907,7 +3907,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -3926,7 +3926,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//ç­‹é¢å¤åˆå­”
+	//½îÃæ¸´ºÏ¿×
 	for (std::vector<RibCombineHole*>::size_type i = 0; i != RibCombineHoleSpyResult.size(); i++) //G
 	{
 		RibCombineHole* EachHole = RibCombineHoleSpyResult[i];//G
@@ -3937,7 +3937,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "ç­‹é¢å¤åˆå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "½îÃæ¸´ºÏ¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -3945,9 +3945,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -3965,7 +3965,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -3982,9 +3982,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "å€’åœ†è§’é¢";//g
+		NXString iStringBossTopFaceNode = "µ¹Ô²½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -4002,7 +4002,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -4020,9 +4020,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*è¿‡æ¸¡å¹³é¢*/
+		/*¹ı¶ÉÆ½Ãæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "è¿‡æ¸¡å¹³é¢";//g
+		NXString iStringHoleSideFaceNode = "¹ı¶ÉÆ½Ãæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -4040,7 +4040,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -4058,9 +4058,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -4078,7 +4078,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -4096,9 +4096,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -4116,7 +4116,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -4135,9 +4135,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -4155,7 +4155,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -4174,7 +4174,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°é€šå­”
+	//Í¹Ì¨Í¨¿×
 	for (std::vector<BossNormalHole*>::size_type i = 0; i != BossNormalHoleSpyResult.size(); i++) //G
 	{
 		BossNormalHole* EachHole = BossNormalHoleSpyResult[i];//G
@@ -4185,7 +4185,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨Í¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -4193,9 +4193,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -4213,7 +4213,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -4230,9 +4230,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		//BSTR bstr_BossTopFaceNode;
-		//NXString iStringBossTopFaceNode = "å€’åœ†è§’é¢";//g
+		//NXString iStringBossTopFaceNode = "µ¹Ô²½ÇÃæ";//g
 
 		//bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -4250,7 +4250,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_BossTopFace;
-		//	NXString iStringBossTopFace = "å€’åœ†è§’é¢." + NXStringIndexJ;//g
+		//	NXString iStringBossTopFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 		//	bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -4268,9 +4268,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		//}
 
-		/*è¿‡æ¸¡å¹³é¢*/
+		/*¹ı¶ÉÆ½Ãæ*/
 		//BSTR bstr_HoleSideFaceNode;
-		//NXString iStringHoleSideFaceNode = "è¿‡æ¸¡å¹³é¢";//g
+		//NXString iStringHoleSideFaceNode = "¹ı¶ÉÆ½Ãæ";//g
 
 		//bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -4288,7 +4288,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_HoleSideFace;
-		//	NXString iStringHoleSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;//g
+		//	NXString iStringHoleSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;//g
 
 		//	bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -4306,9 +4306,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		//}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -4326,7 +4326,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -4344,9 +4344,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -4364,7 +4364,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -4383,9 +4383,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -4403,7 +4403,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -4422,7 +4422,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å•ä¾§æ–œè§’é€šå­”
+	//Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×
 	for (std::vector<BossOneRightHole*>::size_type i = 0; i != BossOneRightHoleSpyResult.size(); i++) //G
 	{
 		BossOneRightHole* EachHole = BossOneRightHoleSpyResult[i];//G
@@ -4433,7 +4433,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å•ä¾§æ–œè§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨µ¥²àĞ±½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -4441,9 +4441,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -4461,7 +4461,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -4478,9 +4478,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		//BSTR bstr_BossTopFaceNode;
-		//NXString iStringBossTopFaceNode = "å€’åœ†è§’é¢";//g
+		//NXString iStringBossTopFaceNode = "µ¹Ô²½ÇÃæ";//g
 
 		//bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -4498,7 +4498,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_BossTopFace;
-		//	NXString iStringBossTopFace = "å€’åœ†è§’é¢." + NXStringIndexJ;//g
+		//	NXString iStringBossTopFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 		//	bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -4516,9 +4516,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		//}
 
-		/*è¿‡æ¸¡å¹³é¢*/
+		/*¹ı¶ÉÆ½Ãæ*/
 		//BSTR bstr_HoleSideFaceNode;
-		//NXString iStringHoleSideFaceNode = "è¿‡æ¸¡å¹³é¢";//g
+		//NXString iStringHoleSideFaceNode = "¹ı¶ÉÆ½Ãæ";//g
 
 		//bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -4536,7 +4536,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_HoleSideFace;
-		//	NXString iStringHoleSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;//g
+		//	NXString iStringHoleSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;//g
 
 		//	bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -4554,9 +4554,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		//}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -4574,7 +4574,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -4592,9 +4592,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -4612,7 +4612,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -4631,9 +4631,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -4651,7 +4651,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -4670,7 +4670,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å•ä¾§åœ†è§’é€šå­”
+	//Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×
 	for (std::vector<BossOneCircleHole*>::size_type i = 0; i != BossOneCircleHoleSpyResult.size(); i++) //G
 	{
 		BossOneCircleHole* EachHole = BossOneCircleHoleSpyResult[i];//G
@@ -4681,7 +4681,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å•ä¾§åœ†è§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨µ¥²àÔ²½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -4689,9 +4689,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -4709,7 +4709,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -4726,9 +4726,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "å€’åœ†è§’é¢";//g
+		NXString iStringBossTopFaceNode = "µ¹Ô²½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -4746,7 +4746,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -4764,9 +4764,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*è¿‡æ¸¡å¹³é¢*/
+		/*¹ı¶ÉÆ½Ãæ*/
 		//BSTR bstr_HoleSideFaceNode;
-		//NXString iStringHoleSideFaceNode = "è¿‡æ¸¡å¹³é¢";//g
+		//NXString iStringHoleSideFaceNode = "¹ı¶ÉÆ½Ãæ";//g
 
 		//bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -4784,7 +4784,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_HoleSideFace;
-		//	NXString iStringHoleSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;//g
+		//	NXString iStringHoleSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;//g
 
 		//	bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -4802,9 +4802,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		//}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -4822,7 +4822,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -4840,9 +4840,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -4860,7 +4860,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -4879,9 +4879,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -4899,7 +4899,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -4918,7 +4918,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°åŒä¾§æ–œè§’é€šå­”
+	//Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×
 	for (std::vector<BossDoubleRightHole*>::size_type i = 0; i != BossDoubleRightHoleSpyResult.size(); i++) //G
 	{
 		BossDoubleRightHole* EachHole = BossDoubleRightHoleSpyResult[i];//G
@@ -4929,7 +4929,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°åŒä¾§æ–œè§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨Ë«²àĞ±½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -4937,9 +4937,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -4957,7 +4957,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -4974,9 +4974,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§å€’æ–œè§’é¢
+		//ÉÏ²àµ¹Ğ±½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§å€’æ–œè§’é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àµ¹Ğ±½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -4994,7 +4994,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§å€’æ–œè§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àµ¹Ğ±½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -5012,9 +5012,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*ä¸‹ä¾§å€’æ–œè§’é¢*/
+		/*ÏÂ²àµ¹Ğ±½ÇÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§å€’æ–œè§’é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àµ¹Ğ±½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -5032,7 +5032,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§å€’æ–œè§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àµ¹Ğ±½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -5050,9 +5050,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -5070,7 +5070,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -5088,9 +5088,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -5108,7 +5108,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -5127,9 +5127,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -5147,7 +5147,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -5166,7 +5166,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°åŒä¾§åœ†è§’é€šå­”
+	//Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×
 	for (std::vector<BossDoubleCircleHole*>::size_type i = 0; i != BossDoubleCircleHoleSpyResult.size(); i++) //G
 	{
 		BossDoubleCircleHole* EachHole = BossDoubleCircleHoleSpyResult[i];//G
@@ -5177,7 +5177,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°åŒä¾§åœ†è§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨Ë«²àÔ²½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -5185,9 +5185,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -5205,7 +5205,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -5222,9 +5222,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§å€’åœ†è§’é¢
+		//ÉÏ²àµ¹Ô²½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§å€’åœ†è§’é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àµ¹Ô²½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -5242,7 +5242,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àµ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -5260,9 +5260,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*ä¸‹ä¾§å€’åœ†è§’é¢*/
+		/*ÏÂ²àµ¹Ô²½ÇÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§å€’åœ†è§’é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àµ¹Ô²½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -5280,7 +5280,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àµ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -5298,9 +5298,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -5318,7 +5318,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -5336,9 +5336,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -5356,7 +5356,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -5375,9 +5375,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -5395,7 +5395,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -5414,7 +5414,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”
+	//Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×
 	for (std::vector<BossOneRightOneCircleHole*>::size_type i = 0; i != BossOneRightOneCircleHoleSpyResult.size(); i++) //G
 	{
 		BossOneRightOneCircleHole* EachHole = BossOneRightOneCircleHoleSpyResult[i];//G
@@ -5425,7 +5425,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å•ä¾§ç›´è§’å•ä¾§åœ†è§’é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨µ¥²àÖ±½Çµ¥²àÔ²½ÇÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -5433,9 +5433,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -5453,7 +5453,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -5470,9 +5470,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§å€’åœ†è§’é¢
+		//ÉÏ²àµ¹Ô²½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§å€’åœ†è§’é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àµ¹Ô²½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -5490,7 +5490,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àµ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -5508,9 +5508,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*ä¸‹ä¾§å€’æ–œè§’é¢*/
+		/*ÏÂ²àµ¹Ğ±½ÇÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§å€’æ–œè§’é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àµ¹Ğ±½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -5528,7 +5528,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§å€’æ–œè§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àµ¹Ğ±½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -5546,9 +5546,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -5566,7 +5566,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -5584,9 +5584,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringBossSideFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -5604,7 +5604,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -5623,9 +5623,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -5643,7 +5643,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -5662,7 +5662,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å¤šå±‚é€šå­”
+	//Í¹Ì¨¶à²ãÍ¨¿×
 	for (std::vector<BossManyLayerHole*>::size_type i = 0; i != BossManyLayerHoleSpyResult.size(); i++) //G
 	{
 		BossManyLayerHole* EachHole = BossManyLayerHoleSpyResult[i];//G
@@ -5673,7 +5673,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å¤šå±‚é€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨¶à²ãÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -5681,9 +5681,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -5701,7 +5701,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -5718,9 +5718,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§å€’åœ†è§’é¢
+		//ÉÏ²àµ¹Ô²½ÇÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§å€’åœ†è§’é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àµ¹Ô²½ÇÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -5738,7 +5738,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§å€’åœ†è§’é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àµ¹Ô²½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -5756,9 +5756,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		/*ä¸Šä¾§å€’æ–œè§’é¢*/
+		/*ÉÏ²àµ¹Ğ±½ÇÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸Šä¾§å€’æ–œè§’é¢";//g
+		NXString iStringHoleSideFaceNode = "ÉÏ²àµ¹Ğ±½ÇÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -5776,7 +5776,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸Šä¾§å€’æ–œè§’é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÉÏ²àµ¹Ğ±½ÇÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -5794,9 +5794,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -5814,7 +5814,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -5832,9 +5832,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleCornerFace->put_text(bstr_HoleCornerFaceTag);
 		}
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -5852,7 +5852,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -5871,9 +5871,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -5891,7 +5891,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -5910,7 +5910,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”
+	//Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×
 	for (std::vector<BossOutsideWideCombineHole*>::size_type i = 0; i != BossOutsideWideCombineHoleSpyResult.size(); i++) //G
 	{
 		BossOutsideWideCombineHole* EachHole = BossOutsideWideCombineHoleSpyResult[i];//G
@@ -5921,7 +5921,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å¤–å®½å†…çª„å¤åˆé€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨Íâ¿íÄÚÕ­¸´ºÏÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -5929,9 +5929,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -5949,7 +5949,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -5966,9 +5966,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§é¢
+		//ÉÏ²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -5986,7 +5986,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -6004,9 +6004,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -6024,7 +6024,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -6043,9 +6043,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		/*ä¸‹ä¾§é¢*/
+		/*ÏÂ²àÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -6063,7 +6063,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -6081,9 +6081,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -6101,7 +6101,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -6121,9 +6121,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 		
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -6141,7 +6141,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -6160,7 +6160,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”
+	//Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×
 	for (std::vector<BossInsideWideCombineHole*>::size_type i = 0; i != BossInsideWideCombineHoleSpyResult.size(); i++) //G
 	{
 		BossInsideWideCombineHole* EachHole = BossInsideWideCombineHoleSpyResult[i];//G
@@ -6171,7 +6171,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å†…å®½å¤–çª„å¤åˆé€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨ÄÚ¿íÍâÕ­¸´ºÏÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -6179,9 +6179,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -6199,7 +6199,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -6216,9 +6216,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§é¢
+		//ÉÏ²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -6236,7 +6236,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -6254,9 +6254,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -6274,7 +6274,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -6293,9 +6293,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		/*ä¸‹ä¾§é¢*/
+		/*ÏÂ²àÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -6313,7 +6313,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -6331,9 +6331,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleSideFace->put_text(bstr_HoleSideFaceTag);
 		}
 
-		//ä¾§é¢
+		//²àÃæ
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "ä¾§é¢";
+		NXString iStringHoleCornerFaceNode = "²àÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -6351,7 +6351,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "ä¾§é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "²àÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -6371,9 +6371,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 		
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -6391,7 +6391,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -6410,7 +6410,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”
+	//Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×
 	for (std::vector<BossMidCricleCombineHole*>::size_type i = 0; i != BossMidCricleCombineHoleSpyResult.size(); i++) //G
 	{
 		BossMidCricleCombineHole* EachHole = BossMidCricleCombineHoleSpyResult[i];//G
@@ -6421,7 +6421,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°ä¸­é—´å€’åœ†è§’å¤åˆé€šå­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨ÖĞ¼äµ¹Ô²½Ç¸´ºÏÍ¨¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -6429,9 +6429,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -6449,7 +6449,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -6466,9 +6466,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¸Šä¾§é¢
+		//ÉÏ²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¸Šä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "ÉÏ²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -6486,7 +6486,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¸Šä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "ÉÏ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -6504,9 +6504,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’åœ†è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹Ô²½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -6524,7 +6524,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’åœ†è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -6543,9 +6543,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -6563,7 +6563,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -6582,9 +6582,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		/*ä¸‹ä¾§é¢*/
+		/*ÏÂ²àÃæ*/
 		BSTR bstr_HoleSideFaceNode;
-		NXString iStringHoleSideFaceNode = "ä¸‹ä¾§é¢";//g
+		NXString iStringHoleSideFaceNode = "ÏÂ²àÃæ";//g
 
 		bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -6602,7 +6602,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleSideFace;
-			NXString iStringHoleSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringHoleSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;//g
 
 			bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -6623,9 +6623,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		
 		
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -6643,7 +6643,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -6662,7 +6662,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°æ— å€’è§’ç›²å­”
+	//Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×
 	for (std::vector<BossNormalBlindHole*>::size_type i = 0; i != BossNormalBlindHoleSpyResult.size(); i++) //G
 	{
 		BossNormalBlindHole* EachHole = BossNormalBlindHoleSpyResult[i];//G
@@ -6673,7 +6673,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°æ— å€’è§’ç›²å­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨ÎŞµ¹½ÇÃ¤¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -6681,9 +6681,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -6701,7 +6701,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -6718,9 +6718,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			bstr_HoleTopFaceTag = ConvertToBSTR(iStringHoleTopFaceTag);
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -6738,7 +6738,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -6756,9 +6756,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_BossTopFace->put_text(bstr_BossTopFaceTag);
 		}
 
-		//å€’åœ†è§’é¢
+		//µ¹Ô²½ÇÃæ
 		/*BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’åœ†è§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹Ô²½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -6776,7 +6776,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’åœ†è§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹Ô²½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -6795,9 +6795,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -6815,7 +6815,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -6834,9 +6834,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		/*ä¸‹ä¾§é¢*/
+		/*ÏÂ²àÃæ*/
 		//BSTR bstr_HoleSideFaceNode;
-		//NXString iStringHoleSideFaceNode = "ä¸‹ä¾§é¢";//g
+		//NXString iStringHoleSideFaceNode = "ÏÂ²àÃæ";//g
 
 		//bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -6854,7 +6854,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_HoleSideFace;
-		//	NXString iStringHoleSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;//g
+		//	NXString iStringHoleSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;//g
 
 		//	bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -6875,9 +6875,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -6895,7 +6895,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -6914,7 +6914,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	//å‡¸å°å€’æ–œè§’ç›²å­”
+	//Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×
 	for (std::vector<BossRightBlindHole*>::size_type i = 0; i != BossRightBlindHoleSpyResult.size(); i++) //G
 	{
 		BossRightBlindHole* EachHole = BossRightBlindHoleSpyResult[i];//G
@@ -6925,7 +6925,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		NXString NXStringIndexI = StringIndexI;
 
 		BSTR bstr_HoleFeatureNode;
-		NXString iStringHoleFeatureNode = "å‡¸å°å€’æ–œè§’ç›²å­”." + NXStringIndexI;//g
+		NXString iStringHoleFeatureNode = "Í¹Ì¨µ¹Ğ±½ÇÃ¤¿×." + NXStringIndexI;//g
 
 		bstr_HoleFeatureNode = ConvertToBSTR(iStringHoleFeatureNode);
 
@@ -6933,9 +6933,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		pDoc->createElement(bstr_HoleFeatureNode, &pElement_HoleFeatureNode);
 		AppendChildToParent(pElement_HoleFeatureNode, pElement_Hole);
 
-		//å­”é¡¶é¢
+		//¿×¶¥Ãæ
 		BSTR bstr_HoleTopFaceNode;
-		NXString iStringHoleTopFaceNode = "é¡¶é¢";
+		NXString iStringHoleTopFaceNode = "¶¥Ãæ";
 
 		bstr_HoleTopFaceNode = ConvertToBSTR(iStringHoleTopFaceNode);
 
@@ -6953,7 +6953,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleTopFace;
-			NXString iStringHoleTopFace = "é¡¶é¢." + NXStringIndexJ;
+			NXString iStringHoleTopFace = "¶¥Ãæ." + NXStringIndexJ;
 
 			bstr_HoleTopFace = ConvertToBSTR(iStringHoleTopFace);
 
@@ -6971,9 +6971,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			pElement_HoleTopFace->put_text(bstr_HoleTopFaceTag);
 		}
 
-		//å€’æ–œè§’é¢
+		//µ¹Ğ±½ÇÃæ
 		BSTR bstr_HoleCornerFaceNode;
-		NXString iStringHoleCornerFaceNode = "å€’æ–œè§’é¢";
+		NXString iStringHoleCornerFaceNode = "µ¹Ğ±½ÇÃæ";
 
 		bstr_HoleCornerFaceNode = ConvertToBSTR(iStringHoleCornerFaceNode);
 
@@ -6991,7 +6991,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleCornerFace;
-			NXString iStringHoleCornerFace = "å€’æ–œè§’é¢." + NXStringIndexJ;
+			NXString iStringHoleCornerFace = "µ¹Ğ±½ÇÃæ." + NXStringIndexJ;
 
 			bstr_HoleCornerFace = ConvertToBSTR(iStringHoleCornerFace);
 
@@ -7010,9 +7010,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 
 
-		//ä¾§é¢
+		//²àÃæ
 		BSTR bstr_BossTopFaceNode;
-		NXString iStringBossTopFaceNode = "ä¾§é¢";//g
+		NXString iStringBossTopFaceNode = "²àÃæ";//g
 
 		bstr_BossTopFaceNode = ConvertToBSTR(iStringBossTopFaceNode);
 
@@ -7030,7 +7030,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossTopFace;
-			NXString iStringBossTopFace = "ä¾§é¢." + NXStringIndexJ;//g
+			NXString iStringBossTopFace = "²àÃæ." + NXStringIndexJ;//g
 
 			bstr_BossTopFace = ConvertToBSTR(iStringBossTopFace);
 
@@ -7051,9 +7051,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		
 
 
-		//è¿‡æ¸¡å¹³é¢
+		//¹ı¶ÉÆ½Ãæ
 		/*BSTR bstr_BossSideFaceNode;
-		NXString iStringBossSideFaceNode = "è¿‡æ¸¡å¹³é¢";
+		NXString iStringBossSideFaceNode = "¹ı¶ÉÆ½Ãæ";
 
 		bstr_BossSideFaceNode = ConvertToBSTR(iStringBossSideFaceNode);
 
@@ -7071,7 +7071,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_BossSideFace;
-			NXString iStringBossSideFace = "è¿‡æ¸¡å¹³é¢." + NXStringIndexJ;
+			NXString iStringBossSideFace = "¹ı¶ÉÆ½Ãæ." + NXStringIndexJ;
 
 			bstr_BossSideFace = ConvertToBSTR(iStringBossSideFace);
 
@@ -7090,9 +7090,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}*/
 
 
-		/*ä¸‹ä¾§é¢*/
+		/*ÏÂ²àÃæ*/
 		//BSTR bstr_HoleSideFaceNode;
-		//NXString iStringHoleSideFaceNode = "ä¸‹ä¾§é¢";//g
+		//NXString iStringHoleSideFaceNode = "ÏÂ²àÃæ";//g
 
 		//bstr_HoleSideFaceNode = ConvertToBSTR(iStringHoleSideFaceNode);
 
@@ -7110,7 +7110,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		//	NXString NXStringIndexJ = StringIndexJ;
 
 		//	BSTR bstr_HoleSideFace;
-		//	NXString iStringHoleSideFace = "ä¸‹ä¾§é¢." + NXStringIndexJ;//g
+		//	NXString iStringHoleSideFace = "ÏÂ²àÃæ." + NXStringIndexJ;//g
 
 		//	bstr_HoleSideFace = ConvertToBSTR(iStringHoleSideFace);
 
@@ -7131,9 +7131,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 
 
 
-		//å­”åº•é¢
+		//¿×µ×Ãæ
 		BSTR bstr_HoleBottomFaceNode;
-		NXString iStringHoleBottomFaceNode = "åº•é¢";
+		NXString iStringHoleBottomFaceNode = "µ×Ãæ";
 
 		bstr_HoleBottomFaceNode = ConvertToBSTR(iStringHoleBottomFaceNode);
 
@@ -7151,7 +7151,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 			NXString NXStringIndexJ = StringIndexJ;
 
 			BSTR bstr_HoleBottomFace;
-			NXString iStringHoleBottomFace = "åº•é¢." + NXStringIndexJ;
+			NXString iStringHoleBottomFace = "µ×Ãæ." + NXStringIndexJ;
 
 			bstr_HoleBottomFace = ConvertToBSTR(iStringHoleBottomFace);
 
@@ -7170,15 +7170,15 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 		}
 	}
 
-	////æ®‹ä½™ç‰¹å¾ç»“ç‚¹//ç­‹ç»“ç‚¹
-	//NXString iStringResidue = "æ®‹ä½™ç‰¹å¾";
+	////²ĞÓàÌØÕ÷½áµã//½î½áµã
+	//NXString iStringResidue = "²ĞÓàÌØÕ÷";
 	//bstr = ConvertToBSTR(iStringResidue);
 
 	//IXMLDOMElementPtr pElement_Residue;
 	//pDoc->createElement(bstr, &pElement_Residue);
 	//AppendChildToParent(pElement_Residue, pDocElement);
 
-	////æ®‹ä½™ç‰¹å¾è¾“å‡º
+	////²ĞÓàÌØÕ÷Êä³ö
 	//for (std::vector<Residue*>::size_type i = 0; i != ResidueSpyResult.size(); i++)
 	//{
 	//	Residue* EachResidue = ResidueSpyResult[i];
@@ -7189,7 +7189,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	NXString NXStringIndexI = StringIndexI;
 
 	//	BSTR bstr_ResidueFeatureNode;
-	//	NXString iStringResidueFeatureNode = "æ®‹ä½™ç‰¹å¾." + NXStringIndexI;
+	//	NXString iStringResidueFeatureNode = "²ĞÓàÌØÕ÷." + NXStringIndexI;
 
 	//	bstr_ResidueFeatureNode = ConvertToBSTR(iStringResidueFeatureNode);
 
@@ -7197,9 +7197,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pDoc->createElement(bstr_ResidueFeatureNode, &pElement_ResidueFeatureNode);
 	//	AppendChildToParent(pElement_ResidueFeatureNode, pElement_Residue);
 
-	//	//ç§å­é¢A
+	//	//ÖÖ×ÓÃæA
 	//	BSTR bstr_ResidueASeedFaceNode;
-	//	NXString iStringResidueASeedFaceNode = "ç§å­é¢A";
+	//	NXString iStringResidueASeedFaceNode = "ÖÖ×ÓÃæA";
 
 	//	bstr_ResidueASeedFaceNode = ConvertToBSTR(iStringResidueASeedFaceNode);
 
@@ -7210,7 +7210,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	Face* EachASeedFace = EachResidue->ASeedFace;
 
 	//	BSTR bstr_ResidueASeedFace;
-	//	NXString iStringResidueASeedFace = "ç§å­é¢A" ;
+	//	NXString iStringResidueASeedFace = "ÖÖ×ÓÃæA" ;
 
 	//	bstr_ResidueASeedFace = ConvertToBSTR(iStringResidueASeedFace);
 
@@ -7228,9 +7228,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	pElement_ResidueASeedFace->put_text(bstr_ASeedFaceTag);
 	//	
 
-	//	//ç§å­é¢B
+	//	//ÖÖ×ÓÃæB
 	//	BSTR bstr_ResidueBSeedFaceNode;
-	//	NXString iStringResidueBSeedFaceNode = "ç§å­é¢B";
+	//	NXString iStringResidueBSeedFaceNode = "ÖÖ×ÓÃæB";
 
 	//	bstr_ResidueBSeedFaceNode = ConvertToBSTR(iStringResidueBSeedFaceNode);
 
@@ -7241,7 +7241,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	Face* EachBSeedFace = EachResidue->BSeedFace;
 
 	//	BSTR bstr_ResidueBSeedFace;
-	//	NXString iStringResidueBSeedFace = "ç§å­é¢B" ;
+	//	NXString iStringResidueBSeedFace = "ÖÖ×ÓÃæB" ;
 
 	//	bstr_ResidueBSeedFace = ConvertToBSTR(iStringResidueBSeedFace);
 
@@ -7258,9 +7258,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//	bstr_BSeedFaceTag = ConvertToBSTR(iStringBSeedFaceTag);
 	//	pElement_ResidueBSeedFace->put_text(bstr_BSeedFaceTag);
 
-	//	//ä¾§é¢A
+	//	//²àÃæA
 	//	BSTR bstr_ResidueASideFaceNode;
-	//	NXString iStringResidueASideFaceNode = "ä¾§é¢A";
+	//	NXString iStringResidueASideFaceNode = "²àÃæA";
 
 	//	bstr_ResidueASideFaceNode = ConvertToBSTR(iStringResidueASideFaceNode);
 
@@ -7278,7 +7278,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_ResidueASideFace;
-	//		NXString iStringResidueASideFace = "ä¾§é¢A." + NXStringIndexJ;
+	//		NXString iStringResidueASideFace = "²àÃæA." + NXStringIndexJ;
 
 	//		bstr_ResidueASideFace = ConvertToBSTR(iStringResidueASideFace);
 
@@ -7296,9 +7296,9 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		pElement_ResidueASideFace->put_text(bstr_ResidueASideFaceTag);
 	//	}
 
-	//	//ä¾§é¢B
+	//	//²àÃæB
 	//	BSTR bstr_ResidueBSideFaceNode;
-	//	NXString iStringResidueBSideFaceNode = "ä¾§é¢B";
+	//	NXString iStringResidueBSideFaceNode = "²àÃæB";
 
 	//	bstr_ResidueBSideFaceNode = ConvertToBSTR(iStringResidueBSideFaceNode);
 
@@ -7316,7 +7316,7 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//		NXString NXStringIndexJ = StringIndexJ;
 
 	//		BSTR bstr_ResidueBSideFace;
-	//		NXString iStringResidueBSideFace = "ä¾§é¢B." + NXStringIndexJ;
+	//		NXString iStringResidueBSideFace = "²àÃæB." + NXStringIndexJ;
 
 	//		bstr_ResidueBSideFace = ConvertToBSTR(iStringResidueBSideFace);
 
@@ -7336,8 +7336,8 @@ void xml::CreateXml_for_CAM(IXMLDOMDocumentPtr &pDoc)
 	//}
 
 
-	//æ³•çŸ¢é‡
-	NXString iStringRotate = "æ—‹è½¬çŸ¢é‡";
+	//·¨Ê¸Á¿
+	NXString iStringRotate = "Ğı×ªÊ¸Á¿";
 	bstr = ConvertToBSTR(iStringRotate);
 
 	IXMLDOMElementPtr pElement_Rotate;

@@ -1,9 +1,9 @@
 /********************************************************
 *	FileName:		uf_all.h
-*	Author:			èƒ¡å›
+*	Author:			ºú¾ı
 *	Date:			2018-8-26
-*	Description		åŒ…å«äº†å…¨éƒ¨UG APIå¼€å‘å¸¸ç”¨çš„å¤´æ–‡ä»¶
-*	Copyright(C)ï¼š	http://www.UGapi.com/
+*	Description		°üº¬ÁËÈ«²¿UG API¿ª·¢³£ÓÃµÄÍ·ÎÄ¼ş
+*	Copyright(C)£º	http://www.UGapi.com/
 *********************************************************/
 #ifndef UFALL_H_INCLUDED
 #define UFALL_H_INCLUDED

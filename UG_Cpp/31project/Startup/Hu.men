@@ -8,9 +8,9 @@ END_OF_AFTER
 
 MENU Hu_men
 
-    BUTTON FeatureDected260702
+    BUTTON FeatureSpy260714
     LABEL ¿×Ê¶±ð³ÌÐò
     !BITMAP tm1.bmp
-    ACTIONS FeatureDected260702.dll
+    ACTIONS FeatureSpy260714.dll
 
 END_OF_MENU
