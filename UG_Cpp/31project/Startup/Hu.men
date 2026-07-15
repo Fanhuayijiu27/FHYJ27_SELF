@@ -1,0 +1,16 @@
+VERSION 120
+EDIT UG_GATEWAY_MAIN_MENUBAR
+
+AFTER UG_HELP
+    CASCADE_BUTTON Hu_men
+    LABEL 二次开发工具
+END_OF_AFTER
+
+MENU Hu_men
+
+    BUTTON FeatureDected260702
+    LABEL 孔识别程序
+    !BITMAP tm1.bmp
+    ACTIONS FeatureDected260702.dll
+
+END_OF_MENU
