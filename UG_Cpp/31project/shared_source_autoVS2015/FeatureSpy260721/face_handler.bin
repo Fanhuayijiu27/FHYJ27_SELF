@@ -1,0 +1,38 @@
+else if(block == face_select0)
+        {
+        //---------Enter your code here-----------
+			/*face_select0->SetFaceRules(1);*/
+
+			BlockStyler::PropertyList * face_select0Props = face_select0->GetProperties();
+			std::vector<NXOpen::TaggedObject*> pTaggedObject_FaceList = face_select0Props->GetTaggedObjectVector("SelectedObjects");
+			delete face_select0Props;
+			int num_FaceList = pTaggedObject_FaceList.size();
+
+			if (num_FaceList == 1)
+			{
+				pSelectedFace = dynamic_cast<Face*>(pTaggedObject_FaceList[0]);//第一个分型面
+			}
+			else
+			{
+				uc1601("请选择上下分型面", 1);
+			}
+
+			DefaultColor = GetDefaultColor();
+			if (num_FaceList == 1)
+			{
+				get_MainNormal_fr_plane(pSelectedFace, _Approach_Normal);//得到平面法矢
+				Begin_Face = dynamic_cast<NXOpen::Face*>(pTaggedObject_FaceList[0]);
+				AllFaces = pFaceList;
+				/*try
+				{
+				RemoveInnerLoopFace(AllFaces);
+				}
+				catch(exception& ex00)
+				{
+				uc1601(" Error!:\n 去除内环面失败!请检查所选择分型面与内环面结构。",1);
+				return 0;
+				}*/
+				bodySelect0->Focus();
+			}
+        }
+        

@@ -1,0 +1,1078 @@
+=================================================== 
+[BUILD START] 
+BuildId: 锘?0260724_153053 
+StartTime: 2026/07/24 周五 15:30:54.75 
+SharedSource: Z:\VMwareSHARE\HRproject\31project\shared_source_autoVS2015\FeatureSpy260722 
+LocalSource: C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722 
+Solution: C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722.sln 
+Configuration: Debug 
+Platform: x64 
+=================================================== 
+[2026/07/24 周五 15:30:54.84] [SYNC] Syncing source code to VM... 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: Fri Jul 24 15:30:54 2026
+
+        源= Z:\VMwareSHARE\HRproject\31project\shared_source_autoVS2015\FeatureSpy260722\
+      目标: C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\
+
+      文件: *.*
+	    
+  执行文件: *.sdf
+	    *.opensdf
+	    *.user
+	    *.log
+	    
+  执行目录: .git
+	    .vs
+	    x64
+	    Debug
+	    Release
+	    
+      选项: *.* /S /E /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	Z:\VMwareSHARE\HRproject\31project\shared_source_autoVS2015\FeatureSpy260722\
+	                  18	Z:\VMwareSHARE\HRproject\31project\shared_source_autoVS2015\FeatureSpy260722\FeatureSpy260722\
+	    较新的    		  474277	FeatureSpy260722.cpp  0%   27%   55%   82%  100%  
+	                   4	Z:\VMwareSHARE\HRproject\31project\shared_source_autoVS2015\FeatureSpy260722\FeatureSpy260722\fullsetholecolor\
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:         3         0         3         0         0         1
+       文件:        24         1        23         0         0         0
+       字节:    1.23 m   463.1 k   804.8 k         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+       结束: Fri Jul 24 15:30:54 2026
+[2026/07/24 周五 15:30:54.97] [BUILD] Calling MSBuild... 
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+在此解决方案中一次生成一个项目。若要启用并行生成，请添加“/m”开关。
+生成启动时间为 2026/7/24 15:30:56。
+项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722.sln”在节点 1 上(Rebuild 个目标)。
+ValidateSolutionConfiguration:
+  正在生成解决方案配置“Debug|x64”。
+项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722.sln”(1)正在节点 1 上生成“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj”(2) (Rebuild 个目标)。
+_PrepareForClean:
+  正在删除文件“x64\Debug\FeatureSpy260722.tlog\FeatureSpy260722.lastbuildstate”。
+InitializeBuildStatus:
+  正在对“x64\Debug\FeatureSpy260722.tlog\unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Siemens\NX12\UGOPEN" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _SECURE_SCL=0 /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:queue /d1scalableinclude- FeatureSpy260722.cpp interaction.cpp SpyFunctions.cpp xml.cpp
+  xml.cpp
+xml.cpp(557): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(585): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(623): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(733): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(761): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(799): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(837): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(875): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(919): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(947): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(985): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1094): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1160): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1198): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1236): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1279): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1319): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1357): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1395): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1433): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1470): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1508): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1538): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1578): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1616): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1646): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1724): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1762): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1932): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(1970): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2046): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2079): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2107): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2145): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2221): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2254): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2282): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2320): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2429): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2457): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2494): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2532): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2605): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2633): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2708): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2748): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2790): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2818): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2856): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2886): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2914): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(2952): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3028): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3089): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3241): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3270): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3298): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3373): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3449): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3478): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3506): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3581): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3657): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3714): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3751): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3789): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3827): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3865): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3934): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3962): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(3999): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4037): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4075): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4113): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4152): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4182): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4210): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4323): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4400): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4430): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4571): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4609): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4648): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4678): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4706): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4743): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4819): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4896): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4926): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4954): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(4991): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5029): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5067): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5144): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5174): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5202): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5239): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5277): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5315): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5392): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5422): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5487): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5525): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5563): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5773): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5811): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5849): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5888): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5918): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5946): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(5983): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6021): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6060): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6138): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6168): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6196): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6271): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6310): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6388): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6446): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6483): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6521): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6560): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6599): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6892): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6922): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6950): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(6988): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(7027): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+xml.cpp(7148): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp
+C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(26): note: 参见“NXOpen::NXException”的声明
+SpyFunctions.cpp(228): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(463): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(1961): warning C4101: “TopFace”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(1961): warning C4101: “BottomFace”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(2998): warning C4101: “distance2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(2998): warning C4101: “distance1”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(3032): warning C4101: “distance2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(3032): warning C4101: “distance1”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(4122): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(4168): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(4400): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(4553): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(4740): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5105): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5173): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5198): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5207): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5274): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5367): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5439): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+SpyFunctions.cpp(5541): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  interaction.cpp
+C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(26): note: 参见“NXOpen::NXException”的声明
+  FeatureSpy260722.cpp
+C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: 参见“std::exception”的声明
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(26): note: 参见“NXOpen::NXException”的声明
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC. [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(60): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(92): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(136): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(205): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(362): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(402): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(403): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(530): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1020): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1083): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1039): warning C4101: “new_point_parameter2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(775): warning C4101: “intersectCurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(852): warning C4101: “intersectCurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1696): warning C4101: “ref_pnt”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1769): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1751): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1901): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1952): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2019): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2240): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2324): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2379): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2388): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2362): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2725): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2798): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(3719): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(65): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(312): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(334): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(352): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(1716): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(1775): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2146): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2209): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2627): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2687): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2747): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2807): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2867): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3679): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3753): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3823): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3919): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3940): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4076): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4096): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4116): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4136): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4156): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4176): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4317): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4337): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4357): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4638): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4700): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4764): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5198): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5256): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5316): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5371): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5465): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5515): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5573): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5631): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5693): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5751): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5809): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5867): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5925): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5983): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6041): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6099): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6157): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6215): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6273): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6335): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(1859): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1859): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1866): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1866): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1873): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1873): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1880): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1880): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1986): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1986): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1993): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1993): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2000): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2000): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2301): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2301): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2308): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2308): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2315): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2315): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2419): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2419): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2426): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2426): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2433): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2433): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2440): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2440): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2951): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2951): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2958): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2958): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(2972): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2972): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3084): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3084): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3091): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3091): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3105): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3105): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3219): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3219): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3226): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3226): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3354): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3354): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3361): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3361): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3375): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3375): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3486): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3486): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3493): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3493): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3500): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3500): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3509): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3509): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3911): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3911): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(3931): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3931): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4068): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4068): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4087): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4087): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4107): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4107): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4127): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4127): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4147): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4147): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4167): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4167): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4309): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4309): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4328): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4328): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4348): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4348): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4838): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4838): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4845): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4845): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4859): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4859): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4964): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4964): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4971): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4971): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(4985): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4985): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(5090): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5090): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(5097): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5097): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6416): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6416): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6423): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6423): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6437): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6437): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6537): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6537): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6544): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6544): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6553): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6553): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6567): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6567): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6671): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6671): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6679): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6679): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6693): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6693): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(6995): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6995): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7002): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7002): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7016): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7016): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7120): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7120): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7127): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7127): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7136): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7136): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7143): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7143): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7150): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7150): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7157): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7157): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7269): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7269): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7276): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7276): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7283): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7283): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7290): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7290): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7297): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7297): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7304): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7304): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7416): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7416): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7423): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7423): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7437): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7437): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7549): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7549): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7556): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7556): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7563): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7563): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7570): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7570): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7682): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7682): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7689): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7689): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7703): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7703): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7717): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7717): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7829): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7829): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7836): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7836): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7843): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7843): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7850): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7850): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7864): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7864): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7976): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7976): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7983): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7983): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7990): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7990): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(7997): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7997): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8011): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8011): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8123): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8123): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8130): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8130): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8137): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8137): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8144): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8144): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8158): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8158): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8270): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8270): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8277): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8277): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8284): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8284): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8291): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8291): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8298): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8298): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8305): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8305): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8417): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8417): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8424): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8424): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8431): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8431): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8438): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8438): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8452): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8452): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8564): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8564): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8571): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8571): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8578): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8578): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8585): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8585): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8599): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8599): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8711): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8711): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8718): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8718): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8725): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8725): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8732): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8732): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8739): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8739): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8748): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8748): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8860): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8860): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8867): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8867): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8876): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8876): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8989): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8989): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(8996): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8996): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(9017): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(9017): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(9026): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(9026): note: consider using '%zd' in the format string
+FeatureSpy260722.cpp(1845): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(2936): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3069): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3204): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3339): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3474): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(3890): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4047): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4288): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4826): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(4952): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(5078): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6404): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6524): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6659): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(6983): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7108): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7257): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7404): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7537): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7670): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7817): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(7964): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8111): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8258): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8405): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8552): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8699): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8848): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(8977): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(12808): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+FeatureSpy260722.cpp(12814): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  正在生成代码...
+c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\publicfunctions.cpp(3536): warning C4715: “Get_RightAndWrong_Edge_FromCylinder”: 不是所有的控件路径都返回值 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"..\..\..\Application\/FeatureSpy260722.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Siemens\NX12\UGOPEN" libameopencpp.lib libanimationdesigneropencpp.lib liblinedesigneropencpp.lib libmfgmlpopencpp.lib libnxopencpp.lib libnxopencpp_annotations.lib libnxopencpp_assemblies.lib libnxopencpp_bodydes.lib libnxopencpp_cae.lib libnxopencpp_cam.lib libnxopencpp_diagramming.lib libnxopencpp_diagramminglibraryauthor.lib libnxopencpp_die.lib libnxopencpp_display.lib libnxopencpp_drafting.lib libnxopencpp_drawings.lib libnxopencpp_facet.lib libnxopencpp_features.lib libnxopencpp_fields.lib libnxopencpp_formboard.lib libnxopencpp_gateway.lib libnxopencpp_geometricanalysis.lib libnxopencpp_geometricutilities.lib libnxopencpp_issue.lib libnxopencpp_layer.lib libnxopencpp_layout2d.lib libnxopencpp_markup.lib libnxopencpp_mechanicalrouting.lib libnxopencpp_mechatronics.lib libnxopencpp_modldirect.lib libnxopencpp_motion.lib libnxopencpp_openxml.lib libnxopencpp_optimization.lib libnxopencpp_options.lib libnxopencpp_partfamily.lib libnxopencpp_pdm.lib libnxopencpp_physmat.lib libnxopencpp_placement.lib libnxopencpp_plas.lib libnxopencpp_positioning.lib libnxopencpp_preferences.lib libnxopencpp_report.lib libnxopencpp_routing.lib libnxopencpp_shapesearch.lib libnxopencpp_sheetmetal.lib libnxopencpp_shipdesign.lib libnxopencpp_sim.lib libnxopencpp_tooling.lib libnxopencpp_userdefinedobjects.lib libnxopencpp_userdefinedtemplate.lib libnxopencpp_validate.lib libnxopencpp_visualreporting.lib libnxopencpp_weld.lib libnxopenjava_markup.lib libnxopenuicpp.lib libopenintpp.lib libopenpp.lib libufun.lib libufun_cae.lib libufun_cam.lib libufun_die.lib libufun_vdac.lib libufun_weld.lib libugopenint.lib libugopenint_cae.lib libugopenint_cam.lib libvmathpp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"..\..\..\Application\FeatureSpy260722.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Application\/FeatureSpy260722.lib" /MACHINE:X64 /DLL x64\Debug\FeatureSpy260722.obj
+  x64\Debug\interaction.obj
+  x64\Debug\SpyFunctions.obj
+  x64\Debug\xml.obj
+    正在创建库 ..\..\..\Application\/FeatureSpy260722.lib 和对象 ..\..\..\Application\/FeatureSpy260722.exp
+  FeatureSpy260722.vcxproj -> C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\..\..\..\Application\FeatureSpy260722.dll
+FinalizeBuildStatus:
+  正在删除文件“x64\Debug\FeatureSpy260722.tlog\unsuccessfulbuild”。
+  正在对“x64\Debug\FeatureSpy260722.tlog\FeatureSpy260722.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj”(Rebuild 个目标)的操作。
+已完成生成项目“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722.sln”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722.sln”(Rebuild 目标) (1) ->
+“C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj”(Rebuild 目标) (2) ->
+(ClCompile 目标) -> 
+  xml.cpp(557): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(585): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(623): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(733): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(761): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(799): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(837): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(875): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(919): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(947): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(985): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1094): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1160): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1198): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1236): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1279): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1319): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1357): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1395): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1433): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1470): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1508): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1538): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1578): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1616): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1646): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1724): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1762): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1932): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(1970): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2046): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2079): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2107): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2145): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2221): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2254): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2282): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2320): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2429): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2457): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2494): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2532): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2605): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2633): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2708): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2748): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2790): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2818): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2856): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2886): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2914): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(2952): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3028): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3061): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3089): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3241): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3270): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3298): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3373): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3449): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3478): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3506): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3581): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3657): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3686): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3714): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3751): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3789): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3827): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3865): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3904): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3934): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3962): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(3999): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4037): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4075): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4113): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4152): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4182): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4210): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4323): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4400): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4430): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4571): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4609): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4648): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4678): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4706): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4743): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4819): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4896): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4926): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4954): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(4991): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5029): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5067): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5144): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5174): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5202): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5239): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5277): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5315): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5392): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5422): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5487): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5525): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5563): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5773): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5811): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5849): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5888): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5918): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5946): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(5983): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6021): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6060): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6138): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6168): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6196): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6271): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6310): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6388): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6446): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6483): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6521): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6560): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6599): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6640): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6698): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6735): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6892): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6922): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6950): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(6988): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(7027): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  xml.cpp(7148): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(228): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(463): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(1961): warning C4101: “TopFace”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(1961): warning C4101: “BottomFace”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(2998): warning C4101: “distance2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(2998): warning C4101: “distance1”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(3032): warning C4101: “distance2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(3032): warning C4101: “distance1”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(4122): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(4168): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(4400): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(4553): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(4740): warning C4101: “ObjectManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5105): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5173): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5198): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5207): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5274): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5367): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5439): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  SpyFunctions.cpp(5541): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files\Siemens\NX12\UGOPEN\NXOpen/NXException.hxx(27): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“NXOpen::NXException”的基 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC. [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(60): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(92): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(136): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(205): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(362): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(402): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(403): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(530): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1020): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1083): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1039): warning C4101: “new_point_parameter2”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(775): warning C4101: “intersectCurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(852): warning C4101: “intersectCurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1696): warning C4101: “ref_pnt”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1769): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1751): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1901): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(1952): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2019): warning C4101: “msg”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2240): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2324): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2379): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2388): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2362): warning C4101: “CurveManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2450): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2699): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2725): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(2798): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\PublicFunctions.cpp(3719): warning C4101: “EdgeManager”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(65): warning C4101: “ex”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(312): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(334): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(352): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1716): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1775): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2146): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2209): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2627): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2687): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2747): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2807): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2867): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3679): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3753): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3823): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3919): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3940): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4076): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4096): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4116): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4136): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4156): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4176): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4317): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4337): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4357): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4638): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4700): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4764): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5198): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5256): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5316): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5371): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5465): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5515): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5573): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5631): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5693): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5751): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5809): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5867): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5925): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5983): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6041): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6099): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6157): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6215): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6273): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6335): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1859): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1866): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1873): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1880): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1986): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1993): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2000): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2301): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2308): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2315): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2419): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2426): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2433): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2440): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2951): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2958): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2972): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3084): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3091): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3105): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3219): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3226): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3354): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3361): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3375): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3486): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3493): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3500): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3509): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3911): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3931): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4068): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4087): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4107): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4127): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4147): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4167): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4309): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4328): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4348): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4838): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4845): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4859): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4964): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4971): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4985): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5090): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5097): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6416): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6423): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6437): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6537): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6544): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6553): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6567): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6671): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6679): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6693): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6995): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7002): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7016): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7120): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7127): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7136): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7143): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7150): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7157): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7269): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7276): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7283): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7290): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7297): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7304): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7416): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7423): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7437): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7549): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7556): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7563): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7570): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7682): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7689): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7703): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7717): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7829): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7836): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7843): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7850): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7864): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7976): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7983): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7990): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7997): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8011): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8123): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8130): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8137): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8144): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8158): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8270): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8277): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8284): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8291): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8298): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8305): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8417): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8424): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8431): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8438): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8452): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8564): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8571): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8578): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8585): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8599): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8711): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8718): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8725): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8732): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8739): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8748): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8860): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8867): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8876): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8989): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8996): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(9017): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(9026): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64' [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(1845): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(2936): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3069): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3204): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3339): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3474): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(3890): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4047): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4288): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4826): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(4952): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(5078): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6404): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6524): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6659): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(6983): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7108): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7257): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7404): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7537): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7670): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7817): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(7964): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8111): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8258): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8405): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8552): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8699): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8848): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(8977): warning C4101: “message”: 未引用的局部变量 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(12808): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  FeatureSpy260722.cpp(12814): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+  c:\users\ug12\desktop\hunxtool\_source\featurespy260722\featurespy260722\publicfunctions.cpp(3536): warning C4715: “Get_RightAndWrong_Edge_FromCylinder”: 不是所有的控件路径都返回值 [C:\Users\ug12\Desktop\HuNXTool\_Source\FeatureSpy260722\FeatureSpy260722\FeatureSpy260722.vcxproj]
+
+    420 个警告
+    0 个错误
+
+已用时间 00:00:10.87
+=================================================== 
+[BUILD FINISH] 
+Result: BUILD_SUCCESS 
+ExitCode: 0 
+EndTime: 2026/07/24 周五 15:31:07.29 
+=================================================== 

@@ -1,0 +1,139 @@
+else if(block == button02)
+        {
+        //---------Enter your code here-----------
+			string strEnum1;
+			BlockStyler::PropertyList * Featureselect0Props = enum0->GetProperties();
+			NXString nxStrEnum1 = Featureselect0Props->GetEnumAsString("Value");
+			delete Featureselect0Props;
+			char crstring1[133] = "";
+			strcpy_s(crstring1, 133, nxStrEnum1.GetLocaleText());
+			strEnum1 = crstring1;
+
+
+			SetAllFeatureColor(DefaultColor);
+			if (strEnum1 == "凸台类特征")
+			{
+				/*uc1601("修改完成", 1);*/
+
+
+				if (Feature_NormalBoss.size() > 0 && selectNumber <= Feature_NormalBoss.size())
+				{
+					if (Feature_NormalBoss[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<NormalBoss*>::iterator iter = Feature_NormalBoss.begin();
+						Feature_NormalBoss.erase(iter + selectNumber - 1);
+					}
+				}
+
+
+				if (Feature_NoSideBoss.size() > 0 && selectNumber <= Feature_NoSideBoss.size())
+				{
+					if (Feature_NoSideBoss[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<NoSideBoss*>::iterator iter = Feature_NoSideBoss.begin();
+						Feature_NoSideBoss.erase(iter + selectNumber - 1);
+					}
+				}
+
+
+				if (Feature_DoubleLayerBoss.size() > 0 && selectNumber <= Feature_DoubleLayerBoss.size())
+				{
+					if (Feature_DoubleLayerBoss[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<DoubleLayerBoss*>::iterator iter = Feature_DoubleLayerBoss.begin();
+						Feature_DoubleLayerBoss.erase(iter + selectNumber - 1);
+					}
+				}
+			}
+
+
+
+			else if (strEnum1 == "槽类特征")
+			{
+				/*uc1601("槽类修改完成", 1);*/
+
+				/*char message[13];
+				sprintf(message, "%d\n", Feature_CircularGroove0[selectNumber - 1]->ifselected);
+				UF_UI_write_listing_window(message);*/
+
+				if (Feature_CircularGroove0.size() > 0 && selectNumber <= Feature_CircularGroove0.size())
+				{
+					if (Feature_CircularGroove0[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<CircularGroove*>::iterator iter = Feature_CircularGroove0.begin();
+						Feature_CircularGroove0.erase(iter + selectNumber - 1);
+					}
+				}
+
+				if (Feature_CircularGroove1.size() > 0 && selectNumber <= Feature_CircularGroove1.size())
+				{
+
+					if (Feature_CircularGroove1[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<CircularGroove*>::iterator iter = Feature_CircularGroove1.begin();
+						Feature_CircularGroove1.erase(iter + selectNumber - 1);
+					}
+
+
+				}
+
+
+				if (Feature_SubsidenceGroove.size() > 0 && selectNumber <= Feature_SubsidenceGroove.size())
+				{
+					if (Feature_SubsidenceGroove[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<SubsidenceGroove*>::iterator iter = Feature_SubsidenceGroove.begin();
+						Feature_SubsidenceGroove.erase(iter + selectNumber - 1);
+					}
+				}
+
+
+				if (Feature_PlanerBlindGroove.size() > 0 && selectNumber <= Feature_PlanerBlindGroove.size())
+				{
+					if (Feature_PlanerBlindGroove[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<PlanerBlindGroove*>::iterator iter = Feature_PlanerBlindGroove.begin();
+						Feature_PlanerBlindGroove.erase(iter + selectNumber - 1);
+					}
+				}
+
+				if (Feature_PassGroove.size() > 0 && selectNumber <= Feature_PassGroove.size())
+				{
+					if (Feature_PassGroove[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<PassGroove*>::iterator iter = Feature_PassGroove.begin();
+						Feature_PassGroove.erase(iter + selectNumber - 1);
+					}
+				}
+
+
+			}
+			//else if (strEnum1 == "孔类特征")
+			//{
+			//	/*uc1601("该特征不支持修改", 1);*/
+
+			//}
+			else if (strEnum1 == "筋类特征")
+			{
+				/*uc1601("修改完成", 1);*/
+				if (Feature_DirectionRib.size() > 0 && selectNumber <= Feature_DirectionRib.size())
+				{
+					if (Feature_DirectionRib[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<DirectionRib*>::iterator iter = Feature_DirectionRib.begin();
+						Feature_DirectionRib.erase(iter + selectNumber - 1);
+					}
+				}
+
+				if (Feature_HookFaceRib.size() > 0 && selectNumber <= Feature_HookFaceRib.size())
+				{
+					if (Feature_HookFaceRib[selectNumber - 1]->ifselected == 1)
+					{
+						std::vector<HookFaceRib*>::iterator iter = Feature_HookFaceRib.begin();
+						Feature_HookFaceRib.erase(iter + selectNumber - 1);
+					}
+				}
+
+			}
+		}
+		

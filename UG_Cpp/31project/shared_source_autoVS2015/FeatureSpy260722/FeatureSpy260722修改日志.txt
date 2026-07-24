@@ -1,0 +1,49 @@
+========================================
+FeatureSpy260722 修改日志
+========================================
+
+[2026-07-24 11:05] 步骤1 — FeatureSpy260722.cpp face_select0 回调
+  修改位置：第354-369行
+  改动：Begin_Face提前赋值 + get_MainNormal_fr_plane改用Begin_Face + NormalizeVector
+  编译：BUILD_SUCCESS
+
+[2026-07-24 11:16] 步骤2 — FeaturePublicClass.h 新增三类轴向孔结构体
+  修改位置：第168行后（DirectionBlindHole与WallNormalHole间）
+  新增：DirectionStepThroughHole_31（5面5成员）/ DirectionLongRoundThroughHole_31（4面4成员）/ DirectionBlindHole_31（3面3成员）
+  编译：BUILD_SUCCESS
+
+[2026-07-24 11:55] 步骤2修正 — FeaturePublicClass.h 成员命名修正
+  改动：成员变量移除_31后缀，仅结构体名保留_31
+  编译：BUILD_SUCCESS
+
+[2026-07-24 12:10] 步骤3 — SpyFunctions.h 新增两个函数声明
+  插入位置：旧CreateDirectionMillFeature与WallAndRibMillRecognition之间
+  新增：DirectionMillRecognition_31 / CreateDirectionMillFeature_31
+  编译：BUILD_SUCCESS
+
+[2026-07-24 13:39] 步骤4-1 — SpyFunctions.cpp 轴向圆柱面初步筛选
+  插入位置：DirectionMillRecognition_31 函数体（L1035-1097）
+  筛选：radius<35, norm_dir==-1, Edges<20, 轴向夹角 → sealdirection/LeftSealHole
+  编译：BUILD_SUCCESS
+
+[2026-07-24 13:50] 步骤4-2 — SpyFunctions.cpp 轴向两级阶梯通孔识别
+  插入位置：DirectionMillRecognition_31 内 L1098-1248
+  识别：完整圆柱面(≥2圆)+平面+同轴异径+两端面 → SealFace_DirectionStepThroughHole
+  编译：BUILD_SUCCESS
+
+[2026-07-24 13:58] 步骤4-3 — SpyFunctions.cpp 轴向长圆通孔识别
+  插入位置：DirectionMillRecognition_31 内 L1249-1417
+  识别：非完整圆柱(0圆)+2直线边平面+唯一第二圆柱 → SealFace_DirectionLongRoundThroughHole
+  编译：BUILD_SUCCESS
+
+[2026-07-24 14:01] 步骤4-4 — SpyFunctions.cpp 轴向盲孔归类
+  插入位置：DirectionMillRecognition_31 内 L1418-1432
+  归类：sealdirection_FaceVector - UsedDirectionFaceVector → SealFace_DirectionBlindHole
+  编译：BUILD_SUCCESS
+
+[2026-07-24 14:20] 步骤4-5/6/7 — SpyFunctions.cpp 完整实现 CreateDirectionMillFeature_31
+  插入位置：L1434-1890（DirectionMillRecognition_31后、WallAndRibMillRecognition前）
+  实现：阶梯通孔创建 + 长圆通孔创建 + 盲孔创建（new+push_back模式）
+  编译：BUILD_SUCCESS
+
+最后更新：2026-07-24 14:21
